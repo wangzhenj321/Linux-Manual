@@ -5,11 +5,17 @@ Ubuntu 16.04 发布时，一个引人注目的新特性便是 `apt` 命令的引
 那么，`apt-get` 与 `apt` 命令之间到底有什么区别呢？如果它们有类似的命令结构，为什么还需要新的 `apt` 命令呢？是否 `apt` 真的比 `apt-get` 更好？普通用户应该使用新的 apt 命令还是坚持旧有习惯继续使用 `apt-get` 呢？
 
 系统极客将在本文中解释所有这些问题，我们希望本文结束时，你将会有一个更清晰的了解。
+
+## apt与apt-get
+
+### apt与apt-get之间的区别
+
+### apt和apt-get命令之间的区别
 ![](img/apt-and-apt-get/fig1.jpg?raw=true)
 ![](img/apt-and-apt-get/fig2.jpg?raw=true)
 
 ## References
 1. [Linux中apt与apt-get命令的区别与解释](https://www.sysgeek.cn/apt-vs-apt-get/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDgwMzU1OF19
+eyJoaXN0b3J5IjpbMTAyMDM4MThdfQ==
 -->
