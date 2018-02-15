@@ -18,9 +18,15 @@ Debian 作为 Ubuntu、Linux Mint 和 elementary OS 等 Linux 操作系统的母
 
 `apt` 命令的引入就是为了解决命令过于分散的问题，它包括了 `apt-get` 命令出现以来使用最广泛的功能选项，以及 `apt-cache` 和 `apt-config` 命令中很少用到的功能。
 
-在使用 apt 命令时，用户不必再由 apt-get 转到 apt-cache 或 apt-config，而且 apt 更加结构化，并为用户提供了管理软件包所需的必要选项。
+在使用 `apt` 命令时，用户不必再由 `apt-get` 转到 `apt-cache` 或 `apt-config`，而且 `apt` 更加结构化，并为用户提供了管理软件包所需的必要选项。
+
+> 简单来说就是：apt = apt-get、apt-cache 和 apt-config 中最常用命令选项的集合。
 
 ### apt与apt-get之间的区别
+
+通过 `apt` 命令，用户可以在同一地方集中得到所有必要的工具，`apt` 的主要目的是提供一种以「让终端用户满意」的方式来处理 Linux 软件包的有效方式。
+
+apt 具有更精减但足够的命令选项，而且参数选项的组织方式更为有效。除此之外，它默认启用的几个特性对最终用户也非常有帮助。例如，可以在使用 apt 命令安装或删除程序时看到进度条。
 
 ### apt和apt-get命令之间的区别
 
@@ -35,5 +41,5 @@ Debian 作为 Ubuntu、Linux Mint 和 elementary OS 等 Linux 操作系统的母
 ## References
 1. [Linux中apt与apt-get命令的区别与解释](https://www.sysgeek.cn/apt-vs-apt-get/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODkzODY4XX0=
+eyJoaXN0b3J5IjpbLTIwMzc0MTgwNDRdfQ==
 -->
