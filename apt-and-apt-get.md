@@ -67,12 +67,19 @@ Debian 作为 Ubuntu、Linux Mint 和 elementary OS 等 Linux 操作系统的母
 
 ## 我应该使用apt还是apt-get？
 
+既然两个命令都有用，那么我该使用 `apt` 还是 `apt-get` 呢？作为一个常规 Linux 用户，系统极客建议大家尽快适应并开始首先使用 `apt`。不仅因为广大 Linux 发行商都在推荐 `apt`，更主要的还是它提供了 Linux 包管理的必要选项。
+
+最重要的是，`apt` 命令选项更少更易记，因此也更易用，所以没理由继续坚持 `apt-get`。
+
 ## 小结
 
+最后结大家提供两点使用上的建议：
 
+`apt` 可以看作 `apt-get` 和 `apt-cache` 命令的子集, 可以为包管理提供必要的命令选项。
+apt-get 虽然没被弃用，但作为普通用户，还是应该首先使用 apt。
 
 ## References
 1. [Linux中apt与apt-get命令的区别与解释](https://www.sysgeek.cn/apt-vs-apt-get/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDIxNzQ3OF19
+eyJoaXN0b3J5IjpbMTU4NjQ4ODY0XX0=
 -->
