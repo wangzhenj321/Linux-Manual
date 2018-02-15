@@ -75,11 +75,11 @@ Debian 作为 Ubuntu、Linux Mint 和 elementary OS 等 Linux 操作系统的母
 
 最后结大家提供两点使用上的建议：
 
-`apt` 可以看作 `apt-get` 和 `apt-cache` 命令的子集, 可以为包管理提供必要的命令选项。
-apt-get 虽然没被弃用，但作为普通用户，还是应该首先使用 apt。
+- `apt` 可以看作 `apt-get` 和 `apt-cache` 命令的子集, 可以为包管理提供必要的命令选项。
+- `apt-get` 虽然没被弃用，但作为普通用户，还是应该首先使用 `apt`。
 
 ## References
 1. [Linux中apt与apt-get命令的区别与解释](https://www.sysgeek.cn/apt-vs-apt-get/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjQ4ODY0XX0=
+eyJoaXN0b3J5IjpbLTIwOTA5MzYxMTZdfQ==
 -->
