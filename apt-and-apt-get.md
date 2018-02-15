@@ -12,7 +12,7 @@ Ubuntu 16.04 发布时，一个引人注目的新特性便是 `apt` 命令的引
 
 Debian 作为 Ubuntu、Linux Mint 和 elementary OS 等 Linux 操作系统的母板，其具有强健的「包管理」系统，它的每个组件和应用程序都内置在系统中安装的软件包中。Debian 使用一套名为** Advanced Packaging Tool（APT）**的工具来管理这种包系统，不过请不要把它与 `apt` 命令混淆，它们之间是其实不是同一个东西。
 
-在基于 Debian 的 Linux 发行版中，有各种工具可以与 APT 进行交互，以方便用户安装、删除和管理的软件包。`apt-get` 便是其中一款广受欢迎的命令行工具，另外一款较为流行的是 **Aptitude 这一命令行与 GUI 兼顾的小工具。
+在基于 Debian 的 Linux 发行版中，有各种工具可以与 APT 进行交互，以方便用户安装、删除和管理的软件包。`apt-get` 便是其中一款广受欢迎的命令行工具，另外一款较为流行的是 **Aptitude** 这一命令行与 GUI 兼顾的小工具。
 
 如果你已阅读过我们的 apt-get 命令指南，可能已经遇到过许多类似的命令，如apt-cache、apt-config 等。如你所见，这些命令都比较低级又包含众多功能，普通的 Linux 用户也许永远都不会使用到。换种说法来说，就是最常用的 Linux 包管理命令都被分散在了 apt-get、apt-cache 和 apt-config 这三条命令当中。
 
@@ -35,5 +35,5 @@ apt 命令的引入就是为了解决命令过于分散的问题，它包括了 
 ## References
 1. [Linux中apt与apt-get命令的区别与解释](https://www.sysgeek.cn/apt-vs-apt-get/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjMyMjAwMTRdfQ==
+eyJoaXN0b3J5IjpbLTIwMTQyNDY4MzBdfQ==
 -->
