@@ -41,9 +41,10 @@ Debian 作为 Ubuntu、Linux Mint 和 elementary OS 等 Linux 操作系统的母
 虽然 `apt` 与 `apt-get` 有一些类似的命令选项，但它并不能完全向下兼容 `apt-get` 命令。也就是说，可以用 `apt` 替换部分 `apt-get` 系列命令，但不是全部。
 
 | apt 命令 | 取代的命令 | 命令的功能 |
-apt install	apt-get install	安装软件包
-apt remove	apt-get remove	移除软件包
-apt purge	apt-get purge	移除软件包及配置文件
+| :--- | :--- | :--- |
+| apt install	apt-get install	安装软件包
+| apt remove	apt-get remove	移除软件包
+|apt purge	apt-get purge	移除软件包及配置文件
 apt update	apt-get update	刷新存储库索引
 apt upgrade	apt-get upgrade	升级所有可升级的软件包
 apt autoremove	apt-get autoremove	自动删除不需要的包
@@ -62,5 +63,5 @@ apt show	apt-cache show	显示装细节
 ## References
 1. [Linux中apt与apt-get命令的区别与解释](https://www.sysgeek.cn/apt-vs-apt-get/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzI5MTIyNF19
+eyJoaXN0b3J5IjpbLTEzNTU4NTc5NjNdfQ==
 -->
