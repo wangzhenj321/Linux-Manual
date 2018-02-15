@@ -7,6 +7,9 @@ Ubuntu 16.04 发布时，一个引人注目的新特性便是 `apt` 命令的引
 系统极客将在本文中解释所有这些问题，我们希望本文结束时，你将会有一个更清晰的了解。
 ![](img/apt-and-apt-get/fig1.jpg?raw=true)
 ![](img/apt-and-apt-get/fig2.jpg?raw=true)
+
+## References
+1. [Linux中apt与apt-get命令的区别与解释](https://www.sysgeek.cn/apt-vs-apt-get/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDk5NTYyNV19
+eyJoaXN0b3J5IjpbLTY3NDgwMzU1OF19
 -->
