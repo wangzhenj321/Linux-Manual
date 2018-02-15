@@ -47,12 +47,18 @@ Debian 作为 Ubuntu、Linux Mint 和 elementary OS 等 Linux 操作系统的母
 | apt purge | apt-get purge | 移除软件包及配置文件 |
 | apt update | apt-get update | 刷新存储库索引 |
 | apt upgrade | apt-get upgrade | 升级所有可升级的软件包 |
-| apt autoremove	apt-get autoremove	自动删除不需要的包
-| apt full-upgrade	apt-get dist-upgrade	在升级软件包时自动处理依赖关系
-| apt search	apt-cache search	搜索应用程序
-| apt show	apt-cache show	显示装细节
+| apt autoremove | apt-get autoremove | 自动删除不需要的包 |
+| apt full-upgrade | apt-get dist-upgrade | 在升级软件包时自动处理依赖关系 |
+| apt search | apt-cache search | 搜索应用程序 |
+| apt show | apt-cache show | 显示装细节 |
 
-### apt-get已弃用？
+当然，apt 还有一些自己的命令：
+
+新的apt命令	命令的功能
+apt list	列出包含条件的包（已安装，可升级等）
+apt edit-sources	编辑源列表
+#
+## apt-get已弃用？
 
 ## 我应该使用apt还是apt-get？
 
@@ -63,5 +69,5 @@ Debian 作为 Ubuntu、Linux Mint 和 elementary OS 等 Linux 操作系统的母
 ## References
 1. [Linux中apt与apt-get命令的区别与解释](https://www.sysgeek.cn/apt-vs-apt-get/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMDUwNjk4OV19
+eyJoaXN0b3J5IjpbODkxMDcwMjgxXX0=
 -->
