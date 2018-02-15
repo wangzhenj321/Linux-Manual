@@ -56,10 +56,14 @@ Debian 作为 Ubuntu、Linux Mint 和 elementary OS 等 Linux 操作系统的母
 
 | 新的apt命令 | 命令的功能 |
 | :--- | :--- |
-| apt list | 列出包含条件的包（已安装，可升级等）
-apt edit-sources	编辑源列表
+| apt list | 列出包含条件的包（已安装，可升级等）|
+| apt edit-sources | 编辑源列表 |
+
+需要大家注意的是：apt 命令也还在不断发展， 因此，你可能会在将来的版本中看到新的选项。
 
 ### apt-get已弃用？
+
+目前还没有任何 Linux 发行版官方放出 `apt-get` 将被停用的消息，至少它还有比 `apt` 更多、更细化的操作功能。对于低级操作，仍然需要 `apt-get`。
 
 ## 我应该使用apt还是apt-get？
 
@@ -70,5 +74,5 @@ apt edit-sources	编辑源列表
 ## References
 1. [Linux中apt与apt-get命令的区别与解释](https://www.sysgeek.cn/apt-vs-apt-get/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2Mjc2NTM5XX0=
+eyJoaXN0b3J5IjpbLTk5MDIxNzQ3OF19
 -->
