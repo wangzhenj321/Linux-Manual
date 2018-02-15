@@ -1,4 +1,4 @@
-Ubuntu 16.04 发布时，一个引人注目的新特性便是 apt 命令的引入。其实早在 2014 年，apt 命令就已经发布了第一个稳定版，只是直到 2016 年的 Ubuntu 16.04 系统发布时才开始引人关注。
+Ubuntu 16.04 发布时，一个引人注目的新特性便是 `apt` 命令的引入。其实早在 2014 年，`apt` 命令就已经发布了第一个稳定版，只是直到 2016 年的 Ubuntu 16.04 系统发布时才开始引人关注。
 
 随着 apt install package 命令的使用频率和普遍性逐步超过 apt-get install package，越来越多的其它 Linux 发行版也开始遵循 Ubuntu 的脚步，开始鼓励用户使用 apt 而不是 apt-get。
 
@@ -8,5 +8,5 @@ Ubuntu 16.04 发布时，一个引人注目的新特性便是 apt 命令的引�
 ![](img/apt-and-apt-get/fig1.jpg?raw=true)
 ![](img/apt-and-apt-get/fig2.jpg?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTg4ODA5OTNdfQ==
+eyJoaXN0b3J5IjpbLTc2MDY2MTkwMV19
 -->
