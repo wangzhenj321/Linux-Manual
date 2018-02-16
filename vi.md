@@ -91,10 +91,21 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 	![](img/vi/fig20.png?raw=true)
 
+## 编辑模式
 
-![](img/vi/fig21.png?raw=true)
-![](img/vi/fig22.png?raw=true)
-![](img/vi/fig23.png?raw=true)
+21. 移动光标到行中，按i（小写）即可进入插入模式（Insert mode），并从光标所在处开始插入。
+
+	![](img/vi/fig21.png?raw=true)
+
+22. 按“Esc”键退出编辑模式，移动光标到行中，按I（大写）即可进入插入模式（Insert mode），并从光标所在行第一个非空格字符处开始插入。
+
+	![](img/vi/fig22.png?raw=true)
+
+23. 按“Esc”键退出编辑模式，移动光标到“Installing”的第二个字符（n）下，按r（小写）即可进入替换模式（Replace mode）, 并会替换光标所在字符一次（本例中n被替换为i）。
+
+	![](img/vi/fig23.png?raw=true)
+
+
 ![](img/vi/fig24.png?raw=true)
 ![](img/vi/fig25.png?raw=true)
 ![](img/vi/fig26.png?raw=true)
@@ -114,5 +125,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig40.png?raw=true)
 ![](img/vi/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTQwMTMxOV19
+eyJoaXN0b3J5IjpbMTYyMzg3NjIxNV19
 -->
