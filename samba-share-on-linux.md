@@ -28,20 +28,20 @@ Scroll down to the end of the file and add these lines:
 path = /path/to/share
 writeable = yes
 browseable = yes
-	public = yes
-	create mask = 0644
-	directory mask = 0755
-	force user = shareuser
-	```
-	Save the file and close your editor.  Now, you just need to restart the SMB service for the changes to take effect.
-	```
-	sudo service smbd restart
-	```
-	Your shared folder should now be accessible from a Windows PC.
+public = yes
+create mask = 0644
+directory mask = 0755
+force user = shareuser
+```
+Save the file and close your editor.  Now, you just need to restart the SMB service for the changes to take effect.
+```
+sudo service smbd restart
+```
+Your shared folder should now be accessible from a Windows PC.
 
 ## Access the Linux Share from Windows
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQzNTg3M119
+eyJoaXN0b3J5IjpbLTE5Nzk4NjUyNjVdfQ==
 -->
