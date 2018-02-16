@@ -60,20 +60,28 @@ sudo apt-get purge firefox
 当apt-get安装或升级软件包时，它会将deb安装包下载到文件系统的/var/cache/apt/archives目录下．软件包安装完成后，这些deb安装包基本上就没有什么用处了．apt-get clean命令可以帮你删除这些deb安装包．
 
 你可以使用下面的命令查看/var/cache/apt/archives目录下deb安装包的大小．
-
+```
+du -sh /var/cache/apt/archives
+```
 ![](img/apt-get/fig5.jpg?raw=true)
 
 ### apt-get autoclean
 
 ### apt-get autoremove
 
-### 
+### apt-get dist-upgrade
 ![](img/apt-get/fig6.jpg?raw=true)
+
+## 附：手动安装Deb软件包
+
+### dpkg -i
+
+### gdebi
 ![](img/apt-get/fig7.jpg?raw=true)
 
 ## References
 
 1. [Debian & Ubuntu最实用的apt-get命令详解](https://www.linuxdashen.com/apt-get%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTI2OTQwNjBdfQ==
+eyJoaXN0b3J5IjpbLTE4NjI5NTU0NDBdfQ==
 -->
