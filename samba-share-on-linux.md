@@ -16,9 +16,10 @@ Creating a share on Linux and then accessing it from Windows is actually a bit e
 	
 	Create the directory that you’d like to share out to your Windows computer.  We’re just going to put a folder on our Desktop.
 	```
+	
 	```
 	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjk3MzUzNTBdfQ==
+eyJoaXN0b3J5IjpbNTM3MzQ5MzY0XX0=
 -->
