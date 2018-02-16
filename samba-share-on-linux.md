@@ -38,6 +38,8 @@ Creating a share on Linux and then accessing it from Windows is actually a bit e
 	sudo service smbd restart
 	```
 	Your shared folder should now be accessible from a Windows PC.
+
+##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDAyNzIwN119
+eyJoaXN0b3J5IjpbLTU2MTIxOTU5NV19
 -->
