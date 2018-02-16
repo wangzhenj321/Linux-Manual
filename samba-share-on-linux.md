@@ -23,11 +23,11 @@ Now, use your favorite editor to configure the smb.conf file. We’re using Vi h
 sudo vi /etc/samba/smb.conf
 ```
 Scroll down to the end of the file and add these lines:
-	```
-	[Share]
-	path = /path/to/share
-	writeable = yes
-	browseable = yes
+```
+[Share]
+path = /path/to/share
+writeable = yes
+browseable = yes
 	public = yes
 	create mask = 0644
 	directory mask = 0755
@@ -43,5 +43,5 @@ Scroll down to the end of the file and add these lines:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDIwNzA5N119
+eyJoaXN0b3J5IjpbLTE2MzQzNTg3M119
 -->
