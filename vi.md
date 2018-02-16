@@ -123,11 +123,23 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 	![](img/vi/fig27.png?raw=true)
 
+28. 输入“/setup”即可查询斜杠后内容（本例中为setup）。
 
-![](img/vi/fig28.png?raw=true)
-![](img/vi/fig29.png?raw=true)
-![](img/vi/fig30.png?raw=true)
-![](img/vi/fig31.png?raw=true)
+	![](img/vi/fig28.png?raw=true)
+
+29. 输入n（小写）即可继续向下查找，输入N（大写）即可向上查找。
+
+	![](img/vi/fig29.png?raw=true)
+
+30. 如需不保存编辑并退出，可输入“:q!”并回车确定。
+
+	![](img/vi/fig30.png?raw=true)
+
+31. 如需保存修改并退出，可输入“:x”并回车确定，此命令仅当文件被修改时才写入，并更新文件修改时间，未修改则不更新文件修改时间。注意：不推荐使用“:wq”保存退出，因为“:wq”即使未修改文件也强制写入，并更新文件修改时间。
+
+	![](img/vi/fig31.png?raw=true)
+
+
 ![](img/vi/fig32.png?raw=true)
 ![](img/vi/fig33.png?raw=true)
 ![](img/vi/fig34.png?raw=true)
@@ -139,5 +151,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig40.png?raw=true)
 ![](img/vi/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjEzNzcxODhdfQ==
+eyJoaXN0b3J5IjpbLTE2NjQ4MTAzMjFdfQ==
 -->
