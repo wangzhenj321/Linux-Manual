@@ -18,12 +18,12 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig4.png?raw=true)
 ![](img/vi/fig5.png?raw=true)
 ![](img/vi/fig6.png?raw=true)
-![](img/apt-get/fig7.png?raw=true)
-![](img/apt-get/fig8.png?raw=true)
-![](img/apt-get/fig9.png?raw=true)
-![](img/apt-get/fig10.png?raw=true)
-![](img/apt-get/fig11.png?raw=true)
-![](img/apt-get/fig12.png?raw=true)
+![](img/vi/fig7.png?raw=true)
+![](img/vi/fig8.png?raw=true)
+![](img/vi/fig9.png?raw=true)
+![](img/vi/fig10.png?raw=true)
+![](img/vi/fig11.png?raw=true)
+![](img/vi/fig12.png?raw=true)
 ![](img/apt-get/fig13.png?raw=true)
 ![](img/apt-get/fig14.png?raw=true)
 ![](img/apt-get/fig15.png?raw=true)
@@ -54,5 +54,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/apt-get/fig40.png?raw=true)
 ![](img/apt-get/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0MDYwMTgzXX0=
+eyJoaXN0b3J5IjpbNTgwNDM4NTUzXX0=
 -->
