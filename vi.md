@@ -32,7 +32,8 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 	![](img/vi/fig5.png?raw=true)
 
 6. 按右方向键（→）或者l(注意大小写)光标将向右移动一个字符。
-![](img/vi/fig6.png?raw=true)
+
+	![](img/vi/fig6.png?raw=true)
 ![](img/vi/fig7.png?raw=true)
 ![](img/vi/fig8.png?raw=true)
 ![](img/vi/fig9.png?raw=true)
@@ -69,5 +70,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig40.png?raw=true)
 ![](img/vi/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODU5NTA0MDJdfQ==
+eyJoaXN0b3J5IjpbLTEwMzkyMTA5MjRdfQ==
 -->
