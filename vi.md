@@ -51,12 +51,27 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 	![](img/vi/fig10.png?raw=true)
 
+11. 按0（数字）或功能键“Home”移动到光标所在行首个字符。
 
-![](img/vi/fig11.png?raw=true)
-![](img/vi/fig12.png?raw=true)
-![](img/vi/fig13.png?raw=true)
-![](img/vi/fig14.png?raw=true)
-![](img/vi/fig15.png?raw=true)
+	![](img/vi/fig11.png?raw=true)
+
+12. 按$或功能键“End”移动到光标所在行末尾字符。
+
+	![](img/vi/fig12.png?raw=true)
+
+13. 按G（注意大写）移动到文件最后一行。
+
+	![](img/vi/fig13.png?raw=true)
+
+14. 按gg（两个小写）移动到文件第一行。
+
+	![](img/vi/fig14.png?raw=true)
+
+15. 按“7回车键”向下移动7行（注意输入数字后需按回车键）。
+
+	![](img/vi/fig15.png?raw=true)
+
+
 ![](img/vi/fig16.png?raw=true)
 ![](img/vi/fig17.png?raw=true)
 ![](img/vi/fig18.png?raw=true)
@@ -84,5 +99,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig40.png?raw=true)
 ![](img/vi/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTQwNDc3M119
+eyJoaXN0b3J5IjpbLTEyNTgzMTU3NjFdfQ==
 -->
