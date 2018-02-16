@@ -10,14 +10,17 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 #### 目录
 1 [一般模式](#一般模式)
-2	编辑模式
-3	命令行模式
-4	替换内容
+2	[编辑模式](#编辑模式)
+3	[命令行模式](#命令行模式)
+4	[替换内容](#替换内容)
 
 ## 一般模式
 
 3. vi一般模式（Normal mode）界面如下：
-![](img/vi/fig3.png?raw=true)
+
+	![](img/vi/fig3.png?raw=true)
+
+4. 
 ![](img/vi/fig4.png?raw=true)
 ![](img/vi/fig5.png?raw=true)
 ![](img/vi/fig6.png?raw=true)
@@ -57,5 +60,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig40.png?raw=true)
 ![](img/vi/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjg4OTM3OF19
+eyJoaXN0b3J5IjpbMTA5ODMwMzg4M119
 -->
