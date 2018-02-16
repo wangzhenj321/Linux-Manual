@@ -33,7 +33,11 @@ Creating a share on Linux and then accessing it from Windows is actually a bit e
 	directory mask = 0755
 	force user = shareuser
 	```
-	
+	Save the file and close your editor.  Now, you just need to restart the SMB service for the changes to take effect.
+	```
+	sudo service smbd restart
+	```
+	Your shared folder should now be accessible from a Windows PC.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzUxOTg1MTFdfQ==
+eyJoaXN0b3J5IjpbLTM2NDAyNzIwN119
 -->
