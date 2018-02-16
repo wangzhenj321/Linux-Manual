@@ -46,13 +46,13 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig32.png?raw=true)
 ![](img/vi/fig33.png?raw=true)
 ![](img/vi/fig34.png?raw=true)
-![](img/apt-get/fig35.png?raw=true)
-![](img/apt-get/fig36.png?raw=true)
+![](img/vi/fig35.png?raw=true)
+![](img/vi/fig36.png?raw=true)
 ![](img/apt-get/fig37.png?raw=true)
 ![](img/apt-get/fig38.png?raw=true)
 ![](img/apt-get/fig39.png?raw=true)
 ![](img/apt-get/fig40.png?raw=true)
 ![](img/apt-get/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDg1Nzk0NV19
+eyJoaXN0b3J5IjpbLTE4NzYxMzI1N119
 -->
