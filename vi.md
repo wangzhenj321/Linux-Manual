@@ -2,11 +2,11 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 1. 首先复制一个文件到/tmp目录（本例中为复制根目录下install.log文件）做为示例文本。
 
-    ![](img/vi/fig1.png?raw=true)
+	![](img/vi/fig1.png?raw=true)
 
 2. 输入“cd /tmp”切换到/tmp目录，并输入“vi install.log”使用vi开始编辑。
 
-![](img/vi/fig2.png?raw=true)
+	![](img/vi/fig2.png?raw=true)
 
 #### 目录
 1 [一般模式](#一般模式)
@@ -54,5 +54,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/apt-get/fig40.png?raw=true)
 ![](img/apt-get/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzg0NTg0NzNdfQ==
+eyJoaXN0b3J5IjpbLTEyNTQ4ODQwMDldfQ==
 -->
