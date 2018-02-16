@@ -43,9 +43,9 @@ Your shared folder should now be accessible from a Windows PC.
 
 Now, let’s add the Linux share to our Windows Desktop.  Right-click somewhere on your Desktop and select New > Shortcut.
 
-![](img/sa/fig1.png?raw=true)
+![](img/samba-share-on-linux/fig1.png?raw=true)
 
 Type in the network location of the shared folder, with this syntax:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjQ2MDQxMF19
+eyJoaXN0b3J5IjpbMTY5MjkyNDY1NV19
 -->
