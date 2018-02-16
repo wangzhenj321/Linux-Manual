@@ -75,11 +75,23 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 	![](img/vi/fig16.png?raw=true)
 
+17. 按dd（两个小写）删除光标所在行。
 
-![](img/vi/fig17.png?raw=true)
-![](img/vi/fig18.png?raw=true)
-![](img/vi/fig19.png?raw=true)
-![](img/vi/fig20.png?raw=true)
+	![](img/vi/fig17.png?raw=true)
+
+18. 按u(小写)撤销上一步操作。
+
+	![](img/vi/fig18.png?raw=true)
+
+19. 输入5dd（数字+两个小写d）删除从光标所在行起下5行内容（包括光标所在行）。
+
+	![](img/vi/fig19.png?raw=true)
+
+20. 按“.（英文小数点）”重复上次操作（本例中为再删除5行）。
+
+	![](img/vi/fig20.png?raw=true)
+
+
 ![](img/vi/fig21.png?raw=true)
 ![](img/vi/fig22.png?raw=true)
 ![](img/vi/fig23.png?raw=true)
@@ -102,5 +114,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig40.png?raw=true)
 ![](img/vi/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzA2NzgwOF19
+eyJoaXN0b3J5IjpbMTIwMTQwMTMxOV19
 -->
