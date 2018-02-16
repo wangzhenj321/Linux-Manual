@@ -9,12 +9,12 @@
 ![](img/apt-get/fig9.png?raw=true)
 ![](img/apt-get/fig10.png?raw=true)
 ![](img/apt-get/fig11.png?raw=true)
-![](img/apt-get/fig1.png?raw=true)
-![](img/apt-get/fig1.png?raw=true)
-![](img/apt-get/fig1.png?raw=true)
-![](img/apt-get/fig1.png?raw=true)
-![](img/apt-get/fig1.png?raw=true)
-![](img/apt-get/fig1.png?raw=true)
+![](img/apt-get/fig12.png?raw=true)
+![](img/apt-get/fig13.png?raw=true)
+![](img/apt-get/fig14.png?raw=true)
+![](img/apt-get/fig15.png?raw=true)
+![](img/apt-get/fig16.png?raw=true)
+![](img/apt-get/fig17.png?raw=true)
 ![](img/apt-get/fig1.png?raw=true)
 ![](img/apt-get/fig1.png?raw=true)
 ![](img/apt-get/fig1.png?raw=true)
@@ -40,5 +40,5 @@
 ![](img/apt-get/fig1.png?raw=true)
 ![](img/apt-get/fig1.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTI2MDQ5NV19
+eyJoaXN0b3J5IjpbLTQ4MDMyOTk1Ml19
 -->
