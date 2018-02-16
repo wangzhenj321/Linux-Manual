@@ -48,7 +48,10 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 	![](img/vi/fig9.png?raw=true)
 
 10. 按“Page Up”按键或“ctrl+b”将向下移动一页。
-![](img/vi/fig10.png?raw=true)
+
+	![](img/vi/fig10.png?raw=true)
+
+
 ![](img/vi/fig11.png?raw=true)
 ![](img/vi/fig12.png?raw=true)
 ![](img/vi/fig13.png?raw=true)
@@ -81,5 +84,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig40.png?raw=true)
 ![](img/vi/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTMzMTM1NDldfQ==
+eyJoaXN0b3J5IjpbMTk3NTQwNDc3M119
 -->
