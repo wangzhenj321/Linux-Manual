@@ -77,7 +77,7 @@ apt-get autoclean也可以用来删除/var/cache/apt/archives目录下的deb安�
 
 这条命令可能会让很多人感到困惑．在Debian系统上，你用这条命令升级系统版本，比如从Debian 7升级到Debian 8．但是在Ubuntu系统上，这条命令只会升级Linux内核以及之前没有被升级的软件包．升级Ubuntu的版本你需要用到do-release-upgrade命令．
 
-![](img/apt-get/fig6.?raw=true)
+![](img/apt-get/fig6.png?raw=true)
 
 ## 附：手动安装Deb软件包
 
@@ -104,5 +104,5 @@ sudo gdebi <package.deb>
 
 1. [Debian & Ubuntu最实用的apt-get命令详解](https://www.linuxdashen.com/apt-get%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTA3NjgyOV19
+eyJoaXN0b3J5IjpbMTU2OTIxMTc2NF19
 -->
