@@ -23,8 +23,17 @@ Creating a share on Linux and then accessing it from Windows is actually a bit e
 	sudo vi /etc/samba/smb.conf
 	```
 	Scroll down to the end of the file and add these lines:
-	
+	```
+	[Share]
+	path = /path/to/share
+	writeable = yes
+	browseable = yes
+	public = yes
+	create mask = 0644
+	directory mask = 0755
+	force user = shareuser
+	```
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1Nzc3ODMzXX0=
+eyJoaXN0b3J5IjpbLTEyNzUxOTg1MTFdfQ==
 -->
