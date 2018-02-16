@@ -10,8 +10,11 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 #### 目录
 1 [一般模式](#一般模式)
+
 2	[编辑模式](#编辑模式)
+
 3	[命令行模式](#命令行模式)
+
 4	[替换内容](#替换内容)
 
 ## 一般模式
@@ -24,8 +27,11 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 	![](img/vi/fig4.png?raw=true)
 
+5. 按左方向键(←)或者h(注意大小写)光标将向左移动一个字符。
 
-![](img/vi/fig5.png?raw=true)
+	![](img/vi/fig5.png?raw=true)
+
+6. 按右方向键（→）或者l(注意大小写)光标将向右移动一个字符。
 ![](img/vi/fig6.png?raw=true)
 ![](img/vi/fig7.png?raw=true)
 ![](img/vi/fig8.png?raw=true)
@@ -63,5 +69,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig40.png?raw=true)
 ![](img/vi/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5NDE5MjIxXX0=
+eyJoaXN0b3J5IjpbLTE4ODU5NTA0MDJdfQ==
 -->
