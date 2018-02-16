@@ -92,6 +92,11 @@ sudo dpkg -i wps-office*.deb
 
 dpkg的一个缺点是它不能解决依赖关系．你必须手动安装依赖包．而gdebi可以帮助我们自动安装依赖包．输入下面的命令安装gdebi
 ```
+sudo apt-get install gdebi
+```
+它的命令语法如下：
+```
+sudo gdebi <package.deb>
 ```
 ![](img/apt-get/fig7.jpg?raw=true)
 
@@ -99,5 +104,5 @@ dpkg的一个缺点是它不能解决依赖关系．你必须手动安装依赖�
 
 1. [Debian & Ubuntu最实用的apt-get命令详解](https://www.linuxdashen.com/apt-get%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTI5ODEyN119
+eyJoaXN0b3J5IjpbMjM0ODE2NTE2XX0=
 -->
