@@ -67,21 +67,37 @@ du -sh /var/cache/apt/archives
 
 ### apt-get autoclean
 
+apt-get autoclean也可以用来删除/var/cache/apt/archives目录下的deb安装包．但它只删除那些已经不能从软件仓库中下载的deb安装包．这就是说，Debian或Ubuntu已经不维护那些软件包了，或者那些软件包有了一个新的名字．
+
 ### apt-get autoremove
 
+这条命令用来删除不需要的依赖软件包．
+
 ### apt-get dist-upgrade
+
+这条命令可能会让很多人感到困惑．在Debian系统上，你用这条命令升级系统版本，比如从Debian 7升级到Debian 8．但是在Ubuntu系统上，这条命令只会升级Linux内核以及之前没有被升级的软件包．升级Ubuntu的版本你需要用到do-release-upgrade命令．
+
 ![](img/apt-get/fig6.jpg?raw=true)
 
 ## 附：手动安装Deb软件包
 
 ### dpkg -i
 
+如果你从网站上下载了一个deb软件包，那么你需要dpkg工具来安装这个deb包．例如，你可以下载WPS linux版．然后，在终端里将当前工作目录切换到下载目录，再输入下面的命令安装WPS  Linux版．
+```
+sudo dpkg -i wps-office*.deb
+```
+
 ### gdebi
+
+dpkg的一个缺点是它不能解决依赖关系．你必须手动安装依赖包．而gdebi可以帮助我们自动安装依赖包．输入下面的命令安装gdebi
+```
+```
 ![](img/apt-get/fig7.jpg?raw=true)
 
 ## References
 
 1. [Debian & Ubuntu最实用的apt-get命令详解](https://www.linuxdashen.com/apt-get%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjI5NTU0NDBdfQ==
+eyJoaXN0b3J5IjpbMTA4OTI5ODEyN119
 -->
