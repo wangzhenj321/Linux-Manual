@@ -2,7 +2,7 @@ Creating a share on Linux and then accessing it from Windows is actually a bit e
 
 ## Create the Share on Linux
 	
-	To set up a shared folder on a Linux that Windows to access, start with installing Samba (software 							that provides access to SMB/CIFS protocols used by Windows). At the terminal, use the following command:
+To set up a shared folder on a Linux that Windows to access, start with installing Samba (software 							that provides access to SMB/CIFS protocols used by Windows). At the terminal, use the following command:
 	```
 	sudo apt-get install samba
 	```
@@ -43,5 +43,5 @@ Creating a share on Linux and then accessing it from Windows is actually a bit e
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTIwOTY0N119
+eyJoaXN0b3J5IjpbLTE0ODQxNDUyNTddfQ==
 -->
