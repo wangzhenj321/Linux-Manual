@@ -8,7 +8,7 @@
 
 ## References
 
-1. []()
+1. [Debian & Ubuntu最实用的apt-get命令详解](https://www.linuxdashen.com/apt-get%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDAwNTE5OF19
+eyJoaXN0b3J5IjpbMTA0MDU5NzgwNF19
 -->
