@@ -22,7 +22,7 @@ Now, use your favorite editor to configure the smb.conf file. We’re using Vi h
 ```
 sudo vi /etc/samba/smb.conf
 ```
-	Scroll down to the end of the file and add these lines:
+Scroll down to the end of the file and add these lines:
 	```
 	[Share]
 	path = /path/to/share
@@ -43,5 +43,5 @@ sudo vi /etc/samba/smb.conf
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU5OTAzNjldfQ==
+eyJoaXN0b3J5IjpbLTU0MDIwNzA5N119
 -->
