@@ -7,7 +7,11 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/apt-get/fig2.png?raw=true)
 
 #### 目录
-1 []()
+1 [一般模式](#一般模式)
+
+## 一般模式
+
+3. vi一般模式（Normal mode）界面如下：
 ![](img/apt-get/fig3.png?raw=true)
 ![](img/apt-get/fig4.png?raw=true)
 ![](img/apt-get/fig5.png?raw=true)
@@ -48,5 +52,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/apt-get/fig40.png?raw=true)
 ![](img/apt-get/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTAyNzM5ODBdfQ==
+eyJoaXN0b3J5IjpbLTg2MzMyNjA5M119
 -->
