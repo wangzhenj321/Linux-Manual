@@ -26,8 +26,18 @@ sudo apt-get install -y chromium-browser
 
 ## 一条命令安装多个软件包
 
-
+apt-get install 可以一次性安装多个软件包，比如
+```
+sudo apt-get install wireshark nmap aircrack-ng
+```
 ![](img/apt-get/fig3.jpg?raw=true)
+
+### apt-get upgrade
+
+apt-get upgrade命令用来升级系统上可以升级的软件包．
+```
+sudo apt-get upgrade
+```
 ![](img/apt-get/fig4.jpg?raw=true)
 ![](img/apt-get/fig5.jpg?raw=true)
 ![](img/apt-get/fig6.jpg?raw=true)
@@ -37,5 +47,5 @@ sudo apt-get install -y chromium-browser
 
 1. [Debian & Ubuntu最实用的apt-get命令详解](https://www.linuxdashen.com/apt-get%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjE5ODEzN119
+eyJoaXN0b3J5IjpbLTE2NzA3NTE3ODRdfQ==
 -->
