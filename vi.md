@@ -180,6 +180,10 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 41. 按回车键确定并查看结果（注意同上面的区别）。
 
 	![](img/vi/fig41.png?raw=true)
+
+## References
+
+1. [如何使用vi文本编辑器](https://www.ytyzx.org/index.php?title=%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8vi%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8&variant=zh-hans)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMDQ1MDMxXX0=
+eyJoaXN0b3J5IjpbLTE3MTI4OTU0NTBdfQ==
 -->
