@@ -11,6 +11,14 @@ Creating a share on Linux and then accessing it from Windows is actually a bit e
 	smbpasswd -a geek
 	```
 	Note: In this example, we are using ‘geek’ since we already have a Linux user with that name, but you can choose any name you’d like.
+	
+	![](img/apt-get/fig1.png?raw=true)
+	
+	Create the directory that you’d like to share out to your Windows computer.  We’re just going to put a folder on our Desktop.
+	```
+	```
+	
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODA2NTE5XX0=
+eyJoaXN0b3J5IjpbLTE4Mjk3MzUzNTBdfQ==
 -->
