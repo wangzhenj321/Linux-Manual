@@ -20,8 +20,11 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 	![](img/vi/fig3.png?raw=true)
 
-4. 
-![](img/vi/fig4.png?raw=true)
+4. 注意下图中光标位置。
+
+	![](img/vi/fig4.png?raw=true)
+
+
 ![](img/vi/fig5.png?raw=true)
 ![](img/vi/fig6.png?raw=true)
 ![](img/vi/fig7.png?raw=true)
@@ -60,5 +63,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig40.png?raw=true)
 ![](img/vi/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5ODMwMzg4M119
+eyJoaXN0b3J5IjpbNDE5NDE5MjIxXX0=
 -->
