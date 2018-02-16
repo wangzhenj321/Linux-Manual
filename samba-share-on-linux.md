@@ -12,7 +12,7 @@ smbpasswd -a geek
 ```
 Note: In this example, we are using ‘geek’ since we already have a Linux user with that name, but you can choose any name you’d like.
 	
-![](img/apt-get/fig1.png?raw=true)
+![](img/samba-share-on-linux/fig1.png?raw=true)
 	
 Create the directory that you’d like to share out to your Windows computer.  We’re just going to put a folder on our Desktop.
 ```
@@ -43,9 +43,14 @@ Your shared folder should now be accessible from a Windows PC.
 
 Now, let’s add the Linux share to our Windows Desktop.  Right-click somewhere on your Desktop and select New > Shortcut.
 
-![](img/samba-share-on-linux/fig1.png?raw=true)
+![](img/samba-share-on-linux/fig2.jpg?raw=true)
 
 Type in the network location of the shared folder, with this syntax:
+```
+\\IP-ADDRESS\SHARE-NAME
+```
+
+![](img/samba-share-on-linux/fig3.jpg?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjkyNDY1NV19
+eyJoaXN0b3J5IjpbMTgxNjg1NDAyMF19
 -->
