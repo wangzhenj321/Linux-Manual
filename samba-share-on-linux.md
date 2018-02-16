@@ -19,9 +19,9 @@ Create the directory that you’d like to share out to your Windows computer.  W
 mkdir ~/Desktop/Share
 ```
 Now, use your favorite editor to configure the smb.conf file. We’re using Vi here.
-	```
-	sudo vi /etc/samba/smb.conf
-	```
+```
+sudo vi /etc/samba/smb.conf
+```
 	Scroll down to the end of the file and add these lines:
 	```
 	[Share]
@@ -43,5 +43,5 @@ Now, use your favorite editor to configure the smb.conf file. We’re using Vi h
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzE4NDY0N119
+eyJoaXN0b3J5IjpbLTE0NTU5OTAzNjldfQ==
 -->
