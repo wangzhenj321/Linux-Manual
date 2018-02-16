@@ -139,6 +139,8 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 	![](img/vi/fig31.png?raw=true)
 
+## 替换内容
+
 
 ![](img/vi/fig32.png?raw=true)
 ![](img/vi/fig33.png?raw=true)
@@ -151,5 +153,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig40.png?raw=true)
 ![](img/vi/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjQ4MTAzMjFdfQ==
+eyJoaXN0b3J5IjpbMjI2MDM0OTg4XX0=
 -->
