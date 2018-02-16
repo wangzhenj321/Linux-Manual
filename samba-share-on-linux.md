@@ -12,7 +12,7 @@ smbpasswd -a geek
 ```
 Note: In this example, we are using ‘geek’ since we already have a Linux user with that name, but you can choose any name you’d like.
 	
-![](img/samba-share-on-linux/fig1.png?raw=true)
+![](img/samba-share-on-linux/fig1.jpg?raw=true)
 	
 Create the directory that you’d like to share out to your Windows computer.  We’re just going to put a folder on our Desktop.
 ```
@@ -52,5 +52,5 @@ Type in the network location of the shared folder, with this syntax:
 
 ![](img/samba-share-on-linux/fig3.jpg?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjg1NDAyMF19
+eyJoaXN0b3J5IjpbMTYyMDEyNDQ5Ml19
 -->
