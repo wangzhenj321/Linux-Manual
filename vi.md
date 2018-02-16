@@ -165,11 +165,21 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 	![](img/vi/fig37.png?raw=true)
 
+38. 输入“: %s/i/x/”（等同于： g/i/s//x/）即可将所有行的第一个“i”替换为“x”。
 
-![](img/vi/fig38.png?raw=true)
-![](img/vi/fig39.png?raw=true)
-![](img/vi/fig40.png?raw=true)
-![](img/vi/fig41.png?raw=true)
+	![](img/vi/fig38.png?raw=true)
+
+39. 按回车键确定并查看结果（注意同上面的区别）。
+
+	![](img/vi/fig39.png?raw=true)
+
+40. 输入“: %s/i/x/g”（等同于： g/i/s//x/g）即可将所有行的“i”替换为“x”。
+
+	![](img/vi/fig40.png?raw=true)
+
+41. 按回车键确定并查看结果（注意同上面的区别）。
+
+	![](img/vi/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0Njc0MTY3XX0=
+eyJoaXN0b3J5IjpbMTcxMDQ1MDMxXX0=
 -->
