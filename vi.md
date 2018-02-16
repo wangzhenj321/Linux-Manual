@@ -71,8 +71,11 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 	![](img/vi/fig15.png?raw=true)
 
+16. 按yy（两个小写）复制光标所在行，按p（小写）复制到光标所在行下，按P（大写）复制到光标所在行上。
 
-![](img/vi/fig16.png?raw=true)
+	![](img/vi/fig16.png?raw=true)
+
+
 ![](img/vi/fig17.png?raw=true)
 ![](img/vi/fig18.png?raw=true)
 ![](img/vi/fig19.png?raw=true)
@@ -99,5 +102,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig40.png?raw=true)
 ![](img/vi/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTgzMTU3NjFdfQ==
+eyJoaXN0b3J5IjpbLTgzMzA2NzgwOF19
 -->
