@@ -105,11 +105,25 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 	![](img/vi/fig23.png?raw=true)
 
+24. 再次输入i，并没有替换后面字符，同时下面显示“--Insert--”，即为插入模式（Insert mode）。
 
-![](img/vi/fig24.png?raw=true)
-![](img/vi/fig25.png?raw=true)
-![](img/vi/fig26.png?raw=true)
-![](img/vi/fig27.png?raw=true)
+	![](img/vi/fig24.png?raw=true)
+
+25. 按“Esc”键退出编辑模式，移动光标到“Installing”的第二个字符（n）下，按R（大写）即可进入替换模式（Replace mode）,按i将一直替换，直到按Esc为止。同时下面显示“--Replace--”，即为替换模式（Replace mode）。
+
+	![](img/vi/fig25.png?raw=true)
+
+## 命令行模式
+
+26. 输入“:set nu”即可显示行号。
+
+	![](img/vi/fig26.png?raw=true)
+
+27. 输入“:set nonu”即可取消显示行号。
+
+	![](img/vi/fig27.png?raw=true)
+
+
 ![](img/vi/fig28.png?raw=true)
 ![](img/vi/fig29.png?raw=true)
 ![](img/vi/fig30.png?raw=true)
@@ -125,5 +139,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig40.png?raw=true)
 ![](img/vi/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzg3NjIxNV19
+eyJoaXN0b3J5IjpbLTE0MjEzNzcxODhdfQ==
 -->
