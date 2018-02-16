@@ -16,10 +16,15 @@ Creating a share on Linux and then accessing it from Windows is actually a bit e
 	
 	Create the directory that you’d like to share out to your Windows computer.  We’re just going to put a folder on our Desktop.
 	```
-	
+	mkdir ~/Desktop/Share
 	```
+	Now, use your favorite editor to configure the smb.conf file. We’re using Vi here.
+	```
+	sudo vi /etc/samba/smb.conf
+	```
+	Scroll down to the end of the file and add these lines:
 	
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM3MzQ5MzY0XX0=
+eyJoaXN0b3J5IjpbNDE1Nzc3ODMzXX0=
 -->
