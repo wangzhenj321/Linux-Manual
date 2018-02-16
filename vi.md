@@ -165,10 +165,11 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 	![](img/vi/fig37.png?raw=true)
 
+
 ![](img/vi/fig38.png?raw=true)
 ![](img/vi/fig39.png?raw=true)
 ![](img/vi/fig40.png?raw=true)
 ![](img/vi/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzNDk0MTUzXX0=
+eyJoaXN0b3J5IjpbMjk0Njc0MTY3XX0=
 -->
