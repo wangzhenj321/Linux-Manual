@@ -10,6 +10,9 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 #### 目录
 1 [一般模式](#一般模式)
+2	编辑模式
+3	命令行模式
+4	替换内容
 
 ## 一般模式
 
@@ -54,5 +57,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig40.png?raw=true)
 ![](img/vi/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTg3NTQ0NF19
+eyJoaXN0b3J5IjpbMjAzNjg4OTM3OF19
 -->
