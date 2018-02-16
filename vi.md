@@ -43,9 +43,9 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/vi/fig29.png?raw=true)
 ![](img/vi/fig30.png?raw=true)
 ![](img/vi/fig31.png?raw=true)
-![](img/apt-get/fig32.png?raw=true)
-![](img/apt-get/fig33.png?raw=true)
-![](img/apt-get/fig34.png?raw=true)
+![](img/vi/fig32.png?raw=true)
+![](img/vi/fig33.png?raw=true)
+![](img/vi/fig34.png?raw=true)
 ![](img/apt-get/fig35.png?raw=true)
 ![](img/apt-get/fig36.png?raw=true)
 ![](img/apt-get/fig37.png?raw=true)
@@ -54,5 +54,5 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 ![](img/apt-get/fig40.png?raw=true)
 ![](img/apt-get/fig41.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzcyNjQxNzBdfQ==
+eyJoaXN0b3J5IjpbMjAyNDg1Nzk0NV19
 -->
