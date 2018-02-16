@@ -25,6 +25,8 @@ sudo apt-get install -y chromium-browser
 > apt-get首先会从软件仓库中下载deb安装包，这些deb安装在/var/cache/apt/archives目录下．下载后，apt-get会自动安装软件包
 
 ## 一条命令安装多个软件包
+
+
 ![](img/apt-get/fig3.jpg?raw=true)
 ![](img/apt-get/fig4.jpg?raw=true)
 ![](img/apt-get/fig5.jpg?raw=true)
@@ -35,5 +37,5 @@ sudo apt-get install -y chromium-browser
 
 1. [Debian & Ubuntu最实用的apt-get命令详解](https://www.linuxdashen.com/apt-get%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxOTk5NjU5XX0=
+eyJoaXN0b3J5IjpbLTc0MjE5ODEzN119
 -->
