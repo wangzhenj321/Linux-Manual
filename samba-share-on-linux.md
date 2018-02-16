@@ -50,7 +50,7 @@ Type in the network location of the shared folder, with this syntax:
 \\IP-ADDRESS\SHARE-NAME
 ```
 
-![](img/samba-share-on-linux/fig3.png?raw=true)
+![](img/samba-share-on-linux/fig3.jpg?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTk3NjU4NjBdfQ==
+eyJoaXN0b3J5IjpbMjY0ODMwMTgwXX0=
 -->
