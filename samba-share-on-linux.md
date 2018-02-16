@@ -7,6 +7,10 @@ Creating a share on Linux and then accessing it from Windows is actually a bit e
 	sudo apt-get install samba
 	```
 	After Samba installs, configure a username and password that will be used to access the share:
+	```
+	smbpasswd -a geek
+	```
+	Note: In this example, we are using ‘geek’ since we already have a Linux user with that name, but you can choose any name you’d like.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ1MTYwNTRdfQ==
+eyJoaXN0b3J5IjpbMjA0ODA2NTE5XX0=
 -->
