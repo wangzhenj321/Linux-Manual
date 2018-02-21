@@ -6,8 +6,11 @@ Finally, check the [FAQ](http://valloric.github.io/YouCompleteMe/#faq).
 
 ## Prerequisites
 
-Ubuntu Linux x64
-These instructions (using install.py) are the quickest way to install YouCompleteMe, however they may not work for everyone. If the following instructions don't work for you, check out the full installation guide.
+**Ubuntu Linux x64**
+
+These instructions (using *install.py*) are the quickest way to install YouCompleteMe, however they may not work for everyone. If the following instructions don't work for you, check out the [full installation guide](http://valloric.github.io/YouCompleteMe/#full-installation-guide).
+
+Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 and later have a Vim that's recent enough. You can see the version of Vim installed by running vim --version. If the version is too old, you may need to compile Vim from source (don't worry, it's easy).
 
 ## Install YouCompleteMe with Vundle
 
@@ -17,5 +20,5 @@ These instructions (using install.py) are the quickest way to install YouComplet
 2. [VundleVim](https://github.com/VundleVim/Vundle.vim#about)
 3. [一步一步带你安装史上最难安装的 vim 插件 —— YouCompleteMe](https://www.jianshu.com/p/d908ce81017a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQ0OTM1MDFdfQ==
+eyJoaXN0b3J5IjpbMzgzOTMyNjUxXX0=
 -->
