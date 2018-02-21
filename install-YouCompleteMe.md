@@ -78,6 +78,10 @@ Before configuring the *.ycm_extra_conf.py*, the following error message will sh
 	cp ~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py ~/.vim/
 	```
 2. Edit *.vimrc*
+	Add `let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'` into *.vimrc*.
+
+#### Use a compilation database
+
 
 ## References
 
@@ -85,5 +89,5 @@ Before configuring the *.ycm_extra_conf.py*, the following error message will sh
 2. [VundleVim](https://github.com/VundleVim/Vundle.vim#about)
 3. [一步一步带你安装史上最难安装的 vim 插件 —— YouCompleteMe](https://www.jianshu.com/p/d908ce81017a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDE1NDU2MjBdfQ==
+eyJoaXN0b3J5IjpbLTIxMjU3MTcwMTJdfQ==
 -->
