@@ -34,6 +34,7 @@ Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 
 	filetype plugin indent on
 	```
 3. Install Plugins:
+	To install from command line: `vim +PluginInstall +qall`
 	
 ## References
 
@@ -41,5 +42,5 @@ Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 
 2. [VundleVim](https://github.com/VundleVim/Vundle.vim#about)
 3. [一步一步带你安装史上最难安装的 vim 插件 —— YouCompleteMe](https://www.jianshu.com/p/d908ce81017a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDcyNTE0XX0=
+eyJoaXN0b3J5IjpbMjEzNTMyNjU1MV19
 -->
