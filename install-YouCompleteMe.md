@@ -1,6 +1,8 @@
 ## References
 
-1. []()
+1. [YouCompleteMe](http://valloric.github.io/YouCompleteMe/)
+2. [VundleVim](https://github.com/VundleVim/Vundle.vim#about)
+3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDg0Mjk0XX0=
+eyJoaXN0b3J5IjpbLTEyNTY1MzUzMjJdfQ==
 -->
