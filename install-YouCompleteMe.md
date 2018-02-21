@@ -70,7 +70,7 @@ Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 
 
 ## Configure *.ycm_extra_conf.py*
 
-Before configuring the *.ycm_extra_conf.py* file, the following error message will show in the bottom of **vim** if a C-family file.
+Before configuring the *.ycm_extra_conf.py* file, the following error message will show in the bottom of **vim** if a C-family file .
 
 ## References
 
@@ -78,5 +78,5 @@ Before configuring the *.ycm_extra_conf.py* file, the following error message wi
 2. [VundleVim](https://github.com/VundleVim/Vundle.vim#about)
 3. [一步一步带你安装史上最难安装的 vim 插件 —— YouCompleteMe](https://www.jianshu.com/p/d908ce81017a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwMDg1MTYyXX0=
+eyJoaXN0b3J5IjpbLTE3ODM3NzA4OF19
 -->
