@@ -48,7 +48,11 @@ Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 
 	```
 	sudo apt-get install python-dev python3-dev
 	```
-3. Install libclang:
+3. Install the latest version of libclang:
+	```
+	apt-get install llvm-3.9 clang-3.9 libclang-3.9-dev libboost-all-dev
+	```
+4. Compiling YCM with semantic support for C-family languages:
 	```
 	```
 
@@ -58,5 +62,5 @@ Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 
 2. [VundleVim](https://github.com/VundleVim/Vundle.vim#about)
 3. [一步一步带你安装史上最难安装的 vim 插件 —— YouCompleteMe](https://www.jianshu.com/p/d908ce81017a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzM4MjMyNDFdfQ==
+eyJoaXN0b3J5IjpbMTg0NDk5NjY0Nl19
 -->
