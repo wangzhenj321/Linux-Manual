@@ -4,6 +4,9 @@ Next check the [User Guide](http://valloric.github.io/YouCompleteMe/#user-guide)
 
 Finally, check the [FAQ](http://valloric.github.io/YouCompleteMe/#faq).
 
+**Contents**
+Prerequisites[#]
+
 ## Prerequisites
 
 **Ubuntu Linux x64**
@@ -64,5 +67,5 @@ Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 
 2. [VundleVim](https://github.com/VundleVim/Vundle.vim#about)
 3. [一步一步带你安装史上最难安装的 vim 插件 —— YouCompleteMe](https://www.jianshu.com/p/d908ce81017a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTk2NzY5MF19
+eyJoaXN0b3J5IjpbLTM2ODY0MDY3MF19
 -->
