@@ -22,6 +22,8 @@ These instructions (using *install.py*) are the quickest way to install YouCompl
 
 Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 and later have a Vim that's recent enough. You can see the version of Vim installed by running `vim --version`. If the version is too old, you may need to [compile Vim from source](https://github.com/Valloric/YouCompleteMe/wiki/Building-Vim-from-source) (don't worry, it's easy).
 
+![](img/install-YouCompleteMe/fig1.png?raw=true)
+
 ## Install YouCompleteMe with Vundle
 
 **Remember:** YCM is a plugin with a compiled component. If you **update** YCM using Vundle and the ycm_core library APIs have changed (happens rarely), YCM will notify you to recompile it. You should then rerun the install process.
@@ -47,6 +49,8 @@ Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 
 	```
 3. Install Plugins:
 	To install from command line: `vim +PluginInstall +qall`
+	
+	![](img/install-YouCompleteMe/fig2.png?raw=true)
 
 ## Run *install.py*
 
@@ -97,5 +101,5 @@ If using CMake, add `-DCMAKE_EXPORT_COMPILE_COMMANDS=ON` when configuring (or ad
 2. [VundleVim](https://github.com/VundleVim/Vundle.vim#about)
 3. [一步一步带你安装史上最难安装的 vim 插件 —— YouCompleteMe](https://www.jianshu.com/p/d908ce81017a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTE3NzkzNV19
+eyJoaXN0b3J5IjpbMTQyMzQ1NDQ3Nl19
 -->
