@@ -14,6 +14,8 @@ Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 
 
 ## Install YouCompleteMe with Vundle
 
+**Remember:** YCM is a plugin with a compiled component. If you **update** YCM using Vundle and the ycm_core library APIs have changed (happens rarely), YCM will notify you to recompile it. You should then rerun the install process.
+
 1. Set up Vundle:
 	```
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
@@ -42,5 +44,5 @@ Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 
 2. [VundleVim](https://github.com/VundleVim/Vundle.vim#about)
 3. [一步一步带你安装史上最难安装的 vim 插件 —— YouCompleteMe](https://www.jianshu.com/p/d908ce81017a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTMyNjU1MV19
+eyJoaXN0b3J5IjpbLTU4MjMxMjI5N119
 -->
