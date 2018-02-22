@@ -87,6 +87,7 @@ In order to perform semantic analysis such as code completion, GoTo and diagnost
 	cp ~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py ~/.vim/
 	```
 2. Edit *.vimrc*
+	
 	Add `let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'` into *.vimrc*.
 
 ![](img/install-YouCompleteMe/fig4.png?raw=true)
@@ -103,5 +104,5 @@ If using CMake, add `-DCMAKE_EXPORT_COMPILE_COMMANDS=ON` when configuring (or ad
 2. [VundleVim](https://github.com/VundleVim/Vundle.vim#about)
 3. [一步一步带你安装史上最难安装的 vim 插件 —— YouCompleteMe](https://www.jianshu.com/p/d908ce81017a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzI2NzAyMTFdfQ==
+eyJoaXN0b3J5IjpbNTk1NzQyNzU5XX0=
 -->
