@@ -90,7 +90,7 @@ In order to perform semantic analysis such as code completion, GoTo and diagnost
 	
 	Add `let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'` into *.vimrc*.
 
-After finished the configuration of the template *.ycm_extra_conf.py*, the completion feature shown as the following figure is available under the current user account. However, this completion feature only support 
+After finished the configuration of the template *.ycm_extra_conf.py*, the completion feature shown as the following figure is available under the current user account. However, 
 
 ![](img/install-YouCompleteMe/fig4.png?raw=true)
 
@@ -106,5 +106,5 @@ If using CMake, add `-DCMAKE_EXPORT_COMPILE_COMMANDS=ON` when configuring (or ad
 2. [VundleVim](https://github.com/VundleVim/Vundle.vim#about)
 3. [一步一步带你安装史上最难安装的 vim 插件 —— YouCompleteMe](https://www.jianshu.com/p/d908ce81017a)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzM0OTU0NF19
+eyJoaXN0b3J5IjpbMjYwMDU5MDUxXX0=
 -->
