@@ -18,7 +18,7 @@ When you attempt to update APT package indexes, "404 Not Found" errors can often
 sudo apt-get update | grep "Failed"
 ```
 
-
+![](img/add-apt-repository/fig1.png?raw=true)
 
 In this example, the PPA repository which is no longer supported in Ubuntu Trusty is "ppa:finalterm/daily".
 
@@ -30,5 +30,6 @@ sudo add-apt-repository --remove ppa:finalterm/daily
 
 You have to repeat this process for every obsolete PPA repository that you found from above.
 
+![](img/add-apt-repository/fig2.png?raw=true)
 
 After removing all obsolete PPA repositories, re-run "apt-get update" to check all of them have been successfully removed.
