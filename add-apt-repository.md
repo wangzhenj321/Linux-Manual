@@ -12,7 +12,7 @@
 
 When you attempt to update APT package indexes, "404 Not Found" errors can often happen after distro upgrade. That is, after you upgraded your Ubuntu release, some third-party PPA repositories which you added on the old release are no longer supported on the upgraded release. In that case, you can ***identify and purge those broken PPA repositories as follows.***
 
-#### Find out the PPAs which cause "404 Not Found" failures.
+#### Step 1: Find out the PPAs which cause "404 Not Found" failures.
 
 ```
 sudo apt-get update | grep "Failed"
@@ -22,7 +22,7 @@ sudo apt-get update | grep "Failed"
 
 In this example, the PPA repository which is no longer supported in Ubuntu Trusty is "ppa:finalterm/daily".
 
-#### Go ahead and remove the PPA repository.
+#### Step 2: Go ahead and remove the PPA repository.
 
 ```
 sudo add-apt-repository --remove ppa:finalterm/daily
