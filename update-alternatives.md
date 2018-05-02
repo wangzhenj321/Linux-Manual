@@ -34,7 +34,7 @@ Display information about the link group. Information displayed includes the gro
 
 Show available alternatives for a link group and allow the user to interactively select which one to use. The link group is updated.
 
-## Examples
+## Example: Choose gcc and g++ version
 
 ***References:*** https://askubuntu.com/questions/26498/choose-gcc-and-g-version
 
