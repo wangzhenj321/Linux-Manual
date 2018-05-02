@@ -8,9 +8,7 @@ Debian's  alternatives  system aims to solve this problem.  A generic name in th
 
 ## COMMANDS
 
-```
---install link name path priority [--slave link name path]...
-```
+***`--install link name path priority [--slave link name path]...`***
 
 Add a group of alternatives to the system. ***link*** is the generic name for the master link, ***name*** is the name of its symlink in the alternatives directory, and ***path*** is the alternative being introduced for the master link. The arguments after `--slave` are the generic name, symlink name in the alternatives directory and the alternative path for a slave link. Zero or more `--slave` options, each followed by three arguments, may be specified. Note that the master alternative must exist or the call will fail. However if a slave alternative doesn't exist, the corresponding slave alternative link will simply not be installed (a warning will still be displayed). If some real file is installed where an alternative link has to be installed, it is kept unless `--force` is used.
 
