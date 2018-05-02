@@ -8,9 +8,9 @@ Debian's  alternatives  system aims to solve this problem.  A generic name in th
 
 ## COMMANDS
 
-> **`--install link name path priority [--slave link name path]...`**
+**`--install link name path priority [--slave link name path]...`**
 
-Add a group of alternatives to the system. *link* is the generic name for the master link, *name* is the name of its symlink in the alternatives directory, and *path* is the alternative being introduced for the master link. The arguments after `--slave` are the generic name, symlink name in the alternatives directory and the alternative path for a slave link. Zero or more `--slave` options, each followed by three arguments, may be specified. Note that the master alternative must exist or the call will fail. However if a slave alternative doesn't exist, the corresponding slave alternative link will simply not be installed (a warning will still be displayed). If some real file is installed where an alternative link has to be installed, it is kept unless `--force` is used.
+Add a group of alternatives to the system. ***link*** is the generic name for the master link, ***name*** is the name of its symlink in the alternatives directory, and ***path*** is the alternative being introduced for the master link. The arguments after `--slave` are the generic name, symlink name in the alternatives directory and the alternative path for a slave link. Zero or more `--slave` options, each followed by three arguments, may be specified. Note that the master alternative must exist or the call will fail. However if a slave alternative doesn't exist, the corresponding slave alternative link will simply not be installed (a warning will still be displayed). If some real file is installed where an alternative link has to be installed, it is kept unless `--force` is used.
 
 If  the alternative name specified exists already in the alternatives system's records, the information supplied will be added as a new set of alternatives for the group. Otherwise, a new group, set to automatic mode, will be added with this information. If the group is in automatic mode, and the  newly added alternatives' priority is higher than any other installed alternatives for this group, the symlinks will be updated to point to the newly added alternatives.
 
@@ -33,3 +33,49 @@ Display information about the link group. Information displayed includes the gro
 **`--config name`**
 
 Show available alternatives for a link group and allow the user to interactively select which one to use. The link group is updated.
+
+## Examples
+
+***References:*** https://askubuntu.com/questions/26498/choose-gcc-and-g-version
+
+First erased the current update-alternatives setup for gcc and g++:
+
+```
+sudo update-alternatives --remove-all gcc 
+sudo update-alternatives --remove-all g++
+```
+
+#### Install Packages
+
+It seems that both gcc-4.3 and gcc-4.4 are installed after install build-essential. However, we can explicitly install the following packages:
+
+```
+sudo apt-get install gcc-4.3 gcc-4.4 g++-4.3 g++-4.4
+```
+
+#### Install Alternatives
+
+Symbolic links cc and c++ are installed by default. We will install symbol links for gcc and g++, then link cc and c++ to gcc and g++ respectively.
+
+```
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.3 10
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.4 20
+
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.3 10
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.4 20
+
+sudo update-alternatives --install /usr/bin/cc cc /usr/bin/gcc 30
+sudo update-alternatives --set cc /usr/bin/gcc
+
+sudo update-alternatives --install /usr/bin/c++ c++ /usr/bin/g++ 30
+sudo update-alternatives --set c++ /usr/bin/g++
+```
+
+#### Configure Alternatives
+
+The last step is configuring the default commands for gcc, g++. It's easy to switch between 4.3 and 4.4 interactively:
+
+```
+sudo update-alternatives --config gcc
+sudo update-alternatives --config g++
+```
