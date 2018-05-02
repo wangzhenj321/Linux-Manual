@@ -14,30 +14,22 @@ Add a group of alternatives to the system. ***link*** is the generic name for th
 
 If  the alternative name specified exists already in the alternatives system's records, the information supplied will be added as a new set of alternatives for the group. Otherwise, a new group, set to automatic mode, will be added with this information. If the group is in automatic mode, and the  newly added alternatives' priority is higher than any other installed alternatives for this group, the symlinks will be updated to point to the newly added alternatives.
 
-#### `--set name path`
+**`--set name path`**
 
 Set the program ***path*** as alternative for ***name***. This is equivalent to `--config` but is non-interactive and thus scriptable.
 
-```
---remove name path
-```
+**`--remove name path`**
 
 Remove an alternative and all of its associated slave links. ***name*** is a name in the alternatives directory, and ***path*** is an absolute filename to which ***name*** could  be linked. If ***name*** is indeed linked to ***path***, ***name*** will be updated to point to another appropriate alternative (and the group is put back in automatic mode), or removed if there is no such alternative left.  Associated slave links will be updated or removed, correspondingly. If the link is not currently pointing to ***path***, no links are changed; only the information about the alternative is removed.
 
-```
---remove-all name
-```
+**`--remove-all name`**
 
 Remove all alternatives and all of their associated slave links. ***name*** is a name in the alternatives directory.
 
-```
---display name
-```
+**`--display name`**
 
 Display information about the link group. Information displayed includes the group's mode (auto or manual), the master and slave links, which alternative the master link currently points to, what other alternatives are available (and their corresponding slave alternatives), and the highest priority alternative currently installed.
 
-```
---config name
-```
+**`--config name`**
 
 Show available alternatives for a link group and allow the user to interactively select which one to use. The link group is updated.
