@@ -33,3 +33,15 @@ Remove an alternative and all of its associated slave links. ***name*** is a nam
 ```
 
 Remove all alternatives and all of their associated slave links. ***name*** is a name in the alternatives directory.
+
+```
+--display name
+```
+
+Display information about the link group. Information displayed includes the group's mode (auto or manual), the master and slave links, which alternative the master link currently points to, what other alternatives are available (and their corresponding slave alternatives), and the highest priority alternative currently installed.
+
+```
+--config name
+```
+
+Show available alternatives for a link group and allow the user to interactively select which one to use. The link group is updated.
