@@ -102,7 +102,9 @@ If using CMake, add `-DCMAKE_EXPORT_COMPILE_COMMANDS=ON` when configuring (or ad
 
 ---
 
-***Remarks:*** Press `Ctrl + Space` to get the completion suggest of function of include headers!
+***Remarks:***
+1. Use [this *.ycm_extra_conf.py*](https://github.com/JDevlieghere/dotfiles/tree/master/.vim) instead of the template *.ycm_extra_conf.py* to possibly have better performance!
+2. Press `Ctrl + Space` to get the completion suggest of function of include headers!
 
 ---
 
