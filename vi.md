@@ -93,6 +93,7 @@ vi由比尔·乔伊（Bill Joy）撰写，所有UNIX like均默认安装此文�
 
 ---
 - With 'o' or 'O' you can insert a new line after/before the current line. In addition, both commands enter the insert mode.
+- (Add comment in .vimrc) A double quote to the left of the text you want to comment. Example:  " this is how a comment looks like in ~/.vimrc
 ---
 
 ## 编辑模式
