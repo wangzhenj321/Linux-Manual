@@ -59,6 +59,8 @@ Debian 作为 Ubuntu、Linux Mint 和 elementary OS 等 Linux 操作系统的母
 | apt list | 列出包含条件的包（已安装，可升级等）|
 | apt edit-sources | 编辑源列表 |
 
+> `list` is somewhat similar to `dpkg-query --list` in that it can display a list of packages satisfying certain criteria. It supports `glob(7)` patterns for matching package names as well as options to list installed (**--installed**), upgradeable (**--upgradeable**) or all available (**--all-versions**) versions.
+
 需要大家注意的是：apt 命令也还在不断发展， 因此，你可能会在将来的版本中看到新的选项。
 
 ### apt-get已弃用？
