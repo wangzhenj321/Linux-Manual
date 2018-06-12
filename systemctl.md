@@ -1,4 +1,4 @@
-- systemctl start httpd.service （启动）
+- `systemctl start httpd.service` （启动）
 - systemctl restart httpd.service （重启）
 - systemctl stop httpd.service （停止）
 - systemctl reload httpd.service （重载）
