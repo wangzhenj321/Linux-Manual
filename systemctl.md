@@ -1,4 +1,8 @@
+#### Description
+
 `systemctl` may be used to introspect and control the state of the "systemd" system and service manager.
+
+#### Options
 
 - `systemctl start httpd.service` （启动）
 - `systemctl restart httpd.service` （重启）
