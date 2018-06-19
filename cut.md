@@ -20,4 +20,3 @@ concatenate files and print on the standard output
 3. `cat /etc/passwd | tail -n 5 | cut -d : -f 1`（`-d`: 以`:`为分隔符; `-f 1`: 分隔之后的第一列）
 
 4. `cat /etc/passwd | tail -n 5 | cut -d : -f 1,3-5,7`
-
