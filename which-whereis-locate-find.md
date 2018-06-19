@@ -128,12 +128,12 @@ find 路径 参数
 - 文件大小查找参数: 
 
     `-size n[cwbkMG]` File uses n units of space. The following suffixes can be used:
-    
+
         - `b` for 512-byte blocks (this is the default if no suffix is used)
         - `c` for bytes
         - `w` for two-byte words
         - `k` for Kilobytes (units of 1024 bytes)
         - `M` for Megabytes (units of 1048576 bytes)
         - `G` for Gigabytes (units of 1073741824 bytes)
-    
+
     注意：默认单位是b，而它代表的是512字节，所以2表示1K，1M则是2048，如果不想自己转换，可以使用其他单位，如c、K、M等。
