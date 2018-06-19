@@ -137,3 +137,11 @@ find 路径 参数
     - `G` for Gigabytes (units of 1073741824 bytes)
 
     注意：默认单位是b，而它代表的是512字节，所以2表示1K，1M则是2048，如果不想自己转换，可以使用其他单位，如c、K、M等。
+
+#### Examples
+
+1. `find / -name zgz`
+
+2. 查找当前目录下文件大小为2048(2k)字节的文件: `find ./ -size 4` or `find ./ -size 2048c` or `find ./ -size 2K`
+
+3. 查找大于2K的文件，+ 表示大于: `find ./ -size +2048c`
