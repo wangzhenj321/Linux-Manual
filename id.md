@@ -69,3 +69,21 @@
 4. 此群组支持的账号名称
 
     我们知道一个账号可以加入多个群组，那某个账号想要加入此群组时，将该账号填入这个字段即可。 举例来说，如果我想要让 dmtsai 也加入 root 这个群组，那么在第一行的最后面加上`,dmtsai`，注意不要有空格， 使成为`root:x:0:root,dmtsai`就可以啰～
+
+## Part 2
+
+### `id`
+
+#### Description
+
+Print user and group information for the specified USER, or (when USER omitted) for the current user.
+
+#### Options
+
+- `-u, --user` print only the effective user ID
+
+- `-g, --group` print only the effective group ID
+
+- `-G, --groups` print all group IDs
+
+- `-n, --name` print a name instead of a number, for -ugG
