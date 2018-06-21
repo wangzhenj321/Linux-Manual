@@ -50,7 +50,7 @@
 
 ## Part 2
 
-### cat
+### `cat`
 
 #### Description
 
