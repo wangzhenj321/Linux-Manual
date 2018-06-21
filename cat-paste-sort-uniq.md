@@ -1,3 +1,5 @@
+## Part 1
+
 #### 两个文件的交集、并集（前提条件：每个文件中不得有重复行）
 
 1. 取出两个文件的并集（重复的行只保留一份）
@@ -45,3 +47,21 @@
     ```
     sort file | uniq -u
     ```
+
+## Part 2
+
+### cat
+
+#### Description
+
+Concatenate FILE(s) to standard output. With no FILE, or when FILE is `-`, read standard input.
+
+#### Options
+
+- `-b` number nonempty output lines, overrides `-n`
+- `-n` number all output lines
+
+#### Examples
+
+1. 以上下顺序合并所有files: `cat filename1 filename2 … filenameN`
+
