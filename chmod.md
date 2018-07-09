@@ -2,7 +2,7 @@
 
 `chmod` changes the file mode bits of each given file according to mode, which can be either a symbolic representation of changes to make,  or an octal number representing the bit pattern for the new mode bits.
 
-A combination of the letters `ugoa` controls which users' access to the file will be changed: the user who owns it (u), other users in the file's group (g), other users not in the file's group (o), or all users (a). If none of these are given, the effect is as if (a) were given, but bits that are set in the umask are not affected.
+A combination of the letters `ugoa` controls which users' access to the file will be changed: the user who owns it (`u`), other users in the file's group (`g`), other users not in the file's group (`o`), or all users (`a`). If none of these are given, the effect is as if (`a`) were given, but bits that are set in the umask are not affected.
 
 The operator `+` causes the selected file mode bits to be added to the existing file mode bits of each  file; `-` causes them to be removed; and `=` causes them to be added and causes unmentioned bits to be removed except that a directory's unmentioned set user and group ID bits are not affected.
 
