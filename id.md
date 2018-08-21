@@ -70,6 +70,26 @@
 
     我们知道一个账号可以加入多个群组，那某个账号想要加入此群组时，将该账号填入这个字段即可。 举例来说，如果我想要让 dmtsai 也加入 root 这个群组，那么在第一行的最后面加上`,dmtsai`，注意不要有空格， 使成为`root:x:0:root,dmtsai`就可以啰～
 
+#### 有效群组(effective group)与初始群组(initial group)
+
+还记得每个使用者在他的`/etc/passwd`里面的第四栏有所谓的 GID 吧？那个 GID 就是所谓的『初始群组 (initial group) 』！也就是说，当用户一登陆系统，立刻就拥有这个群组的相关权限的意思。 举例来说，我们上面提到 dmtsai 这个使用者的`/etc/passwd`与`/etc/group`还有`/etc/gshadow`相关的内容如下：
+
+![](../img/id/effective-group-initial-group.png?raw=true)
+
+仔细看到上面这个表格，在`/etc/passwd`里面，dmtsai 这个使用者所属的群组为 GID=504 ，搜寻一下`/etc/group`得到 504 是那个名为 dmtsai 的群组啦！这就是 initial group。**因为是初始群组， 使用者一登陆就会主动取得，不需要在 /etc/group 的第四个字段写入该账号的！**
+
+但是非 initial group 的其他群组可就不同了。举上面这个例子来说，我将 dmtsai 加入 users 这个群组当中，由于 users 这个群组并非是 dmtsai 的初始群组，因此， 我必须要在`/etc/group`这个文件中，找到 users 那一行，并且将 dmtsai 这个账号加入第四栏， 这样 dmtsai 才能够加入 users 这个群组啊。
+
+那么在这个例子当中，因为我的 dmtsai 账号同时支持 dmtsai 与 users 这两个群组， 因此，在读取/写入/运行文件时，针对群组部分，只要是 users 与 dmtsai 这两个群组拥有的功能， 我 dmtsai 这个使用者都能够拥有喔！这样瞭呼？不过，这是针对已经存在的文件而言， 如果今天我要创建一个新的文件或者是新的目录，请问一下，新文件的群组是 dmtsai 还是 users ？呵呵！这就得要检查一下当时的有效群组了 (effective group)。
+
+#### groups: 有效与支持群组的观察
+
+如果我以 dmtsai 这个使用者的身份登陆后，该如何知道我所有支持的群组呢？ 很简单啊，直接输入 groups 就可以了！注意喔，是 groups 有加 s 呢！结果像这样：
+
+![](../img/id/groups.png?raw=true)
+
+在这个输出的信息中，可知道 dmtsai 这个用户同时属于 dmtsai 及 users 这个两个群组，而且， 第一个输出的群组即为有效群组 (effective group) 了。 也就是说，我的有效群组为 dmtsai 啦～此时，如果我以 touch 去创建一个新档，例如： 『 touch test 』，那么这个文件的拥有者为 dmtsai ，而且群组也是 dmtsai 的啦。
+
 ## Part 2
 
 ### `id`
