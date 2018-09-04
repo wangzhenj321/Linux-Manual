@@ -1,12 +1,13 @@
 **Table of Contents**
 
-[`cat` `paste` `sort` `uniq`](#part-1-cat-paste-sort-uniq)
+[Part 1 `cat` `paste` `sort` `uniq`](#part-1-cat-paste-sort-uniq)
 
-[`cat`](#part-2-cat)
+[Part 2 `cat`](#part-2-cat)
 
-[`sort`](#part-3-sort)
+[Part 3 `sort`](#part-3-sort)
 
-[`uniq`](#part-4-uniq)
+[Part 4 `uniq`](#part-4-uniq)
+
 
 ## Part 1 `cat` `paste` `sort` `uniq`
 
