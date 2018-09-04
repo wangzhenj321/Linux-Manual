@@ -1,3 +1,13 @@
+**Table of Contents**
+
+[`cat` `paste` `sort` `uniq`](#part-1-cat-paste-sort-uniq)
+
+[`cat`](#part-2-cat)
+
+[`sort`](#part-3-sort)
+
+[`uniq`](#part-4-uniq)
+
 ## Part 1 `cat` `paste` `sort` `uniq`
 
 **两个文件的交集、并集（前提条件：每个文件中不得有重复行）**
