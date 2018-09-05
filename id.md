@@ -10,7 +10,7 @@
 
 [初始群组(initial group)](#初始群组initial-group)
 
-[有效群组(effective group)](#有效群组(effective group))
+[有效群组(effective group)](#有效群组effective-group)
 
 **Part 2**
 
