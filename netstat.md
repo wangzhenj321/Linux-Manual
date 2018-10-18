@@ -43,3 +43,6 @@ Print network connections, routing tables, interface statistics, masquerade conn
 - `-u`
 
     Show only udp related items.
+
+- `-x`
+    Show only unix related items.
