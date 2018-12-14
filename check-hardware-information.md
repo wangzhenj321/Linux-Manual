@@ -14,7 +14,7 @@
 - `mount`
 - `free`
 - `dmidecode`
-- /proc files
+- `/proc` files
 - `hdparm`
 
 ## References
