@@ -22,7 +22,7 @@ These instructions (using *install.py*) are the quickest way to install YouCompl
 
 Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 and later have a Vim that's recent enough. You can see the version of Vim installed by running `vim --version`. If the version is too old, you may need to [compile Vim from source](https://github.com/Valloric/YouCompleteMe/wiki/Building-Vim-from-source) (don't worry, it's easy).
 
-![](img/install-YouCompleteMe/fig1.png?raw=true)
+![](../img/install-YouCompleteMe/fig1.png?raw=true)
 
 ## Install YouCompleteMe with Vundle
 
@@ -50,7 +50,7 @@ Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 
 3. Install Plugins:
 	To install from command line: `vim +PluginInstall +qall`
 	
-	![](img/install-YouCompleteMe/fig2.png?raw=true)
+	![](../img/install-YouCompleteMe/fig2.png?raw=true)
 
 ## Run *install.py*
 
@@ -76,7 +76,7 @@ Make sure you have Vim 7.4.1578 with Python 2 or Python 3 support. Ubuntu 16.04 
 
 Before configuring the *.ycm_extra_conf.py*, the following error message will show in the bottom of **vim** if a C-family file is opened such as *helloworld.cpp*.
 
-![](img/install-YouCompleteMe/fig3.png?raw=true)
+![](../img/install-YouCompleteMe/fig3.png?raw=true)
 
 In order to perform semantic analysis such as code completion, GoTo and diagnostics, YouCompleteMe uses *libclang*. This is the library version of the clang compiler, sometimes also referred to as llvm. Like any compiler, *libclang* requires a set of compile flags in order to parse your code. Simply put: If *libclang* can't parse your code, YouCompleteMe can't provide semantic analysis.
 
@@ -92,7 +92,7 @@ In order to perform semantic analysis such as code completion, GoTo and diagnost
 
 After finished the configuration of the template *.ycm_extra_conf.py*, the completion feature shown as the following figure is available under the current user account. But [Use a compilation database](#use-a-compilation-database) is also need to make the completion feature be totally compatible with a specific project since some specific libraries will be included into the project which is not exsit in our template *.ycm_extra_conf.py*.
 
-![](img/install-YouCompleteMe/fig4.png?raw=true)
+![](../img/install-YouCompleteMe/fig4.png?raw=true)
 
 ### Use a compilation database
 
@@ -111,8 +111,7 @@ If using CMake, add `-DCMAKE_EXPORT_COMPILE_COMMANDS=ON` when configuring (or ad
 ## References
 
 1. [YouCompleteMe](http://valloric.github.io/YouCompleteMe/)
+
 2. [VundleVim](https://github.com/VundleVim/Vundle.vim#about)
+
 3. [一步一步带你安装史上最难安装的 vim 插件 —— YouCompleteMe](https://www.jianshu.com/p/d908ce81017a)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzAxNjU1MzhdfQ==
--->

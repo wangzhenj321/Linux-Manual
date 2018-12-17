@@ -6,7 +6,7 @@
 ```
 sudo apt-get update
 ```
-![](img/apt-get/fig1.png?raw=true)
+![](../img/apt-get/fig1.png?raw=true)
 
 ### apt-get install
 
@@ -18,7 +18,7 @@ sudo apt-get install chromium-browser
 ```
 sudo apt-get install -y chromium-browser
 ```
-![](img/apt-get/fig2.png?raw=true)
+![](../img/apt-get/fig2.png?raw=true)
 在上图中你可以看到，我的Ubuntu系统上已经安装好了Chromium浏览器．
 
 在你用apt-get install命令安装软件包之前，你需要知道这个软件包在软件仓库中的名称．这看起来有点麻烦．当你熟悉之后，你会感到非常方便．尤其是当你SSH远程管理Linux服务器的时候．
@@ -30,7 +30,7 @@ apt-get install 可以一次性安装多个软件包，比如
 ```
 sudo apt-get install wireshark nmap aircrack-ng
 ```
-![](img/apt-get/fig3.png?raw=true)
+![](../img/apt-get/fig3.png?raw=true)
 
 ### apt-get upgrade
 
@@ -38,7 +38,7 @@ apt-get upgrade命令用来升级系统上可以升级的软件包．
 ```
 sudo apt-get upgrade
 ```
-![](img/apt-get/fig4.png?raw=true)
+![](../img/apt-get/fig4.png?raw=true)
 
 ### apt-get remove
 
@@ -63,7 +63,7 @@ sudo apt-get purge firefox
 ```
 du -sh /var/cache/apt/archives
 ```
-![](img/apt-get/fig5.png?raw=true)
+![](../img/apt-get/fig5.png?raw=true)
 
 ### apt-get autoclean
 
@@ -77,7 +77,7 @@ apt-get autoclean也可以用来删除/var/cache/apt/archives目录下的deb安�
 
 这条命令可能会让很多人感到困惑．在Debian系统上，你用这条命令升级系统版本，比如从Debian 7升级到Debian 8．但是在Ubuntu系统上，这条命令只会升级Linux内核以及之前没有被升级的软件包．升级Ubuntu的版本你需要用到do-release-upgrade命令．
 
-![](img/apt-get/fig6.png?raw=true)
+![](../img/apt-get/fig6.png?raw=true)
 
 ## 附：手动安装Deb软件包
 
@@ -98,11 +98,8 @@ sudo apt-get install gdebi
 ```
 sudo gdebi <package.deb>
 ```
-![](img/apt-get/fig7.png?raw=true)
+![](../img/apt-get/fig7.png?raw=true)
 
 ## References
 
 1. [Debian & Ubuntu最实用的apt-get命令详解](https://www.linuxdashen.com/apt-get%E8%BD%AF%E4%BB%B6%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MzQ4MDA5Ml19
--->

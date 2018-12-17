@@ -28,11 +28,11 @@ Debian 作为 Ubuntu、Linux Mint 和 elementary OS 等 Linux 操作系统的母
 
 `apt` 具有更精减但足够的命令选项，而且参数选项的组织方式更为有效。除此之外，它默认启用的几个特性对最终用户也非常有帮助。例如，可以在使用 `apt` 命令安装或删除程序时看到进度条。
 
-![](img/apt-and-apt-get/fig1.jpg?raw=true)
+![](../img/apt-and-apt-get/fig1.jpg?raw=true)
 
 `apt` 还会在更新存储库数据库时提示用户可升级的软件包个数。
 
-![](img/apt-and-apt-get/fig2.jpg?raw=true)
+![](../img/apt-and-apt-get/fig2.jpg?raw=true)
 
 如果你使用 `apt` 的其它命令选项，也可以实现与使用 `apt-get` 时相同的操作。
 
@@ -81,7 +81,5 @@ Debian 作为 Ubuntu、Linux Mint 和 elementary OS 等 Linux 操作系统的母
 - `apt-get` 虽然没被弃用，但作为普通用户，还是应该首先使用 `apt`。
 
 ## References
+
 1. [Linux中apt与apt-get命令的区别与解释](https://www.sysgeek.cn/apt-vs-apt-get/)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTA5MzYxMTZdfQ==
--->
