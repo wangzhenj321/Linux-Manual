@@ -2,6 +2,10 @@
 
 Print selected parts of lines from each **FILE** to standard output.
 
+#### Synopsis
+
+- `cut OPTION... [FILE]...`
+
 #### Options
 
 - `-b` :star2:
