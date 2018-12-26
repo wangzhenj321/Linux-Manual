@@ -64,12 +64,33 @@
 
 #### Description
 
-Concatenate FILE(s) to standard output. With no FILE, or when FILE is `-`, read standard input.
+Concatenate FILE(s) to standard output.
 
 #### Options
 
-- `-b` number nonempty output lines, overrides `-n`
-- `-n` number all output lines
+- `-A`
+
+    equivalent to `-vET`
+
+- `-v`, `--show-nonprinting`
+
+    use ^ and M- notation, except for LFD and TAB
+
+- `-E`
+
+    display $ at end of each line
+
+- `-T`
+
+    display TAB characters as ^I
+
+- `-b`
+
+    number nonempty output lines, overrides `-n`
+
+- `-n`
+
+    number all output lines
 
 #### Examples
 
