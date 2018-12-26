@@ -4,13 +4,21 @@ Print selected parts of lines from each **FILE** to standard output.
 
 #### Options
 
-- `-b` select only these bytes
+- `-b`
 
-- `-c` select only these characters
+    select only these bytes
 
-- `-d` use DELIM instead of TAB for field delimiter
+- `-c`
 
-- `-f` select only these fields; also print any line that contains no delimiter character, unless the -s option is specified
+    select only these characters
+
+- `-d`
+
+    use DELIM instead of TAB for field delimiter
+
+- `-f`
+
+    select only these fields; **also print any line that contains no delimiter character**, unless the `-s` option is specified
 
 #### Examples
 
