@@ -1,7 +1,5 @@
 # Linux-Manual
 
-## Basic concepts
-
 ## Commands
 
 1. [add-apt-repository](./blog/add-apt-repository.md)
