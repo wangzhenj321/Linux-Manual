@@ -18,7 +18,7 @@ Print selected parts of lines from each **FILE** to standard output.
 
 - `-f`
 
-    select only these fields; **also print any line that contains no delimiter character**, unless the `-s` option is specified
+    select only these fields; **also print any line that contains no delimiter character, unless the `-s` option is specified**
 
 - `--complement`
 
