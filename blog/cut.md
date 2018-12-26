@@ -1,14 +1,16 @@
 #### Description
 
-concatenate files and print on the standard output
+Print selected parts of lines from each **FILE** to standard output.
 
 #### Options
 
-- `-c` 以字符为单位进行分割
+- `-b` select only these bytes
 
-- `-d` 自定义分隔符，默认为制表符（Tab）
+- `-c` select only these characters
 
-- `-f` 与`-d`一起使用，指定显示哪个区域
+- `-d` use DELIM instead of TAB for field delimiter
+
+- `-f` select only these fields; also print any line that contains no delimiter character, unless the -s option is specified
 
 #### Examples
 
