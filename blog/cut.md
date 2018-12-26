@@ -32,19 +32,19 @@ Print selected parts of lines from each **FILE** to standard output.
 
     use **STRING** as the output delimiter the default is to use the input delimiter
 
----
+    ---
 
-Use one, and only one of `-b`, `-c` or `-f`.  Each **LIST** is made up of one range, or many ranges separated by commas.  Selected input is written in the same order that it is read, and is written exactly once. Each range is one of:
+    Use one, and only one of `-b`, `-c` or `-f`.  Each **LIST** is made up of one range, or many ranges separated by commas.  Selected input is written in the same order that it is read, and is written exactly once. Each range is one of:
 
-- `N` N'th byte, character or field, counted from 1
+    - `N` N'th byte, character or field, counted from 1
 
-- `N-` from N'th byte, character or field, to end of line
+    - `N-` from N'th byte, character or field, to end of line
 
-- `N-M` from N'th to M'th (included) byte, character or field
+    - `N-M` from N'th to M'th (included) byte, character or field
 
-- `-M` from first to M'th (included) byte, character or field
+    - `-M` from first to M'th (included) byte, character or field
 
----
+    ---
 
 #### Examples
 
