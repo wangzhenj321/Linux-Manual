@@ -4,11 +4,11 @@ Print selected parts of lines from each **FILE** to standard output.
 
 #### Options
 
-- `-b`
+- `-b` :star2:
 
     select only these bytes
 
-- `-c`
+- `-c` :star2:
 
     select only these characters
 
@@ -16,7 +16,7 @@ Print selected parts of lines from each **FILE** to standard output.
 
     use DELIM instead of TAB for field delimiter
 
-- `-f`
+- `-f` :star2:
 
     select only these fields; **also print any line that contains no delimiter character, unless the `-s` option is specified**
 
