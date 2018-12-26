@@ -34,7 +34,7 @@ Print selected parts of lines from each **FILE** to standard output.
 
 ---
 
-Use one, and only one of `-b`, `-c` or `-f`.  Each **LIST** is made up of one range, or many ranges separated by commas.  Selected input is written in the same order that it is read, and is written exactly once. Each range is one of:
+Use one, and only one of `-b`, `-c` or `-f`.  Each **LIST** is made up of one range, or many ranges separated by commas.  **Selected input is written in the same order that it is read, and is written exactly once.** Each range is one of:
 
 - `N` N'th byte, character or field, counted from 1
 
