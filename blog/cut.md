@@ -1,6 +1,6 @@
 #### Description
 
-    Print selected parts of lines from each **FILE** to standard output.
+Print selected parts of lines from each **FILE** to standard output.
 
 #### Options
 
