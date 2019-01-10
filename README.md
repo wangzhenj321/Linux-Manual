@@ -68,6 +68,8 @@
 
 4. [vim plugins](./blog/vim-plugins.md)
 
+5. [Oh My Zsh](./blog/oh-my-zsh.md)
+
 ## Q & A
 
 1. [check hardware information](./blog/check-hardware-information.md)
