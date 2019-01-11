@@ -56,6 +56,10 @@ All plugins listed on the [plugins Github page](https://github.com/robbyrussell/
 
 - `z`: jump around
 
+    - Put something like this in your `$HOME/.bashrc` or `$HOME/.zshrc`: `. /path/to/z.sh`
+    
+    - `cd` around for a while to build up the db
+
 ## References
 
 1. [Oh-My-Zsh! A Work of CLI Magic — Tutorial for Ubuntu](https://medium.com/wearetheledger/oh-my-zsh-made-for-cli-lovers-installation-guide-3131ca5491fb)
