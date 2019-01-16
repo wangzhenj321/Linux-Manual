@@ -1,4 +1,35 @@
-***add-apt-repository***  is  a  script  which adds an external APT repository to either /etc/apt/sources.list or a file in /etc/apt/sources.list.d/ or removes an already existing repository.
+**Table of Contents**
+
+[Table of Contents]()
+
+[How to find and remove obsolete PPA repositories on Ubuntu]()
+
+
+## Table of Contents
+
+#### Description
+
+***add-apt-repository*** is a script which adds an external APT repository to either `/etc/apt/sources.list` or a file in `/etc/apt/sources.list.d/` or removes an already existing repository.
+
+#### Synopsis
+
+```
+add-apt-repository [OPTIONS] REPOSITORY
+```
+
+**REPOSITORY** can be either a line that can be added directly to `sources.list`, in the form `ppa:<user>/<ppa-name>` for adding Personal Package Archives, or a distribution component to enable.
+
+1. In the first form, **REPOSITORY** will just be appended to `/etc/apt/sources.list`.
+
+2. In the second form, `ppa:<user>/<ppa-name>`  will be expanded to the full deb line of the PPA and added into a new file in the `/etc/apt/sources.list.d/` directory. The GPG public key of the newly added PPA will also be downloaded and added to apt's keyring.
+
+3. In the third form, the given distribution component will be enabled for all sources.
+
+#### Options
+
+- `-r`
+
+    Remove the specified repository
 
 ## How to find and remove obsolete PPA repositories on Ubuntu
 
