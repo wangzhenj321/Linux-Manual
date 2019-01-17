@@ -92,7 +92,7 @@
 
 还记得每个使用者在他的`/etc/passwd`里面的第四栏有所谓的 GID 吧？那个 GID 就是所谓的『初始群组 (initial group) 』！也就是说，当用户一登陆系统，立刻就拥有这个群组的相关权限的意思。 举例来说，我们上面提到 dmtsai 这个使用者的`/etc/passwd`与`/etc/group`还有`/etc/gshadow`相关的内容如下：
 
-![](../../img/id/effective-group-initial-group.png?raw=true)
+![](../img/id/effective-group-initial-group.png?raw=true)
 
 仔细看到上面这个表格，在`/etc/passwd`里面，dmtsai 这个使用者所属的群组为 GID=504 ，搜寻一下`/etc/group`得到 504 是那个名为 dmtsai 的群组啦！这就是 initial group。**因为是初始群组， 使用者一登陆就会主动取得，不需要在 /etc/group 的第四个字段写入该账号的！**
 
@@ -104,7 +104,7 @@
 
 如果我以 dmtsai 这个使用者的身份登陆后，该如何知道我所有支持的群组呢？ 很简单啊，直接输入 groups 就可以了！注意喔，是 groups 有加 s 呢！结果像这样：
 
-![](../../img/id/groups.png?raw=true)
+![](../img/id/groups.png?raw=true)
 
 在这个输出的信息中，可知道 dmtsai 这个用户同时属于 dmtsai 及 users 这个两个群组，而且， 第一个输出的群组即为有效群组 (effective group) 了。 也就是说，我的有效群组为 dmtsai 啦～此时，如果我以 touch 去创建一个新档，例如： 『 touch test 』，那么这个文件的拥有者为 dmtsai ，而且群组也是 dmtsai 的啦。
 
