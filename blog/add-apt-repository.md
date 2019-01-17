@@ -9,7 +9,7 @@
 
 #### Description
 
-***add-apt-repository*** is a script which adds an external APT repository to either `/etc/apt/sources.list` or a file in `/etc/apt/sources.list.d/` or removes an already existing repository.
+`add-apt-repository` is a script which adds an external APT repository to either `/etc/apt/sources.list` or a file in `/etc/apt/sources.list.d/` or removes an already existing repository.
 
 #### Synopsis
 
