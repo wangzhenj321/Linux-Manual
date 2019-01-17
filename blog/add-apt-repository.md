@@ -1,8 +1,8 @@
 **Table of Contents**
 
-[Table of Contents]()
+[`add-apt-repository`](#add-apt-repository)
 
-[How to find and remove obsolete PPA repositories on Ubuntu]()
+[How to find and remove obsolete PPA repositories on Ubuntu](#how-to-find-and-remove-obsolete-ppa-repositories-on-ubuntu)
 
 
 ## `add-apt-repository`
