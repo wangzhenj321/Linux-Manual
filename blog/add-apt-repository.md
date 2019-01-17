@@ -5,7 +5,7 @@
 [How to find and remove obsolete PPA repositories on Ubuntu]()
 
 
-## Table of Contents
+## `add-apt-repository`
 
 #### Description
 
@@ -30,6 +30,7 @@ add-apt-repository [OPTIONS] REPOSITORY
 - `-r`
 
     Remove the specified repository
+
 
 ## How to find and remove obsolete PPA repositories on Ubuntu
 
