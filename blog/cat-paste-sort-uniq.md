@@ -105,12 +105,29 @@ Write sorted concatenation of all FILE(s) to standard output. With no FILE, or w
 
 #### Options
 
-- `-n` compare according to string numerical value
-- `-r` reverse the result of comparisons
-- `-k` sort via a key; **KEYDEF** gives location and type
-- `-o` write result to FILE instead of standard output
-- `-t` use SEP instead of non-blank to blank transition
-- `-u` with `-c`, check for strict ordering; without `-c`, output only the first of an equal run
+- `-n`
+
+    compare according to string numerical value
+
+- `-r`
+
+    reverse the result of comparisons
+
+- `-k`
+
+    sort via a key; **KEYDEF** gives location and type
+
+- `-o`
+
+    write result to FILE instead of standard output
+
+- `-t`
+
+    use SEP instead of non-blank to blank transition
+
+- `-u`
+
+    with `-c`, check for strict ordering; without `-c`, output only the first of an equal run
 
 > **KEYDEF** is `F[.C][OPTS][,F[.C][OPTS]]` for start and stop position, where F is a field number and C a character position in the field; both are origin 1, and **the stop position defaults to the line's end**. If neither `-t` nor `-b` is in effect, characters in a field are counted from the beginning of the preceding whitespace. OPTS is one or more single-letter ordering options `[bdfgiMhnRrV]`, which override global ordering options for that key. If no key is given, use the entire line as the key. Use `--debug` to diagnose incorrect key usage.
 
@@ -127,6 +144,14 @@ Filter **adjacent matching lines** from INPUT (or standard input), writing to OU
 
 #### Options
 
-- `-d` only print duplicate lines, one for each group
-- `-i` ignore differences in case when comparing
-- `-u` only print unique lines
+- `-d`
+
+    only print duplicate lines, one for each group
+
+- `-i`
+
+    ignore differences in case when comparing
+
+- `-u`
+
+    only print unique lines
