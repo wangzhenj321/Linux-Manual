@@ -1,6 +1,9 @@
 ## List of commands
 
-- `lscpu`
+### `lscpu`
+
+`lscpu` gathers CPU architecture information from **sysfs** and `/proc/cpuinfo`. The command output can be optimized for parsing or for easy readability by humans. The information includes, for example, the number of CPUs, threads, cores, sockets, and Non-Uniform Memory Access (NUMA) nodes. There is also information about the CPU caches and cache sharing, family, model, bogoMIPS, byte order, and stepping.
+
 - `lshw`
 - `hwinfo`
 - `lspci`
