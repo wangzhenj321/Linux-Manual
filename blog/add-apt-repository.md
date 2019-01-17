@@ -7,11 +7,11 @@
 
 ## `add-apt-repository`
 
-#### Description
+### Description
 
 `add-apt-repository` is a script which adds an external APT repository to either `/etc/apt/sources.list` or a file in `/etc/apt/sources.list.d/` or removes an already existing repository.
 
-#### Synopsis
+### Synopsis
 
 ```
 add-apt-repository [OPTIONS] REPOSITORY
@@ -29,7 +29,7 @@ add-apt-repository [OPTIONS] REPOSITORY
 
 3. In the third form, the given distribution component will be enabled for all sources.
 
-#### Options
+### Options
 
 - `-r`
 
@@ -48,7 +48,7 @@ add-apt-repository [OPTIONS] REPOSITORY
 
 When you attempt to update APT package indexes, "404 Not Found" errors can often happen after distro upgrade. That is, after you upgraded your Ubuntu release, some third-party PPA repositories which you added on the old release are no longer supported on the upgraded release. In that case, you can ***identify and purge those broken PPA repositories as follows.***
 
-#### Step 1: Find out the PPAs which cause "404 Not Found" failures.
+### Step 1: Find out the PPAs which cause "404 Not Found" failures.
 
 ```
 sudo apt-get update | grep "Failed"
@@ -58,7 +58,7 @@ sudo apt-get update | grep "Failed"
 
 In this example, the PPA repository which is no longer supported in Ubuntu Trusty is "ppa:finalterm/daily".
 
-#### Step 2: Go ahead and remove the PPA repository.
+### Step 2: Go ahead and remove the PPA repository.
 
 ```
 sudo add-apt-repository --remove ppa:finalterm/daily
