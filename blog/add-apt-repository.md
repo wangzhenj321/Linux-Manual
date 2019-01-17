@@ -21,7 +21,11 @@ add-apt-repository [OPTIONS] REPOSITORY
 
 1. In the first form, **REPOSITORY** will just be appended to `/etc/apt/sources.list`.
 
+    ![](../img/add-apt-repository/sources_list.png?raw=true)
+
 2. In the second form, `ppa:<user>/<ppa-name>`  will be expanded to the full deb line of the PPA and added into a new file in the `/etc/apt/sources.list.d/` directory. The GPG public key of the newly added PPA will also be downloaded and added to apt's keyring.
+
+    ![](../img/add-apt-repository/sources_list_d.png?raw=true)
 
 3. In the third form, the given distribution component will be enabled for all sources.
 
