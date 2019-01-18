@@ -138,7 +138,7 @@ Write sorted concatenation of all FILE(s) to standard output. With no FILE, or w
 
 #### Description
 
-Filter **adjacent matching lines** from INPUT (or standard input), writing to OUTPUT (or standard output). With no options, matching lines are merged to the first occurrence.
+Filter **adjacent matching lines** from INPUT (or standard input), writing to OUTPUT (or standard output). **With no options, matching lines are merged to the first occurrence.**
 
 > **Note:** `uniq` does not detect repeated lines unless they are adjacent. You may want to sort the input first, or use `sort -u` without `uniq`.
 
