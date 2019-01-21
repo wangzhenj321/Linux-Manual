@@ -86,6 +86,22 @@ Uses information in sysfs (Linux kernel series 2.6 and later) to list SCSI devic
 
 `lsusb` is a utility for displaying information about USB buses in the system and the devices connected to them.
 
+#### `lsusb`
+
+![](../img/check-hardware-information/lsusb.png?raw=true)
+
+#### `lsusb -t`
+
+![](../img/check-hardware-information/lsusb_t.png?raw=true)
+
+#### `lsusb -v`
+
+![](../img/check-hardware-information/lsusb_v.png?raw=true)
+
+#### `tree /dev/bus/usb`
+
+![](../img/check-hardware-information/tree_dev_bus_usb.png?raw=true)
+
 ### `inxi`
 
 ### `lsblk`
