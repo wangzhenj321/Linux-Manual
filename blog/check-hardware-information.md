@@ -1,3 +1,41 @@
+**Table of Contents**
+
+[List of commands](#list-of-commands)
+
+- [`lscpu`](#lscpu)
+
+- [`lshw`](#lshw)
+
+- [`hwinfo`](#hwinfo)
+
+- [`lspci`](#lspci)
+
+- [`lsscsi`](#lsscsi)
+
+- [`lsusb`](#lsusb)
+
+- [`inxi`](#inxi)
+
+- [`lsblk`](#lsblk)
+
+- [`df`](#df)
+
+- [`Pydf`](#Pydf)
+
+- [`fdisk`](#fdisk)
+
+- [`mount`](#mount)
+
+- [`free`](#free)
+
+- [`dmidecode`](#dmidecode)
+
+- [`/proc` files](#proc-files)
+
+- [`hdparm`](#hdparm)
+
+[References](#references)
+
 ## List of commands
 
 ### `lscpu`
@@ -55,7 +93,7 @@ Uses information in sysfs (Linux kernel series 2.6 and later) to list SCSI devic
 `lsblk` lists information about all available or the specified block devices. The lsblk command reads the **sysfs** filesystem and **udev db** to gather information. The command prints all block devices (except RAM disks) in a tree-like format by default.
 
 ### `df`
-
+`free`
 `df` displays the amount of disk space available on the file system containing each file name argument. If no file name is given, the space available on all currently mounted file systems is shown. Disk space is shown in 1K blocks by default, unless the environment variable POSIXLY_CORRECT is set, in which case 512-byte blocks are used.
 
 ### `Pydf`
