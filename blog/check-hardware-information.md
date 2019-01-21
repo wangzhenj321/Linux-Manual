@@ -103,6 +103,24 @@ Uses information in sysfs (Linux kernel series 2.6 and later) to list SCSI devic
 
 `fdisk` is a dialog-driven program for creation and manipulation of partition tables. It understands GPT, MBR, Sun, SGI and BSD partition tables.
 
+![](../img/check-hardware-information/fdisk_list.png?raw=true)
+
+---
+
+**an overview of 4K native, 512 native, 512 emulated and an explanation of Advanced Format**
+
+| Format type |	Logical bytes per sector | Physical bytes per sector |
+| --- | --- | --- |
+| 4K native (4Kn) |	4096 | 4096 |
+| 512 native (512n) |	512 |	512 |
+| 512 emulated (512e) |	512 |	4096 |
+
+> **512 emulated (512e)** is a drive that physically has sector sizes of 4096 bytes. This is a 4K drive. The purpose of emulating 512 bytes (512e) is for the new devices to be used with Operating Systems that do not support 4K native sectors yet. The drive transparently maps 512-byte logical blocks into the drive's 4K physical sectors. 
+
+> **Advanced format** is a term for the industry standard increasing the physical sector size from 512 bytes to a more efficient 4096 (4K) byte sector size. An advanced format drive is 4K. 
+
+---
+
 ### `mount`
 
 All files accessible in a Unix system are arranged in one big tree, the file hierarchy, rooted at **/**.  These files can be spread out over several devices. The `mount` command serves to attach the filesystem found on some device to the big file tree.
