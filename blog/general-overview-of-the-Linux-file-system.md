@@ -1,26 +1,26 @@
 **Table of Contents**
 
-[1. Files]()
+[1. Files](#1-files)
 
-- [1.1 General]()
+- [1.1 General](#11-general)
 
-- [1.2 Sorts of files]()
+- [1.2 Sorts of files](#12-sorts-of-files)
 
-[2. About partitioning]()
+[2. About partitioning](#2-about-partitioning)
 
-- [2.1 Why partition?]()
+- [2.1 Why partition?](#21-why-partition)
 
-- [2.2 Partition layout and types]()
+- [2.2 Partition layout and types](#22-partition-layout-and-types)
 
-- [2.3 Mount points]()
+- [2.3 Mount points](#23-mount-points)
 
-[3. More file system layout]()
+[3. More file system layout](#3-more-file-system-layout)
 
-- [3.1 Visual]()
+- [3.1 Visual](#31-visual)
 
-- [3.2 The file system in reality]()
+- [3.2 The file system in reality](#32-the-file-system-in-reality)
 
-[References]()
+[References](#references)
 
 
 ## 1. Files
@@ -29,7 +29,7 @@
 
 ### 1.2 Sorts of files
 
-| **Symbol** | **Meaning** |
+| Symbol | Meaning |
 | --- | --- |
 | -	| Regular file |
 | d	| Directory |
