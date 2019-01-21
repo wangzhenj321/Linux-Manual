@@ -77,3 +77,5 @@
 2. [serial communication](./blog/serial-communication.md)
 
 3. [update alternatives](./blog/update-alternatives.md)
+
+4. [general overview of the Linux file system](./blog/general-overview-of-the-Linux-file-system.md)
