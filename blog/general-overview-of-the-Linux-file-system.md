@@ -27,6 +27,14 @@
 
 ### 1.1 General
 
+A simple description of the UNIX system, also applicable to Linux, is this:
+
+**"On a UNIX system, everything is a file; if something is not a file, it is a process."**
+
+This statement is true because there are special files that are more than just files (named pipes and sockets, for instance), but to keep things simple, saying that everything is a file is an acceptable generalization. A Linux system, just like UNIX, makes no difference between a file and a directory, since a directory is just a file containing names of other files. Programs, services, texts, images, and so forth, are all files. Input and output devices, and generally all devices, are considered to be files, according to the system.
+
+In order to manage all those files in an orderly fashion, man likes to think of them in an ordered tree-like structure on the hard disk, as we know from MS-DOS (Disk Operating System) for instance. The large branches contain more branches, and the branches at the end contain the tree's leaves or normal files. For now we will use this image of the tree, but we will find out later why this is not a fully accurate image.
+
 ### 1.2 Sorts of files
 
 | Symbol | Meaning |
