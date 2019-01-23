@@ -51,6 +51,8 @@ While it is reasonably safe to suppose that everything you encounter on a Linux 
 
 - **Named pipes**: act more or less like sockets and form a way for processes to communicate with each other, without using network socket semantics.
 
+This table gives an overview of the characters determining the file type:
+
 | Symbol | Meaning |
 | --- | --- |
 | -	| Regular file |
