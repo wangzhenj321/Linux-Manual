@@ -37,6 +37,20 @@ In order to manage all those files in an orderly fashion, man likes to think of 
 
 ### 1.2 Sorts of files
 
+Most files are just files, called **regular** files; they contain normal data, for example text files, executable files or programs, input for or output from a program and so on.
+
+While it is reasonably safe to suppose that everything you encounter on a Linux system is a file, there are some exceptions.
+
+- **Directories**: files that are lists of other files.
+
+- **Special files**: the mechanism used for input and output. Most special files are in /dev, we will discuss them later.
+
+- **Links**: a system to make a file or directory visible in multiple parts of the system's file tree. We will talk about links in detail.
+
+- **(Domain) sockets**: a special file type, similar to TCP/IP sockets, providing inter-process networking protected by the file system's access control.
+
+- **Named pipes**: act more or less like sockets and form a way for processes to communicate with each other, without using network socket semantics.
+
 | Symbol | Meaning |
 | --- | --- |
 | -	| Regular file |
