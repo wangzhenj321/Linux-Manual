@@ -60,6 +60,14 @@ All plugins listed on the [plugins Github page](https://github.com/robbyrussell/
     
     - `cd` around for a while to build up the db
 
+## Update
+
+Get oh-my-zsh updates with running this command:
+
+```
+upgrade_oh_my_zsh
+```
+
 ## References
 
 1. [Oh-My-Zsh! A Work of CLI Magic — Tutorial for Ubuntu](https://medium.com/wearetheledger/oh-my-zsh-made-for-cli-lovers-installation-guide-3131ca5491fb)
