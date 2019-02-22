@@ -1,3 +1,5 @@
+# For Ubuntu 16.04
+
 ## Introduction
 
 **Oh My Zsh** is a delightful, open source, community-driven framework for managing your `Zsh` configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and a few things that make you shout “Oh My ZSH!”
@@ -42,23 +44,27 @@ All plugins listed on the [plugins Github page](https://github.com/robbyrussell/
 
 **Popular plugins:**
 
-- `git`: adds many useful aliases and functions for using `git`
+1. Pre-installed plugins
 
-- `colored-man-pages`: gives color highlighting to your `man` pages
+    - `git`: adds many useful aliases and functions for using `git`
 
-- `zsh-syntax-highlighting`: syntax highlighting
+    - `colored-man-pages`: gives color highlighting to your `man` pages
 
-- `zsh-autosuggestions`: command completion
+    - `extract`: extracts the archive file of a wide variety of archive filetypes
 
-- `git-open`: opens the repo website (GitHub, GitLab, Bitbucket) in your browser
+    - `z`: jump around
 
-- `extract`: extracts the archive file of a wide variety of archive filetypes
+        - Put something like this `. /path/to/z.sh` in your `$HOME/.bashrc` or `$HOME/.zshrc`
 
-- `z`: jump around
+        - `cd` around for a while to build up the db
 
-    - Put something like this in your `$HOME/.bashrc` or `$HOME/.zshrc`: `. /path/to/z.sh`
-    
-    - `cd` around for a while to build up the db
+2. Custom plugins
+
+    - `zsh-syntax-highlighting`: syntax highlighting
+
+    - `zsh-autosuggestions`: command completion
+
+    - `git-open`: opens the repo website (GitHub, GitLab, Bitbucket) in your browser
 
 ## Update
 
@@ -73,3 +79,17 @@ upgrade_oh_my_zsh
 1. [Oh-My-Zsh! A Work of CLI Magic — Tutorial for Ubuntu](https://medium.com/wearetheledger/oh-my-zsh-made-for-cli-lovers-installation-guide-3131ca5491fb)
 
 2. [oh-my-zsh 插件](https://hufangyun.com/2017/zsh-plugin/)
+
+# For MacOS
+
+The installation for MacOS is almost same as Ubuntu 16.04, but the following exceptions should be handled.
+
+1. Install and use iTerm2 instead of Mac's terminal.
+
+2. Install [powerline fonts](https://github.com/powerline/fonts) and set font of iTerm2 to one type of powerline fonts.
+
+    ![](../img/oh-my-zsh/set_powerline_font.png?raw=true)
+
+3. Download [iTerm2 color schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) and set color of iTerm2 to **Dracula**.
+
+    ![](../img/oh-my-zsh/set_Dracula_color_scheme.png?raw=true)
