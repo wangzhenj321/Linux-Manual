@@ -86,10 +86,10 @@ The installation for MacOS is almost same as Ubuntu 16.04, but the following exc
 
 1. Install and use [iTerm2](https://www.iterm2.com/) instead of Mac's terminal.
 
-2. Install [powerline fonts](https://github.com/powerline/fonts) and set font of iTerm2 to one type of powerline fonts (Preferences).
+2. Install [powerline fonts](https://github.com/powerline/fonts) and set font of iTerm2 to one type of powerline fonts (Preferences -> Profiles -> Text -> Font & Non-ASCII Font).
 
     ![](../img/oh-my-zsh/set_powerline_font.png?raw=true)
 
-3. Download [iTerm2 color schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) and set color of iTerm2 to **Dracula**.
+3. Download [iTerm2 color schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) and set color of iTerm2 to **Dracula** (Preferences -> Profiles -> Colors -> Color Presets -> Import **Dracula** -> reopen Color Presets to select **Dracula**).
 
     ![](../img/oh-my-zsh/set_Dracula_color_scheme.png?raw=true)
