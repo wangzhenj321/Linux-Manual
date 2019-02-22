@@ -82,6 +82,8 @@ upgrade_oh_my_zsh
 
 # For MacOS
 
+![](../img/oh-my-zsh/zsh_on_mac.png?raw=true)
+
 The installation for MacOS is almost same as Ubuntu 16.04, but the following exceptions should be handled.
 
 1. Install and use [iTerm2](https://www.iterm2.com/) instead of Mac's terminal.
