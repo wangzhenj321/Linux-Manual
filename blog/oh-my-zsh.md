@@ -84,9 +84,9 @@ upgrade_oh_my_zsh
 
 The installation for MacOS is almost same as Ubuntu 16.04, but the following exceptions should be handled.
 
-1. Install and use iTerm2 instead of Mac's terminal.
+1. Install and use [iTerm2](https://www.iterm2.com/) instead of Mac's terminal.
 
-2. Install [powerline fonts](https://github.com/powerline/fonts) and set font of iTerm2 to one type of powerline fonts.
+2. Install [powerline fonts](https://github.com/powerline/fonts) and set font of iTerm2 to one type of powerline fonts (Preferences).
 
     ![](../img/oh-my-zsh/set_powerline_font.png?raw=true)
 
