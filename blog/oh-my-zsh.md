@@ -1,5 +1,7 @@
 # For Ubuntu 16.04
 
+![](../img/oh-my-zsh/zsh_on_ubuntu.png?raw=true)
+
 ## Introduction
 
 **Oh My Zsh** is a delightful, open source, community-driven framework for managing your `Zsh` configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and a few things that make you shout “Oh My ZSH!”
