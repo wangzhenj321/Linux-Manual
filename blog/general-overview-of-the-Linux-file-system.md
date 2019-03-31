@@ -115,3 +115,5 @@ The tree of the file system starts at the trunk or slash, indicated by a forward
 ## 4. References
 
 1. [General overview of the Linux file system](https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html)
+
+2. [Filesystem Hierarchy Standard](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
