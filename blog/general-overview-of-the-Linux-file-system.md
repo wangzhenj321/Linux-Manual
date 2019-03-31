@@ -20,7 +20,7 @@
 
 - [3.2 The file system in reality](#32-the-file-system-in-reality)
 
-[References](#references)
+[4. References](#4-references)
 
 
 ## 1. Files
@@ -106,6 +106,6 @@ Mind that having a journaled file system only provides data security in case of 
 
 ### 3.2 The file system in reality
 
-## References
+## 4. References
 
 1. [General overview of the Linux file system](https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html)
