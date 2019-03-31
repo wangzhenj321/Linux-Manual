@@ -83,7 +83,7 @@ Mind that having a journaled file system only provides data security in case of 
 
 ### 3.1 Visual
 
-<img src="../img/linux_file_system_layout.png">
+<img src="../img/general-overview-of-the-Linux-file-system/linux_file_system_layout.png">
 
 | Directory | Content |
 | --- | --- |
