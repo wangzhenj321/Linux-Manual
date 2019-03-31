@@ -83,6 +83,8 @@ Mind that having a journaled file system only provides data security in case of 
 
 ### 3.1 Visual
 
+<img src="../img/linux_file_system_layout.png">
+
 | Directory | Content |
 | --- | --- |
 | /bin | Common programs, shared by the system, the system administrator and the users. |
