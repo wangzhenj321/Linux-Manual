@@ -83,7 +83,11 @@ Mind that having a journaled file system only provides data security in case of 
 
 ### 3.1 Visual
 
+For convenience, the Linux file system is usually thought of in a tree structure. On a standard Linux system you will find the layout generally follows the scheme presented below.
+
 <img src="../img/general-overview-of-the-Linux-file-system/linux_file_system_layout.png">
+
+The tree of the file system starts at the trunk or slash, indicated by a forward slash (`/`). This directory, containing all underlying directories and files, is also called the root directory or "the root" of the file system.
 
 | Directory | Content |
 | --- | --- |
