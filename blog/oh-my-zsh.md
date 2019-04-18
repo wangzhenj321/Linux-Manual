@@ -76,6 +76,14 @@ Get oh-my-zsh updates with running this command:
 upgrade_oh_my_zsh
 ```
 
+> Since the changes have been made to the file `~/.oh-my-zsh/themes/agnoster.zsh-theme` to improve the zsh prompt, with this way to update it will always redirect to a new temporary branch and show the merge conflict while rebasing. I don't know how to smoothly and succussfully to fix this merge conflict. As for me, it's better to do update manually as follows:
+> 
+> ```
+> cd ~/.oh-my-zsh/
+> git fetch origin
+> git merge origin/master # manually fix merge conflict
+> ```
+
 ## References
 
 1. [Oh-My-Zsh! A Work of CLI Magic — Tutorial for Ubuntu](https://medium.com/wearetheledger/oh-my-zsh-made-for-cli-lovers-installation-guide-3131ca5491fb)
