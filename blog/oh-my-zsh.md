@@ -86,7 +86,7 @@ upgrade_oh_my_zsh
 
 ## Q & A
 
-### `conda init` after installed Anaconda or Miniconda**
+### `conda init` after installed Anaconda or Miniconda
 
 Since I didn't set `zsh` as the default shell, when install the Anaconda or Miniconda, the shell block shown as follows, which is automatically created by the installer for `conda init`, will be written into the configuration file of other shells, for example `~/.bashrc`. This shell block should also be copied to `.zshrc` to avoid any problems of using `conda`.
 
