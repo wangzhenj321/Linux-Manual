@@ -39,29 +39,6 @@
     ```
     
     Now we can change the "Main prompt". We don’t need to **prompt_context** in the function `build_prompt()`. Just comment out this line or remove it. At last, change the `PROMPT` variable to `$(build_prompt)`. To actually see the theme, you have to source your .zshrc file like this: `source ~/.zshrc`. And it seems the `zsh` will become the default shell.
-    
-    > **`conda init` after installed Anaconda or Miniconda**
-    > 
-    > Since I didn't set `zsh` as the default shell, when install the Anaconda or Miniconda, the shell block shown as follows, which is automatically created by the installer for `conda init`, will be written into the configuration file of other shells, for example `~/.bashrc`. This shell block should also be copied to `.zshrc` to avoid any problems of using `conda`.
-    > 
-    > ```bash
-    > # added by Miniconda3 4.5.12 installer
-    > # >>> conda init >>>
-    > # !! Contents within this block are managed by 'conda init' !!
-    > __conda_setup="$(CONDA_REPORT_ERRORS=false '/home/wang/miniconda3/bin/conda' shell.bash hook 2> /dev/null)"
-    > if [ $? -eq 0 ]; then
-    >     \eval "$__conda_setup"
-    > else
-    >     if [ -f "/home/wang/miniconda3/etc/profile.d/conda.sh" ]; then
-    >         . "/home/wang/miniconda3/etc/profile.d/conda.sh"
-    >         CONDA_CHANGEPS1=false conda activate base
-    >     else
-    >         \export PATH="/home/wang/miniconda3/bin:$PATH"
-    >     fi
-    > fi
-    > unset __conda_setup
-    > # <<< conda init <<<
-    > ```
 
 ## Plugins
 
@@ -106,6 +83,31 @@ upgrade_oh_my_zsh
 > git fetch origin
 > git merge origin/master # manually fix merge conflict
 > ```
+
+## Q & A
+
+### `conda init` after installed Anaconda or Miniconda**
+
+Since I didn't set `zsh` as the default shell, when install the Anaconda or Miniconda, the shell block shown as follows, which is automatically created by the installer for `conda init`, will be written into the configuration file of other shells, for example `~/.bashrc`. This shell block should also be copied to `.zshrc` to avoid any problems of using `conda`.
+
+```bash
+# added by Miniconda3 4.5.12 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/home/wang/miniconda3/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/home/wang/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/wang/miniconda3/etc/profile.d/conda.sh"
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/home/wang/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda init <<<
+```
 
 ## References
 
