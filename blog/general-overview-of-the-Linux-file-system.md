@@ -100,7 +100,8 @@ The tree of the file system starts at the trunk or slash, indicated by a forward
 | /lib | Library files, includes files for all kinds of programs needed by the system and the users. |
 | /lost+found | Every partition has a lost+found in its upper directory. Files that were saved during failures are here. |
 | /misc | For miscellaneous purposes. |
-| /mnt | Standard mount point for external file systems, e.g. a CD-ROM or a digital camera. |
+| /media | Mount point for removable media. In other words, where system mounts removable media. This directory contains sub-directories used for mounting removable media such as CD-ROMs, floppy disks, etc. |
+| /mnt | For temporary mounting. In other words, where user can mount things. This directory is generally used for mounting filessytems temporarily when needed. |
 | /net | Standard mount point for entire remote file systems |
 | /opt | Typically contains extra and third party software. |
 | /proc | A virtual file system containing information about system resources. More information about the meaning of the files in proc is obtained by entering the command man proc in a terminal window. The file proc.txt discusses the virtual file system in detail. |
