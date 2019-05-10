@@ -107,9 +107,20 @@ The tree of the file system starts at the trunk or slash, indicated by a forward
 | /proc | A virtual file system containing information about system resources. More information about the meaning of the files in proc is obtained by entering the command man proc in a terminal window. The file proc.txt discusses the virtual file system in detail. |
 | /root | The administrative user's home directory. Mind the difference between /, the root directory and /root, the home directory of the root user. |
 | /sbin | Programs for use by the system and the system administrator. |
+| /srv | Site-specific data served by this system, such as data and scripts for web servers, data offered by FTP servers, and repositories for version control systems. |
 | /tmp | Temporary space for use by the system, cleaned upon reboot, so don't use this for saving any work! |
 | /usr | Programs, libraries, documentation etc. for all user-related programs. |
 | /var | Storage for all variable files and temporary files created by users, such as log files, the mail queue, the print spooler area, space for temporary storage of files downloaded from the Internet, or to keep an image of a CD before burning it. |
+
+**/usr**
+
+| Directory |	Content |
+| --- | --- |
+| /usr/bin | Contains binary files for user programs. If you can’t find a user binary under /bin, look under /usr/bin. For example: at, awk, cc, less, scp |
+| /usr/sbin | Contains binary files for system administrators. If you can’t find a system binary under /sbin, look under /usr/sbin. For example: atd, cron, sshd, useradd, userdel |
+| /usr/lib | Contains libraries for /usr/bin and /usr/sbin |
+| /usr/local | Contains users programs that you install from source. For example, when you install apache from source, it goes under /usr/local/apache2 |
+| /usr/src | Holds the Linux kernel sources, header-files and documentation. |
 
 ### 3.2. The file system in reality
 
