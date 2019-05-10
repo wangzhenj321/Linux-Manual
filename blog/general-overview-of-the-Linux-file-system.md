@@ -2,30 +2,30 @@
 
 [1. Files](#1-files)
 
-- [1.1 General](#11-general)
+- [1.1. General](#11-general)
 
-- [1.2 Sorts of files](#12-sorts-of-files)
+- [1.2. Sorts of files](#12-sorts-of-files)
 
 [2. About partitioning](#2-about-partitioning)
 
-- [2.1 Why partition?](#21-why-partition)
+- [2.1. Why partition?](#21-why-partition)
 
-- [2.2 Partition layout and types](#22-partition-layout-and-types)
+- [2.2. Partition layout and types](#22-partition-layout-and-types)
 
-- [2.3 Mount points](#23-mount-points)
+- [2.3. Mount points](#23-mount-points)
 
 [3. More file system layout](#3-more-file-system-layout)
 
-- [3.1 Visual](#31-visual)
+- [3.1. Visual](#31-visual)
 
-- [3.2 The file system in reality](#32-the-file-system-in-reality)
+- [3.2. The file system in reality](#32-the-file-system-in-reality)
 
 [4. References](#4-references)
 
 
 ## 1. Files
 
-### 1.1 General
+### 1.1. General
 
 A simple description of the UNIX system, also applicable to Linux, is this:
 
@@ -35,7 +35,7 @@ This statement is true because there are special files that are more than just f
 
 In order to manage all those files in an orderly fashion, man likes to think of them in an ordered tree-like structure on the hard disk, as we know from MS-DOS (Disk Operating System) for instance. The large branches contain more branches, and the branches at the end contain the tree's leaves or normal files. For now we will use this image of the tree, but we will find out later why this is not a fully accurate image.
 
-### 1.2 Sorts of files
+### 1.2. Sorts of files
 
 Most files are just files, called **regular** files; they contain normal data, for example text files, executable files or programs, input for or output from a program and so on.
 
@@ -65,7 +65,7 @@ This table gives an overview of the characters determining the file type:
 
 ## 2. About partitioning
 
-### 2.1 Why partition?
+### 2.1. Why partition?
 
 Most people have a vague knowledge of what partitions are, since every operating system has the ability to create or remove them. It may seem strange that Linux uses more than one partition on the same disk, even when using the standard installation procedure, so some explanation is called for.
 
@@ -75,13 +75,13 @@ This principle dates from the days when Linux didn't have journaled file systems
 
 Mind that having a journaled file system only provides data security in case of power failure and sudden disconnection of storage devices. This does not protect your data against bad blocks and logical errors in the file system. In those cases, you should use a RAID (Redundant Array of Inexpensive Disks) solution.
 
-### 2.2 Partition layout and types
+### 2.2. Partition layout and types
 
-### 2.3 Mount points
+### 2.3. Mount points
 
 ## 3. More file system layout
 
-### 3.1 Visual
+### 3.1. Visual
 
 For convenience, the Linux file system is usually thought of in a tree structure. On a standard Linux system you will find the layout generally follows the scheme presented below.
 
@@ -111,7 +111,7 @@ The tree of the file system starts at the trunk or slash, indicated by a forward
 | /usr | Programs, libraries, documentation etc. for all user-related programs. |
 | /var | Storage for all variable files and temporary files created by users, such as log files, the mail queue, the print spooler area, space for temporary storage of files downloaded from the Internet, or to keep an image of a CD before burning it. |
 
-### 3.2 The file system in reality
+### 3.2. The file system in reality
 
 ## 4. References
 
