@@ -18,49 +18,53 @@
 
 8. [diff](./blog/diff.md)
 
-9. [eval](./blog/eval.md)
+9. [dmesg](./blog/dmesg.md)
 
-10. [file](./blog/file.md)
+10. [eval](./blog/eval.md)
 
-11. [ftp](./blog/ftp.md)
+11. [file](./blog/file.md)
 
-12. [grep](./blog/grep.md)
+12. [ftp](./blog/ftp.md)
 
-13. [id](./blog/id.md)
+13. [grep](./blog/grep.md)
 
-14. [initd & rcd & init](./blog/initd-rcd-init.md)
+14. [id](./blog/id.md)
 
-15. [ldconfig](./blog/ldconfig.md)
+15. [initd & rcd & init](./blog/initd-rcd-init.md)
 
-16. [netstat](./blog/netstat.md)
+16. [ldconfig](./blog/ldconfig.md)
 
-17. [nl](./blog/nl.md)
+17. [man](./blog/man.md)
 
-18. [notify-send](./blog/notify-send.md)
+18. [netstat](./blog/netstat.md)
 
-19. [ps](./blog/ps.md)
+19. [nl](./blog/nl.md)
 
-20. [sed](./blog/sed.md)
+20. [notify-send](./blog/notify-send.md)
 
-21. [ssh](./blog/ssh.md)
+21. [ps](./blog/ps.md)
 
-22. [systemctl](./blog/systemctl.md)
+22. [sed](./blog/sed.md)
 
-23. [systemd](./blog/systemd.md)
+23. [ssh](./blog/ssh.md)
 
-24. [tar](./blog/tar.md)
+24. [systemctl](./blog/systemctl.md)
 
-25. [telnet](./blog/telnet.md)
+25. [systemd](./blog/systemd.md)
 
-26. [uname](./blog/uname.md)
+26. [tar](./blog/tar.md)
 
-27. [updatedb](./blog/updatedb.md)
+27. [telnet](./blog/telnet.md)
 
-28. [vi](./blog/vi.md)
+28. [uname](./blog/uname.md)
 
-29. [wc](./blog/wc.md)
+29. [updatedb](./blog/updatedb.md)
 
-30. [which & whereis & locate & find](./blog/which-whereis-locate-find.md)
+30. [vi](./blog/vi.md)
+
+31. [wc](./blog/wc.md)
+
+32. [which & whereis & locate & find](./blog/which-whereis-locate-find.md)
 
 ## Tools
 
