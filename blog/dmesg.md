@@ -16,4 +16,4 @@
 
     > Be aware that the timestamp could be inaccurate! The time source used for the logs is not updated after system SUSPEND/RESUME.
 
-    <img src="../img/dmesg/dmesg_T.png" width="70%">
+    <img src="../img/dmesg/dmesg_T.png" width="100%">
