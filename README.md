@@ -28,35 +28,39 @@
 
 13. [id](./blog/id.md)
 
-14. [ldconfig](./blog/ldconfig.md)
+14. [initd & rcd & init](./blog/initd-rcd-init.md)
 
-15. [netstat](./blog/netstat.md)
+15. [ldconfig](./blog/ldconfig.md)
 
-16. [nl](./blog/nl.md)
+16. [netstat](./blog/netstat.md)
 
-17. [ps](./blog/ps.md)
+17. [nl](./blog/nl.md)
 
-18. [sed](./blog/sed.md)
+18. [notify-send](./blog/notify-send.md)
 
-19. [ssh](./blog/ssh.md)
+19. [ps](./blog/ps.md)
 
-20. [systemctl](./blog/systemctl.md)
+20. [sed](./blog/sed.md)
 
-21. [systemd](./blog/systemd.md)
+21. [ssh](./blog/ssh.md)
 
-22. [tar](./blog/tar.md)
+22. [systemctl](./blog/systemctl.md)
 
-23. [telnet](./blog/telnet.md)
+23. [systemd](./blog/systemd.md)
 
-24. [uname](./blog/uname.md)
+24. [tar](./blog/tar.md)
 
-25. [updatedb](./blog/updatedb.md)
+25. [telnet](./blog/telnet.md)
 
-26. [vi](./blog/vi.md)
+26. [uname](./blog/uname.md)
 
-27. [wc](./blog/wc.md)
+27. [updatedb](./blog/updatedb.md)
 
-28. [which & whereis & locate & find](./blog/which-whereis-locate-find.md)
+28. [vi](./blog/vi.md)
+
+29. [wc](./blog/wc.md)
+
+30. [which & whereis & locate & find](./blog/which-whereis-locate-find.md)
 
 ## Tools
 
