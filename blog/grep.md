@@ -11,8 +11,14 @@
 
 #### Options
 
-- `-i` ignore case distinctions 忽略字符大小写的差别
-- `-v` select non-matching lines 显示不包含匹配文本的所有行
-- `-c` print only a count of matching lines per FILE 计算符合样式的行数
-- `-n` print line number with output lines 在显示符合样式的那一行之前，标示出该行的行号
-- `--color` Mark up the matching text with the expression stored in GREP_COLOR environment variable.
+- `-i, --ignore-case`
+    Ignore case distinctions in both the PATTERN and the input files.
+
+- `--v, --invert-match`
+    Invert the sense of matching, to select non-matching lines.
+
+- `-c, --count`
+    uppress  normal output; instead print a count of matching lines for each input file. With the `-v, --invert-match` option (see below), count non-matching lines.
+
+- `-n, --line-number`
+    Prefix each line of output with the 1-based line number within its input file.
