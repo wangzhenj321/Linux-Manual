@@ -12,13 +12,17 @@
 #### Options
 
 - `-i, --ignore-case`
+
     Ignore case distinctions in both the PATTERN and the input files.
 
 - `--v, --invert-match`
+
     Invert the sense of matching, to select non-matching lines.
 
 - `-c, --count`
-    uppress  normal output; instead print a count of matching lines for each input file. With the `-v, --invert-match` option (see below), count non-matching lines.
+
+    Suppress  normal output; instead print a count of matching lines for each input file. With the `-v, --invert-match` option (see below), count non-matching lines.
 
 - `-n, --line-number`
+
     Prefix each line of output with the 1-based line number within its input file.
