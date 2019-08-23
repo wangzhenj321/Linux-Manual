@@ -37,7 +37,7 @@ Print network connections, routing tables, interface statistics, masquerade conn
 
     Display a table of all network interfaces.
     
-    <img src="../img/netstat/netstat_i.png" width="100%">
+    <img src="../img/netstat/netstat_i.png" width="70%">
 
 - `-n`
 
