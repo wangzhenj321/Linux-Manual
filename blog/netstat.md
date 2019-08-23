@@ -36,6 +36,8 @@ Print network connections, routing tables, interface statistics, masquerade conn
 - `--interfaces, -i`
 
     Display a table of all network interfaces.
+    
+    <img src="../img/netstat/netstat_i.png" width="100%">
 
 - `-n`
 
