@@ -26,4 +26,4 @@ The table below shows the section numbers of the manual followed by the types of
 
 - `-k, --apropos`
 
-  Equivalent to `apropos`. Search the short manual page descriptions for keywords and display any matches.
+    Equivalent to `apropos`. Search the short manual page descriptions for keywords and display any matches.
