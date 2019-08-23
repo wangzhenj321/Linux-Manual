@@ -2,6 +2,33 @@
 
 Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
 
+#### Synopsis
+
+#### Output
+
+- **Active Internet connections (TCP, UDP, raw)**
+
+    | Output column | Description |
+    | --- | --- |
+    | Proto | The protocol (tcp, udp, raw) used by the socket. |
+    | Recv-Q | The count of bytes not copied by the user program connected to this socket. |
+    | Send-Q | The count of bytes not acknowledged by the remote host. |
+    | Local Address | Address and port number of the local end of the socket. |
+    | Foreign Address | Address and port number of the remote end of the socket. |
+    | State | The state of the socket. |
+
+- **Active UNIX domain Sockets**
+
+    | Output column | Description |
+    | --- | --- |
+    | Proto | The protocol (usually unix) used by the socket. |
+    | RefCnt | The reference count (i.e. attached processes via this socket). |
+    | Flags | The flags displayed is SO_ACCEPTON (displayed as ACC), SO_WAITDATA (W) or SO_NOSPACE (N). SO_ACCECPTON is used on unconnected sockets if their corresponding processes are waiting for a connect request. The other flags are not of normal interest. |
+    | Type | types of socket access |
+    | State | The state of the socket. |
+    | PID/Program name | Process ID (PID) and process name of the process that has the socket open. |
+    | Path | This is the path name as which the corresponding processes attached to the socket. |
+
 #### Options
 
 - `-r`
