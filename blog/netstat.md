@@ -2,8 +2,6 @@
 
 Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
 
-#### Synopsis
-
 #### Output
 
 - **Active Internet connections (TCP, UDP, raw)**
@@ -31,46 +29,22 @@ Print network connections, routing tables, interface statistics, masquerade conn
 
 #### Options
 
-- `-r`
+- `(none)`
+    By default, `netstat` displays a list of open sockets. If you don't specify any address families, then the active sockets of all configured address families will be printed.
 
-    Display the kernel routing tables.
-
-- `-s`
-
-    Display summary statistics for each protocol.
+- `--interfaces, -i`
+    Display a table of all network interfaces.
 
 - `-n`
-
     Show numerical addresses instead of trying to determine symbolic host, port or user names.
 
-- `-c`
-
-    This will cause netstat to print the selected information every second continuously.
-
 - `-e`
-
     Display additional information.
 
-- `-p`
-
-    Show the PID and name of the program to which each socket belongs.
-
-- `-l`
-
+- `-l, --listening`
     Show only listening sockets.  (These are omitted by default.)
 
 - `-a`
-
     Show both listening and non-listening sockets.
 
-- `-t`
-
-    Show only tcp related items.
-
-- `-u`
-
-    Show only udp related items.
-
-- `-x`
-
-    Show only unix related items.
+- `[--tcp|-t] [--udp|-u] [--raw|-w]`
