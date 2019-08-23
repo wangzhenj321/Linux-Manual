@@ -30,21 +30,27 @@ Print network connections, routing tables, interface statistics, masquerade conn
 #### Options
 
 - `(none)`
+
     By default, `netstat` displays a list of open sockets. If you don't specify any address families, then the active sockets of all configured address families will be printed.
 
 - `--interfaces, -i`
+
     Display a table of all network interfaces.
 
 - `-n`
+
     Show numerical addresses instead of trying to determine symbolic host, port or user names.
 
 - `-e`
+
     Display additional information.
 
 - `-l, --listening`
+
     Show only listening sockets.  (These are omitted by default.)
 
 - `-a`
+
     Show both listening and non-listening sockets.
 
 - `[--tcp|-t] [--udp|-u] [--raw|-w]`
