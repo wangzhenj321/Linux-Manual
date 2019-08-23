@@ -30,6 +30,8 @@
 
 14. [id](./blog/id.md)
 
+15. [ifconfig](./blog/ifconfig.md)
+
 15. [initd & rcd & init](./blog/initd-rcd-init.md)
 
 16. [ldconfig](./blog/ldconfig.md)
