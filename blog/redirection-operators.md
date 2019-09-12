@@ -125,4 +125,9 @@ These allow you to control the input and output of your commands. They can appea
     $foo
     EOF
     ```
-    
+
+## References
+
+1. [What are the shell's control and redirection operators?](https://unix.stackexchange.com/questions/159513/what-are-the-shells-control-and-redirection-operators/159514#159514)
+
+2. [How to redirect stderr to a file?](https://askubuntu.com/questions/625224/how-to-redirect-stderr-to-a-file)
