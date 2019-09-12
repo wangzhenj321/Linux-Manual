@@ -89,3 +89,5 @@
 1. [update alternatives](./blog/update-alternatives.md)
 
 1. [general overview of the Linux file system](./blog/general-overview-of-the-Linux-file-system.md)
+
+1. [redirection operators](./blog/redirection-operators.md)
