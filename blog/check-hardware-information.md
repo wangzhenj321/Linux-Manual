@@ -56,27 +56,18 @@
 
 `lspci` is a utility for displaying information about PCI buses in the system and devices connected to them. By default, it shows a brief list of devices. Use the options described below to request either a more verbose output or output intended for parsing by other programs.
 
----
-
-外部链接（Peripheral Component Interconnect）标准，或称个人计算机接口（Personal Computer Interface），实际应用中简称为**PCI**，是一种连接计算机主板和外部设备的总线标准。一般PCI设备可分为以下两种形式：
-
-- 直接内置于主板上的集成电路，在PCI规范中称作“嵌入设备”（planar device）
-
-- 安装在插槽上的扩展界面卡
-
-PCI规范规定了该总线的物理尺寸（包括线宽）、电气特性、总线时序和协议。该规范可从美国PCI-SIG协会购得。常见的PCI卡包括网卡、声卡、调制解调器、电视卡和硬盘控制器等，另外还有USB和串列端口等端口。原本显卡通常也是PCI设备，但很快其频宽已不足以支持显卡的性能。
-
----
+> 外部链接（Peripheral Component Interconnect）标准，或称个人计算机接口（Personal Computer Interface），实际应用中简称为**PCI**，是一种连接计算机主板和外部设备的总线标准。一般PCI设备可分为以下两种形式：
+> 
+> - 直接内置于主板上的集成电路，在PCI规范中称作“嵌入设备”（planar device）
+> - 安装在插槽上的扩展界面卡
+> 
+> PCI规范规定了该总线的物理尺寸（包括线宽）、电气特性、总线时序和协议。该规范可从美国PCI-SIG协会购得。常见的PCI卡包括网卡、声卡、调制解调器、电视卡和硬盘控制器等，另外还有USB和串列端口等端口。原本显卡通常也是PCI设备，但很快其频宽已不足以支持显卡的性能。
 
 ### `lsscsi`
 
 Uses information in sysfs (Linux kernel series 2.6 and later) to list SCSI devices (or hosts) currently attached to the system. Options can be used to control the amount and form of  information provided for each device.
 
----
-
-小型计算机系统接口（SCSI，Small Computer System Interface）是一种用于计算机及其周边设备之间（硬盘、软驱、光驱、打印机、扫描仪等）系统级接口的独立处理器标准。SCSI标准定义命令、通信协议以及实体的电气特性（换成OSI的说法，就是占据物理层、链接层、套接层、应用层），最大部分的应用是在存储设备上（例如硬盘、磁带机），除外，SCSI可以连接的设备包括有扫描仪、光学设备（像CD、DVD）、打印机等等，SCSI命令中有条列出支持的设备SCSI周边设备。理论上，SCSI不可能连接所有的设备，所以有“1Fh - unknown or no device type”这个参数存在。
-
----
+> 小型计算机系统接口（SCSI，Small Computer System Interface）是一种用于计算机及其周边设备之间（硬盘、软驱、光驱、打印机、扫描仪等）系统级接口的独立处理器标准。SCSI标准定义命令、通信协议以及实体的电气特性（换成OSI的说法，就是占据物理层、链接层、套接层、应用层），最大部分的应用是在存储设备上（例如硬盘、磁带机），除外，SCSI可以连接的设备包括有扫描仪、光学设备（像CD、DVD）、打印机等等，SCSI命令中有条列出支持的设备SCSI周边设备。理论上，SCSI不可能连接所有的设备，所以有“1Fh - unknown or no device type”这个参数存在。
 
 ### `lsusb`
 
@@ -117,8 +108,6 @@ Uses information in sysfs (Linux kernel series 2.6 and later) to list SCSI devic
 
 ![](../img/check-hardware-information/fdisk_list.png?raw=true)
 
----
-
 **an overview of 4K native, 512 native, 512 emulated and an explanation of Advanced Format**
 
 | Format type |	Logical bytes per sector | Physical bytes per sector |
@@ -130,8 +119,6 @@ Uses information in sysfs (Linux kernel series 2.6 and later) to list SCSI devic
 > **512 emulated (512e)** is a drive that physically has sector sizes of 4096 bytes. This is a 4K drive. The purpose of emulating 512 bytes (512e) is for the new devices to be used with Operating Systems that do not support 4K native sectors yet. The drive transparently maps 512-byte logical blocks into the drive's 4K physical sectors. 
 
 > **Advanced format** is a term for the industry standard increasing the physical sector size from 512 bytes to a more efficient 4096 (4K) byte sector size. An advanced format drive is 4K. 
-
----
 
 ### `mount`
 
