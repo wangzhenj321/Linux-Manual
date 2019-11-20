@@ -14,6 +14,8 @@
 
 - [`df`](#df)
 
+- [`du`](#du)
+
 - [`fdisk`](#fdisk)
 
 - [`free`](#free)
