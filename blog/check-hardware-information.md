@@ -129,7 +129,9 @@
 
 ### `free`
 
-`free` displays the total amount of free and used physical and swap memory in the system, as well as the buffers and caches used by the kernel. The information is gathered by parsing **/proc/meminfo**.
+`free` displays the total amount of free and used physical and swap memory in the system, as well as the buffers and caches used by the kernel. The information is gathered by parsing `/proc/meminfo`.
+
+<img src="../img/check-hardware-information/free_h.png">
 
 ### `inxi`
 
