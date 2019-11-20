@@ -97,11 +97,17 @@
 
 ### `df`
 
-`df` displays the amount of disk space available on the file system containing each file name argument. If no file name is given, the space available on all currently mounted file systems is shown. Disk space is shown in 1K blocks by default, unless the environment variable POSIXLY_CORRECT is set, in which case 512-byte blocks are used.
+`df` displays the amount of disk space available on the **file system** containing each file name argument. If no file name is given, the space available on all currently mounted file systems is shown. 
 
-### `free`
+**Options:**
 
-`free` displays the total amount of free and used physical and swap memory in the system, as well as the buffers and caches used by the kernel. The information is gathered by parsing **/proc/meminfo**.
+- `-h, --human-readable`
+    print sizes in powers of 1024 (e.g., 1023M)
+
+- `-T, --print-type`
+    print file system type
+
+<img src="../img/check-hardware-information/df_Th.png">
 
 ### `fdisk`
 
@@ -120,6 +126,10 @@
 > **512 emulated (512e)** is a drive that physically has sector sizes of 4096 bytes. This is a 4K drive. The purpose of emulating 512 bytes (512e) is for the new devices to be used with Operating Systems that do not support 4K native sectors yet. The drive transparently maps 512-byte logical blocks into the drive's 4K physical sectors. 
 
 > **Advanced format** is a term for the industry standard increasing the physical sector size from 512 bytes to a more efficient 4096 (4K) byte sector size. An advanced format drive is 4K. 
+
+### `free`
+
+`free` displays the total amount of free and used physical and swap memory in the system, as well as the buffers and caches used by the kernel. The information is gathered by parsing **/proc/meminfo**.
 
 ### `inxi`
 
