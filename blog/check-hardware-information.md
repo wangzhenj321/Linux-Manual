@@ -105,6 +105,17 @@
 
 <img src="../img/check-hardware-information/df_Th.png">
 
+### `du`
+
+Summarize disk usage of the set of FILEs, recursively for directories.
+
+**Options:**
+
+- `-s, --summarize`
+    display only a total for each argument
+
+<img src="../img/check-hardware-information/du_hs.png">
+
 ### `fdisk`
 
 `fdisk` is a dialog-driven program for creation and manipulation of partition tables. It understands GPT, MBR, Sun, SGI and BSD partition tables.
