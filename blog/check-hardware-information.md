@@ -87,8 +87,10 @@
 
 - `lsblk`
 
-    `lsblk` lists information about all available or the specified block devices. The lsblk command reads the **sysfs** filesystem and **udev db** to gather information. The command prints all block devices (except RAM disks) in a tree-like format by default.
-
+    `lsblk` lists information about all available or the specified block devices.
+    
+    <img src="../img/check-hardware-information/lsblk.png">
+    
 ### `hwinfo`
 
 `hwinfo` is used to probe for the hardware present in the system. It can be used to generate a system overview log which can be later used for support.
