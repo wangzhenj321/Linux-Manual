@@ -2,31 +2,27 @@
 
 [List of commands](#list-of-commands)
 
-- [`lscpu`](#lscpu)
-
-- [`lshw`](#lshw)
+- [`ls???`](#ls)
+    - `lscpu`
+    - `lshw`
+    - `lspci`
+    - `lsscsi`
+    - `lsusb`
+    - `lsblk`
 
 - [`hwinfo`](#hwinfo)
 
-- [`lspci`](#lspci)
-
-- [`lsscsi`](#lsscsi)
-
-- [`lsusb`](#lsusb)
-
-- [`inxi`](#inxi)
-
-- [`lsblk`](#lsblk)
-
 - [`df`](#df)
-
-- [`Pydf`](#Pydf)
 
 - [`fdisk`](#fdisk)
 
-- [`mount`](#mount)
-
 - [`free`](#free)
+
+- [`inxi`](#inxi)
+
+- [`Pydf`](#Pydf)
+
+- [`mount`](#mount)
 
 - [`dmidecode`](#dmidecode)
 
