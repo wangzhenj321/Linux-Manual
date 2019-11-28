@@ -62,6 +62,8 @@
 
 1. [updatedb](./blog/updatedb.md)
 
+1. [update-alternatives](./blog/update-alternatives.md)
+
 1. [vi](./blog/vi.md)
 
 1. [wc](./blog/wc.md)
@@ -85,8 +87,6 @@
 1. [check hardware information](./blog/check-hardware-information.md)
 
 1. [serial communication](./blog/serial-communication.md)
-
-1. [update alternatives](./blog/update-alternatives.md)
 
 1. [general overview of the Linux file system](./blog/general-overview-of-the-Linux-file-system.md)
 
