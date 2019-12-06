@@ -6,6 +6,12 @@ Print network connections, routing tables, interface statistics, masquerade conn
 
     By default, `netstat` displays a list of open sockets. If you don't specify any address families, then the active sockets of all configured address families will be printed.
 
+- `--route, -r`
+
+    Display the kernel routing tables.
+    
+    <img src="../img/netstat/netstat_r.png">
+
 - `--interfaces, -i`
 
     Display a table of all network interfaces.
