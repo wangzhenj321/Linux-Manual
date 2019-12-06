@@ -10,7 +10,7 @@ Print network connections, routing tables, interface statistics, masquerade conn
 
     Display a table of all network interfaces.
     
-    <img src="../img/netstat/netstat_i.png" width="70%">
+    <img src="../img/netstat/netstat_i.png">
 
 ## Output
 
@@ -24,6 +24,8 @@ Print network connections, routing tables, interface statistics, masquerade conn
     | Local Address | Address and port number of the local end of the socket. |
     | Foreign Address | Address and port number of the remote end of the socket. |
     | State | The state of the socket. |
+    
+    <img src="../img/netstat/active_internet_connections.png">
 
 - **Active UNIX domain Sockets**
 
@@ -36,6 +38,8 @@ Print network connections, routing tables, interface statistics, masquerade conn
     | State | The state of the socket. |
     | PID/Program name | Process ID (PID) and process name of the process that has the socket open. |
     | Path | This is the path name as which the corresponding processes attached to the socket. |
+    
+    <img src="../img/netstat/active_unix_domain_sockets.png">
 
 ## Options
 
