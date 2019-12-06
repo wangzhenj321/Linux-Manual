@@ -1,6 +1,16 @@
 ## Description
 
-Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
+Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships. The type of information printed is controlled by the first argument, as follows:
+
+- `(none)`
+
+    By default, `netstat` displays a list of open sockets. If you don't specify any address families, then the active sockets of all configured address families will be printed.
+
+- `--interfaces, -i`
+
+    Display a table of all network interfaces.
+    
+    <img src="../img/netstat/netstat_i.png" width="70%">
 
 ## Output
 
@@ -28,16 +38,6 @@ Print network connections, routing tables, interface statistics, masquerade conn
     | Path | This is the path name as which the corresponding processes attached to the socket. |
 
 ## Options
-
-- `(none)`
-
-    By default, `netstat` displays a list of open sockets. If you don't specify any address families, then the active sockets of all configured address families will be printed.
-
-- `--interfaces, -i`
-
-    Display a table of all network interfaces.
-    
-    <img src="../img/netstat/netstat_i.png" width="70%">
 
 - `-n`
 
