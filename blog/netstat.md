@@ -64,5 +64,3 @@ Print network connections, routing tables, interface statistics, masquerade conn
 - `-a`
 
     Show both listening and non-listening sockets.
-
-- `[--tcp|-t] [--udp|-u] [--raw|-w]`
