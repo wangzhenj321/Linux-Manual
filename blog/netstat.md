@@ -1,8 +1,8 @@
-#### Description
+## Description
 
 Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
 
-#### Output
+## Output
 
 - **Active Internet connections (TCP, UDP, raw)**
 
@@ -27,7 +27,7 @@ Print network connections, routing tables, interface statistics, masquerade conn
     | PID/Program name | Process ID (PID) and process name of the process that has the socket open. |
     | Path | This is the path name as which the corresponding processes attached to the socket. |
 
-#### Options
+## Options
 
 - `(none)`
 
