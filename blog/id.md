@@ -16,9 +16,9 @@
 
 [`id`](#id)
 
-## Part 1
+# Part 1
 
-#### `/etc/passwd`文件结构
+## `/etc/passwd`文件结构
 
 这个文件的构造是这样的：每一行都代表一个账号，有几行就代表有几个账号在你的系统中！ 不过需要特别留意的是，里头很多账号本来就是系统正常运行所必须要的，我们可以简称他为系统账号， 例如 bin, daemon, adm, nobody 等等，这些账号请不要随意的杀掉他呢！ 
 
@@ -52,7 +52,7 @@
 
     当用户登陆系统后就会取得一个 Shell 来与系统的核心沟通以进行用户的操作任务。那为何默认 shell 会使用 bash 呢？就是在这个字段指定的啰！ 这里比较需要注意的是，有一个 shell 可以用来替代成让账号无法取得 shell 环境的登陆动作！那就是 /sbin/nologin 这个东西！这也可以用来制作纯 pop 邮件账号者的数据呢！
 
-#### `/etc/shadow`文件结构
+## `/etc/shadow`文件结构
 
 我们知道很多程序的运行都与权限有关，而权限与 UID/GID 有关！因此各程序当然需要读取 /etc/passwd 来了解不同账号的权限。 因此 /etc/passwd 的权限需配置为 -rw-r--r-- 这样的情况， 虽然早期的口令也有加密过，但却放置到 /etc/passwd 的第二个字段上！这样一来很容易被有心人士所窃取的， 加密过的口令也能够透过暴力破解法去 try and error (试误) 找出来！
 
@@ -68,7 +68,7 @@
 
 3. ...
 
-#### `/etc/group`文件结构
+## `/etc/group`文件结构
 
 这个文件就是在记录 GID 与组名的对应。
 
@@ -100,7 +100,7 @@
 
 那么在这个例子当中，因为我的 dmtsai 账号同时支持 dmtsai 与 users 这两个群组， 因此，在读取/写入/运行文件时，针对群组部分，只要是 users 与 dmtsai 这两个群组拥有的功能， 我 dmtsai 这个使用者都能够拥有喔！这样瞭呼？不过，这是针对已经存在的文件而言， 如果今天我要创建一个新的文件或者是新的目录，请问一下，新文件的群组是 dmtsai 还是 users ？呵呵！这就得要检查一下当时的有效群组了 (effective group)。
 
-#### 有效群组(effective group)
+## 有效群组(effective group)
 
 如果我以 dmtsai 这个使用者的身份登陆后，该如何知道我所有支持的群组呢？ 很简单啊，直接输入 groups 就可以了！注意喔，是 groups 有加 s 呢！结果像这样：
 
@@ -108,15 +108,15 @@
 
 在这个输出的信息中，可知道 dmtsai 这个用户同时属于 dmtsai 及 users 这个两个群组，而且， 第一个输出的群组即为有效群组 (effective group) 了。 也就是说，我的有效群组为 dmtsai 啦～此时，如果我以 touch 去创建一个新档，例如： 『 touch test 』，那么这个文件的拥有者为 dmtsai ，而且群组也是 dmtsai 的啦。
 
-## Part 2
+# Part 2
 
-### `id`
+## `id`
 
-#### Description
+### Description
 
 Print user and group information for the specified USER, or (when USER omitted) for the current user.
 
-#### Options
+### Options
 
 - `-u, --user` print only the effective user ID
 
