@@ -1,4 +1,4 @@
-**Table of Contents**
+**Table of contents**
 
 **Part 1**
 
