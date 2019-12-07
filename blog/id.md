@@ -125,3 +125,9 @@ Print user and group information for the specified USER, or (when USER omitted) 
 - `-G, --groups` print all group IDs
 
 - `-n, --name` print a name instead of a number, for -ugG
+
+## `who`
+
+### Description
+
+Print information about users who are currently logged in.
