@@ -94,7 +94,7 @@
 
     我们知道一个账号可以加入多个群组，那某个账号想要加入此群组时，将该账号填入这个字段即可。 举例来说，如果我想要让 dmtsai 也加入 root 这个群组，那么在第一行的最后面加上`,dmtsai`，注意不要有空格， 使成为`root:x:0:root,dmtsai`就可以啰～
 
-#### 初始群组(initial group)
+## 初始群组(initial group)
 
 还记得每个使用者在他的`/etc/passwd`里面的第四栏有所谓的 GID 吧？那个 GID 就是所谓的『初始群组 (initial group) 』！也就是说，当用户一登陆系统，立刻就拥有这个群组的相关权限的意思。 举例来说，我们上面提到 dmtsai 这个使用者的`/etc/passwd`与`/etc/group`还有`/etc/gshadow`相关的内容如下：
 
@@ -131,9 +131,3 @@ Print user and group information for the specified USER, or (when USER omitted) 
 - `-G, --groups` print all group IDs
 
 - `-n, --name` print a name instead of a number, for -ugG
-
-## `who`
-
-### Description
-
-Print information about users who are currently logged in.
