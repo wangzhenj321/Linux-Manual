@@ -225,11 +225,11 @@ Debian 作为 Ubuntu、Linux Mint 和 elementary OS 等 Linux 操作系统的母
 
 `apt` 具有更精减但足够的命令选项，而且参数选项的组织方式更为有效。除此之外，它默认启用的几个特性对最终用户也非常有帮助。例如，可以在使用 `apt` 命令安装或删除程序时看到进度条。
 
-<img src="../img/add-apt-repository_and_apt-get_and_apt/apt_progress_bar.png">
+<img src="../img/add-apt-repository_and_apt-get_and_apt/apt_progress_bar.jpg">
 
 `apt` 还会在更新存储库数据库时提示用户可升级的软件包个数。
 
-<img src="../img/add-apt-repository_and_apt-get_and_apt/apt_upgrade_info.png">
+<img src="../img/add-apt-repository_and_apt-get_and_apt/apt_upgrade_info.jpg">
 
 如果你使用 `apt` 的其它命令选项，也可以实现与使用 `apt-get` 时相同的操作。
 
