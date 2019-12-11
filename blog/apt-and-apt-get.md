@@ -1,6 +1,6 @@
 # Part 1: `apt-get`
 
-## 从软件仓库中安装软件包
+## Options
 
 - `apt-get update`
 
