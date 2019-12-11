@@ -20,7 +20,7 @@
 
 1. [file](./blog/file.md)
 
-1. [ftp](./blog/ftp.md)
+1. [wget & curl & ftp](./blog/wget_curl_ftp.md)
 
 1. [grep](./blog/grep.md)
 
