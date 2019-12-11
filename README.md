@@ -8,9 +8,7 @@
 
 1. [cat & paste & sort & uniq](./blog/cat-paste-sort-uniq.md)
 
-1. [chmod](./blog/chmod.md)
-
-1. [chown](./blog/chown.md)
+1. [chmod & chown](./blog/chmod_chown.md)
 
 1. [cut](./blog/cut.md)
 
