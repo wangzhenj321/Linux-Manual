@@ -26,7 +26,7 @@
 
 1. [ifconfig](./blog/ifconfig.md)
 
-1. [initd & rcd & init](./blog/initd-rcd-init.md)
+1. [init & systemd](./blog/init_systemd.md)
 
 1. [ldconfig](./blog/ldconfig.md)
 
@@ -43,10 +43,6 @@
 1. [sed](./blog/sed.md)
 
 1. [ssh](./blog/ssh.md)
-
-1. [systemctl](./blog/systemctl.md)
-
-1. [systemd](./blog/systemd.md)
 
 1. [tar](./blog/tar.md)
 
