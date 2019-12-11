@@ -14,11 +14,11 @@ add-apt-repository [OPTIONS] REPOSITORY
 
 1. In the first form, **REPOSITORY** will just be appended to `/etc/apt/sources.list`.
 
-    <img src="../img/add-apt-repository_and_apt-get_and_apt/sources_list.png">
+    <img src="../img/add-apt-repository_apt-get_apt/sources_list.png">
 
 2. In the second form, `ppa:<user>/<ppa-name>`  will be expanded to the full deb line of the PPA and added into a new file in the `/etc/apt/sources.list.d/` directory. The GPG public key of the newly added PPA will also be downloaded and added to apt's keyring.
 
-    <img src="../img/add-apt-repository_and_apt-get_and_apt/sources_list_d.png">
+    <img src="../img/add-apt-repository_apt-get_apt/sources_list_d.png">
 
 3. In the third form, the given distribution component will be enabled for all sources.
 
@@ -47,7 +47,7 @@ When you attempt to update APT package indexes, "404 Not Found" errors can often
 sudo apt-get update | grep "Failed"
 ```
 
-<img src="../img/add-apt-repository_and_apt-get_and_apt/apt-get_update_failed.png">
+<img src="../img/add-apt-repository_apt-get_apt/apt-get_update_failed.png">
 
 In this example, the PPA repository which is no longer supported in Ubuntu Trusty is "ppa:finalterm/daily".
 
@@ -59,7 +59,7 @@ sudo add-apt-repository --remove ppa:finalterm/daily
 
 You have to repeat this process for every obsolete PPA repository that you found from above.
 
-<img src="../img/add-apt-repository_and_apt-get_and_apt/add-apt-repository_remove.png">
+<img src="../img/add-apt-repository_apt-get_apt/add-apt-repository_remove.png">
 
 After removing all obsolete PPA repositories, re-run "apt-get update" to check all of them have been successfully removed.
 
@@ -76,7 +76,7 @@ After removing all obsolete PPA repositories, re-run "apt-get update" to check a
     sudo apt-get update
     ```
 
-    <img src="../img/add-apt-repository_and_apt-get_and_apt/apt-get_update.png">
+    <img src="../img/add-apt-repository_apt-get_apt/apt-get_update.png">
 
 - `apt-get install`
 
@@ -92,7 +92,7 @@ After removing all obsolete PPA repositories, re-run "apt-get update" to check a
     sudo apt-get install -y chromium-browser
     ```
 
-    <img src="../img/add-apt-repository_and_apt-get_and_apt/apt-get_install.png">
+    <img src="../img/add-apt-repository_apt-get_apt/apt-get_install.png">
 
     在上图中你可以看到，我的Ubuntu系统上已经安装好了Chromium浏览器．
 
@@ -106,7 +106,7 @@ After removing all obsolete PPA repositories, re-run "apt-get update" to check a
     sudo apt-get install wireshark nmap aircrack-ng
     ```
     
-    <img src="../img/add-apt-repository_and_apt-get_and_apt/apt-get_install_multi.png">
+    <img src="../img/add-apt-repository_apt-get_apt/apt-get_install_multi.png">
 
 - `apt-get upgrade`
 
@@ -116,7 +116,7 @@ After removing all obsolete PPA repositories, re-run "apt-get update" to check a
     sudo apt-get upgrade
     ```
     
-    <img src="../img/add-apt-repository_and_apt-get_and_apt/apt-get_upgrade.png">
+    <img src="../img/add-apt-repository_apt-get_apt/apt-get_upgrade.png">
 
 - `apt-get remove`
 
@@ -146,7 +146,7 @@ After removing all obsolete PPA repositories, re-run "apt-get update" to check a
     du -sh /var/cache/apt/archives
     ```
     
-    <img src="../img/add-apt-repository_and_apt-get_and_apt/apt-get_clean.png">
+    <img src="../img/add-apt-repository_apt-get_apt/apt-get_clean.png">
 
 - `apt-get autoclean`
 
@@ -160,7 +160,7 @@ After removing all obsolete PPA repositories, re-run "apt-get update" to check a
 
     这条命令可能会让很多人感到困惑．在Debian系统上，你用这条命令升级系统版本，比如从Debian 7升级到Debian 8．但是在Ubuntu系统上，这条命令只会升级Linux内核以及之前没有被升级的软件包．升级Ubuntu的版本你需要用到do-release-upgrade命令．
 
-    <img src="../img/add-apt-repository_and_apt-get_and_apt/apt-get_dist-upgrade.png">
+    <img src="../img/add-apt-repository_apt-get_apt/apt-get_dist-upgrade.png">
 
 ## 附：手动安装Deb软件包
 
@@ -186,7 +186,7 @@ After removing all obsolete PPA repositories, re-run "apt-get update" to check a
     sudo gdebi <package.deb>
     ```
 
-    <img src="../img/add-apt-repository_and_apt-get_and_apt/gdebi.png">
+    <img src="../img/add-apt-repository_apt-get_apt/gdebi.png">
 
 ## References
 
@@ -225,11 +225,11 @@ Debian 作为 Ubuntu、Linux Mint 和 elementary OS 等 Linux 操作系统的母
 
 `apt` 具有更精减但足够的命令选项，而且参数选项的组织方式更为有效。除此之外，它默认启用的几个特性对最终用户也非常有帮助。例如，可以在使用 `apt` 命令安装或删除程序时看到进度条。
 
-<img src="../img/add-apt-repository_and_apt-get_and_apt/apt_progress_bar.jpg">
+<img src="../img/add-apt-repository_apt-get_apt/apt_progress_bar.jpg">
 
 `apt` 还会在更新存储库数据库时提示用户可升级的软件包个数。
 
-<img src="../img/add-apt-repository_and_apt-get_and_apt/apt_upgrade_info.jpg">
+<img src="../img/add-apt-repository_apt-get_apt/apt_upgrade_info.jpg">
 
 如果你使用 `apt` 的其它命令选项，也可以实现与使用 `apt-get` 时相同的操作。
 
