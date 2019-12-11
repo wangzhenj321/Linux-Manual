@@ -6,8 +6,6 @@
 
 1. [apt & apt-get](./blog/apt-and-apt-get.md)
 
-1. [apt-get](./blog/apt-get.md)
-
 1. [cat & paste & sort & uniq](./blog/cat-paste-sort-uniq.md)
 
 1. [chmod](./blog/chmod.md)
