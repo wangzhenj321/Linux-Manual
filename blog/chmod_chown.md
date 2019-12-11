@@ -1,4 +1,6 @@
-#### Description
+# Part 1: `chmod`
+
+## Description
 
 `chmod` changes the file mode bits of each given file according to mode, which can be either a symbolic representation of changes to make,  or an octal number representing the bit pattern for the new mode bits.
 
@@ -6,17 +8,17 @@ A combination of the letters `ugoa` controls which users' access to the file wil
 
 The operator `+` causes the selected file mode bits to be added to the existing file mode bits of each  file; `-` causes them to be removed; and `=` causes them to be added and causes unmentioned bits to be removed except that a directory's unmentioned set user and group ID bits are not affected.
 
-#### Synopsis
+## Synopsis
 
 `chmod [OPTION]... MODE[,MODE]... FILE...`
 
 `chmod [OPTION]... OCTAL-MODE FILE...`
 
-#### Options
+## Options
 
 - `-R, --recursive` change files and directories recursively
 
-#### Examples
+## Examples
 
 ***包含字母和操作符表达式的文字设定法***
 
@@ -47,3 +49,19 @@ The operator `+` causes the selected file mode bits to be added to the existing 
 6. `chmod a=rwx file`和`chmod 777 file`效果相同
 
 7. `chmod ug=rwx,o=x file`和`chmod 771 file`效果相同
+
+# Part 2: `chown`
+
+## Description
+
+Linux/Unix是多⼈多工作业系统, 所有的档案皆有拥有者。利用`chown`可以将档案的拥有者加以改变。一般来说,这个指令只有是由系统管理者(root)所使⽤, 一般使用者没有权限可以改变别人的档案拥有者, 也没有权限可以自己的档案拥有者改设为别人。只有系统管理者(root)才有这样的权限。
+
+## Synopsis
+
+`chown [OPTION]... [OWNER][:[GROUP]] FILE...`
+
+## Examples
+
+1. 将档案file1.txt的拥有者设为users群体的使⽤者jack
+
+    `chown jack:users file1.txt`
