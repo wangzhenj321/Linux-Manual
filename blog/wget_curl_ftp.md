@@ -1,8 +1,14 @@
-#### Synopsis
+# Part 1: `wget`
+
+# Part 2: `curl`
+
+# Part 3: `ftp`
+
+## Synopsis
 
 `ftp -v -d -i -n -g [hostname]`
 
-#### Options
+## Options
 
 - `-v` 显示远程服务器的所有响应信息
 
@@ -14,7 +20,7 @@
 
 - `-g` 取消全局文件名
 
-#### Sub-Options
+## Sub-Options
 
 - `ascii` 使用ascii类型传输方式
 
@@ -38,7 +44,7 @@
 
 - `user user-name[password][account]` 向远程主机表明自己的身份
 
-#### Examples
+## Examples
 
 ```
 set r_server = 'terras.gsi.go.jp'
