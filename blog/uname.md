@@ -1,8 +1,8 @@
-#### Description
+## Description
 
 用来获取电脑和操作系统的相关信息
 
-#### Options
+## Options
 
 - `-a` 详细输出所有信息
 
