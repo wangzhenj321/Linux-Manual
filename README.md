@@ -2,7 +2,7 @@
 
 ## Commands
 
-1. [add-apt-repository & apt & apt-get](./blog/add-apt-repository_and_apt-get_and_apt.md)
+1. [add-apt-repository & apt & apt-get](./blog/add-apt-repository_apt-get_apt.md)
 
 1. [cat & paste & sort & uniq](./blog/cat-paste-sort-uniq.md)
 
