@@ -28,7 +28,7 @@
 
 1. [init & systemd](./blog/init_systemd.md)
 
-1. [ldconfig](./blog/ldconfig.md)
+1. [dpkg & ldd & ldconfig](./blog/dpkg_ldd_ldconfig.md)
 
 1. [man](./blog/man.md)
 
