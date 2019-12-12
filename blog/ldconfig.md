@@ -1,10 +1,16 @@
-#### Description
+# Part 1: `dpkg`
+
+# Part 2: `ldd`
+
+# Part 3: `ldconfig`
+
+## Description
 
 在默认搜寻目录`/lib`和`/usr/lib`以及动态库配置文件`/etc/ld.so.conf`内所列的目录下，搜索出可共享的动态链接库（格式如lib*.so*）,进而创建出动态装入程序(ld.so)所需的连接和缓存文件。缓存文件默认为`/etc/ld.so.cache`，此文件保存已排好序的动态链接库名字列表，为了让动态链接库为系统所共享，需运行动态链接库的管理命令`ldconfig`，此执行程序存放在`/sbin`目录下。
 
 `ldconfig`通常在系统启动时运行，而当用户安装了一个新的动态链接库时，就需要手工运行这个命令。
 
-#### Options
+## Options
 
 - `-v`
 
@@ -14,7 +20,7 @@
 
     打印出当前缓存文件所保存的所有共享库的名字
 
-#### Remarks
+## Remarks
 
 1. 往`/lib`和`/usr/lib`里面加东西，是不用修改`/etc/ld.so.conf`的，但是完了之后要调一下`ldconfig`，不然这个library会找不到。
 
