@@ -1,18 +1,24 @@
-#### Description
+## Description
 
-ps（process status）命令用来列出系统中当前运行的那些进程。`ps`命令列出的是当前那些进程的快照，就是执行ps命令的那个时刻的那些进程，如果想要动态的显示进程信息，就可以使用`top`命令。
+ps displays information about a selection of the active processes. If you want a repetitive update of the selection and the displayed information, use `top` instead.
 
-linux上进程有5种状态：
-1. 运行（R）（正在运行或在运行队列中等待）
-2. 中断（S）（休眠中，受阻，在等待某个条件的形成或接受到信号）
-3. 不可中断（D）（收到信号不唤醒和不可运行，进程必须等待直到有中断发生）
-4. 僵死（Z）（进程已终止，但进程描述符存在，直到父进程调用wait4()系统调用后释放）
-5. 停止（T）（进程收到SIGSTOP、SIGSTP、SIGTIN、SIGTOU信号后停止运行）
-
-#### Options
+## Options
 
 - `-A` 显示所有进程
 
 - `-u` 指定用户的所有进程
 
 - `aux` 所有正在内存当中的进程
+
+## Process state codes
+
+Here are the different values that the `s`, `stat` and `state` output specifiers (header "STAT" or "S") will display to describe the state of a process:
+
+- `D` uninterruptible sleep (usually IO)
+- `R` running or runnable (on run queue)
+- `S` interruptible sleep (waiting for an event to complete)
+- `T` stopped by job control signal
+- `t` stopped by debugger during the tracing
+- `W` paging (not valid since the 2.6.xx kernel)
+- `X` dead (should never be seen)
+- `Z` defunct ("zombie") process, terminated but not reaped by its parent
