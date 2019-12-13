@@ -93,8 +93,8 @@ The tree of the file system starts at the trunk or slash, indicated by a forward
 | --- | --- |
 | /bin | `/bin` contains commands that may be used by both the system administrator and by users, but which are required when no other filesystems are mounted (e.g. in single user mode). There must be no subdirectories in `/bin`. |
 | /sbin | Utilities used for system administration (and other root-only commands) are stored in `/sbin`, `/usr/sbin`, and `/usr/local/sbin`. <ul><li>`/sbin` contains binaries essential for booting, restoring, recovering, and/or repairing the system in addition to the binaries in `/bin`.</li><li>Programs executed after `/usr` is known to be mounted (when there are no problems) are generally placed into `/usr/sbin`.</li><li>Locally-installed system administration programs should be placed into `/usr/local/sbin`.</li></ul> There must be no subdirectories in `/sbin`. |
-| /lib | The /lib directory contains those shared library images needed to boot the system and run the commands in the root filesystem, ie. by binaries in /bin and /sbin. |
-| /lib&lt;qual&gt; | There may be one or more variants of the /lib directory on systems which support more than one binary format requiring separate libraries. |
+| /lib | The `/lib` directory contains those shared library images needed to boot the system and run the commands in the root filesystem, ie. by binaries in `/bin` and `/sbin`. |
+| /lib&lt;qual&gt; | There may be one or more variants of the `/lib` directory on systems which support more than one binary format requiring separate libraries. |
 | /boot | The startup files and the kernel, vmlinuz. In some recent distributions also grub data. Grub is the GRand Unified Boot loader and is an attempt to get rid of the many different boot-loaders we know today. |
 | /dev | Contains references to all the CPU peripheral hardware, which are represented as files with special properties. |
 | /etc | Most important system configuration files are in /etc, this directory contains data similar to those in the Control Panel in Windows |
