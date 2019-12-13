@@ -91,13 +91,15 @@ The tree of the file system starts at the trunk or slash, indicated by a forward
 
 | Directory | Content |
 | --- | --- |
-| /bin | Common programs, shared by the system, the system administrator and the users. |
+| /bin | /bin contains commands that may be used by both the system administrator and by users, but which are required when no other filesystems are mounted (e.g. in single user mode). There must be no subdirectories in /bin. |
+| /sbin | Utilities used for system administration (and other root-only commands) are stored in /sbin, /usr/sbin, and /usr/local/sbin. /sbin contains binaries essential for booting, restoring, recovering, and/or repairing the system in addition to the binaries in /bin. Programs executed after /usr is known to be mounted (when there are no problems) are generally placed into /usr/sbin. Locally-installed system administration programs should be placed into /usr/local/sbin. There must be no subdirectories in /sbin. |
+| /lib | The /lib directory contains those shared library images needed to boot the system and run the commands in the root filesystem, ie. by binaries in /bin and /sbin. |
+| /lib<qual> | There may be one or more variants of the /lib directory on systems which support more than one binary format requiring separate libraries. |
 | /boot | The startup files and the kernel, vmlinuz. In some recent distributions also grub data. Grub is the GRand Unified Boot loader and is an attempt to get rid of the many different boot-loaders we know today. |
 | /dev | Contains references to all the CPU peripheral hardware, which are represented as files with special properties. |
 | /etc | Most important system configuration files are in /etc, this directory contains data similar to those in the Control Panel in Windows |
 | /home | Home directories of the common users. |
 | /initrd | (on some distributions) Information for booting. Do not remove! |
-| /lib | Library files, includes files for all kinds of programs needed by the system and the users. |
 | /lost+found | Every partition has a lost+found in its upper directory. Files that were saved during failures are here. |
 | /misc | For miscellaneous purposes. |
 | /media | Mount point for removable media. In other words, where system mounts removable media. This directory contains sub-directories used for mounting removable media such as CD-ROMs, floppy disks, etc. |
@@ -106,11 +108,11 @@ The tree of the file system starts at the trunk or slash, indicated by a forward
 | /opt | Typically contains extra and third party software. |
 | /proc | A virtual file system containing information about system resources. More information about the meaning of the files in proc is obtained by entering the command man proc in a terminal window. The file proc.txt discusses the virtual file system in detail. |
 | /root | The administrative user's home directory. Mind the difference between /, the root directory and /root, the home directory of the root user. |
-| /sbin | Programs for use by the system and the system administrator. |
 | /srv | Site-specific data served by this system, such as data and scripts for web servers, data offered by FTP servers, and repositories for version control systems. |
 | /tmp | Temporary space for use by the system, cleaned upon reboot, so don't use this for saving any work! |
 | /usr | Programs, libraries, documentation etc. for all user-related programs. |
 | /var | Storage for all variable files and temporary files created by users, such as log files, the mail queue, the print spooler area, space for temporary storage of files downloaded from the Internet, or to keep an image of a CD before burning it. |
+| /sys | The sys filesystem is the location where information about devices, drivers, and some kernel features is exposed. |
 
 **/usr**
 
