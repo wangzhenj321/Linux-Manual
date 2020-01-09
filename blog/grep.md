@@ -7,7 +7,8 @@
 **注意：**
 
 1. 字符串模版全部加上单引号，防止出错。
-2. 对于特殊字符，加\转义。
+2. 对于特殊字符，加`\`转义。
+3. Use the globbing syntax: `**` for recursively search.
 
 ## Options
 
@@ -26,3 +27,19 @@
 - `-n, --line-number`
 
     Prefix each line of output with the 1-based line number within its input file.
+
+- `A NUM, --after-context=NUM`
+
+    Print NUM lines of trailing context after matching lines. Places a line containing a group separator (--) between contiguous groups of matches. With the -o or --only-matching option, this has no effect and a warning is given.
+
+- `-B NUM, --before-context=NUM`
+
+    Print NUM lines of leading context before matching lines. Places a line containing a group separator (--) between contiguous groups of matches.  With the -o or --only-matching option, this has no effect and a warning is given.
+
+- `-C NUM, -NUM, --context=NUM`
+
+    Print NUM lines of output context.  Places a line containing a group separator (--) between contiguous groups of matches.  With the -o or --only-matching option, this has no effect and a warning is given.
+
+- `-r, --recursive`
+
+    Read all files under each directory, recursively, following symbolic links only if they are on the command line. Note that if no file operand is given, grep searches the working directory. This is equivalent to the `-d recurse` option.
