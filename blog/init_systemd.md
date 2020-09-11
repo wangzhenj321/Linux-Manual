@@ -919,6 +919,12 @@ $ sudo journalctl --vacuum-time=1years
 
 # Part 4: systemd入门教程：实战篇
 
+上一篇文章，我介绍了 Systemd 的主要命令，今天介绍如何使用它完成一些基本的任务。
+
+## 一、开机启动
+
+
+
 ## References
 
 1. [Systemd入门教程：实战篇](http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html)
