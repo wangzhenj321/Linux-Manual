@@ -122,15 +122,15 @@
 
 ## `id`
 
-### Description
+#### Description
 
 Print user and group information for the specified USER, or (when USER omitted) for the current user.
 
-### Synopsis
+#### Synopsis
 
 - `id [OPTION]... [USER]`
 
-### Options
+#### Options
 
 - `-u, --user` print only the effective user ID
 
@@ -142,17 +142,17 @@ Print user and group information for the specified USER, or (when USER omitted) 
 
 ## `groups`
 
-### Description
+#### Description
 
 Print  group memberships for each USERNAME or, if no USERNAME is specified, for the current process (which may differ if the groups database has changed).
 
-### Synopsis
+#### Synopsis
 
 - `groups [OPTION]... [USERNAME]...`
 
 ## `getent`
 
-### Description
+#### Description
 
 The `getent` command displays entries from databases supported by the Name Service Switch libraries, which are configured in `/etc/nsswitch.conf`. If one or more `key` arguments are provided, then only the entries that match the supplied keys will be displayed. Otherwise, if no `key` is provided, all entries will be displayed (unless the database does not support enumeration).
 
@@ -165,6 +165,6 @@ The `database` may be any of those supported by the GNU C Library, listed below:
 5. shadow
 6. ...
 
-### Synopsis
+#### Synopsis
 
 - `getent [option]... database key...`
