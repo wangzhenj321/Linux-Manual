@@ -15,6 +15,8 @@
 **Part 2**
 
 - [`id`](#id)
+- [`groups`](#groups)
+- [`getent`](#getent)
 
 # Part 1
 
