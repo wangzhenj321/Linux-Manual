@@ -144,14 +144,18 @@ Filter **adjacent matching lines** from INPUT (or standard input), writing to OU
 
 #### Options
 
-- `-d`
+- `-c, --count`
+
+    prefix lines by the number of occurrences
+
+- `-d, --repeated`
 
     only print duplicate lines, one for each group
 
-- `-i`
+- `-i, --ignore-case`
 
     ignore differences in case when comparing
 
-- `-u`
+- `-u, --unique`
 
     only print unique lines
