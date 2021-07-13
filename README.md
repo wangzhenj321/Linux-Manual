@@ -14,6 +14,8 @@
 
 1. [dmesg](./blog/dmesg.md)
 
+1. [env](./blog/env.md)
+
 1. [eval](./blog/eval.md)
 
 1. [file](./blog/file.md)
