@@ -1,12 +1,12 @@
-#### Description
+## Description
 
 Print selected parts of lines from each **FILE** to standard output.
 
-#### Synopsis
+## Synopsis
 
 - `cut OPTION... [FILE]...`
 
-#### Options
+## Options
 
 - `-b` :star2:
 
@@ -50,7 +50,7 @@ Use one, and only one of `-b`, `-c` or `-f`.  Each **LIST** is made up of one ra
 
 ---
 
-#### Examples
+## Examples
 
 
 1. `who | cut -c 3-5,8`
