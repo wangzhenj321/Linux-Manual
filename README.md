@@ -32,6 +32,8 @@
 
 1. [dpkg & ldd & ldconfig](./blog/dpkg_ldd_ldconfig.md)
 
+1. [ls](./blog/ls.md)
+
 1. [man](./blog/man.md)
 
 1. [netstat](./blog/netstat.md)
