@@ -58,6 +58,8 @@
 
 1. [vi](./blog/vi.md)
 
+1. [vim](./blog/vim.md)
+
 1. [wc](./blog/wc.md)
 
 1. [which & whereis & locate & find](./blog/which-whereis-locate-find.md)
