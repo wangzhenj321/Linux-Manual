@@ -80,6 +80,8 @@
 
 1. [check hardware information](./blog/check-hardware-information.md)
 
+1. [check the shell](./blog/check_the_shell.md)
+
 1. [serial communication](./blog/serial-communication.md)
 
 1. [general overview of the Linux file system](./blog/general-overview-of-the-Linux-file-system.md)
