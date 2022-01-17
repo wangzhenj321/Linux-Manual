@@ -44,6 +44,8 @@
 
 1. [ps](./blog/ps.md)
 
+1. [readlink](./blog/readlink.md)
+
 1. [sed](./blog/sed.md)
 
 1. [ssh](./blog/ssh.md)
