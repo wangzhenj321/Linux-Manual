@@ -23,6 +23,9 @@ p           : paste the default register
 :q!         : quit without saving even if changes were made!
 :help       : display help
 <Tab>       : use tab completion to scroll through commands that start with what you typed
+
+<ctrl>+b    : previous page
+<ctrl>+f    : next page
 ```
 
 ### Still basic
