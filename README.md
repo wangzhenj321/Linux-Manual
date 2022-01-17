@@ -12,6 +12,8 @@
 
 1. [diff](./blog/diff.md)
 
+1. [dirname](./blog/dirname.md)
+
 1. [dmesg](./blog/dmesg.md)
 
 1. [env](./blog/env.md)
