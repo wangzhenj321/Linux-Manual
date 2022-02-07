@@ -48,6 +48,8 @@
 
 1. [ps](./blog/ps.md)
 
+1. [pushd & popd & dirs](./blog/pushd-popd-dirs.md)
+
 1. [readlink](./blog/readlink.md)
 
 1. [sed](./blog/sed.md)
