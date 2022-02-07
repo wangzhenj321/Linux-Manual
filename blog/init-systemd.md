@@ -519,7 +519,7 @@ $ sudo localectl set-keymap en_GB
 $ timedatectl
 
 # 显示所有可用的时区
-$ timedatectl list-timezones                                                                                   
+$ timedatectl list-timezones
 
 # 设置当前时区
 $ sudo timedatectl set-timezone America/New_York
