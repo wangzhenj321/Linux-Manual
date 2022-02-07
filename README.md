@@ -6,7 +6,7 @@
 
 1. [cat & paste & sort & uniq](./blog/cat-paste-sort-uniq.md)
 
-1. [chmod & chown](./blog/chmod_chown.md)
+1. [chmod & chown](./blog/chmod-chown.md)
 
 1. [cut](./blog/cut.md)
 
@@ -16,7 +16,7 @@
 
 1. [dmesg](./blog/dmesg.md)
 
-1. [dpkg & ldd & ldconfig](./blog/dpkg_ldd_ldconfig.md)
+1. [dpkg & ldd & ldconfig](./blog/dpkg-ldd-ldconfig.md)
 
 1. [echo](./blog/echo.md)
 
@@ -30,11 +30,11 @@
 
 1. [iconv](./blog/iconv.md)
 
-1. [id & groups & getent](./blog/id_groups_getent.md)
+1. [id & groups & getent](./blog/id-groups-getent.md)
 
 1. [ifconfig](./blog/ifconfig.md)
 
-1. [init & systemd](./blog/init_systemd.md)
+1. [init & systemd](./blog/init-systemd.md)
 
 1. [ls](./blog/ls.md)
 
