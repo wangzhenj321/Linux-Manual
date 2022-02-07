@@ -70,7 +70,7 @@
 
 1. [wc](./blog/wc.md)
 
-1. [wget & curl & ftp](./blog/wget_curl_ftp.md)
+1. [wget & curl & ftp](./blog/wget-curl-ftp.md)
 
 1. [which & whereis & locate & find](./blog/which-whereis-locate-find.md)
 
