@@ -36,6 +36,8 @@
 
 1. [init & systemd](./blog/init-systemd.md)
 
+1. [install](./blog/install.md)
+
 1. [ls](./blog/ls.md)
 
 1. [man](./blog/man.md)
