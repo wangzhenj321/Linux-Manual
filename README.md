@@ -54,6 +54,8 @@
 
 1. [readlink](./blog/readlink.md)
 
+1. [realpath](./blog/realpath.md)
+
 1. [sed](./blog/sed.md)
 
 1. [ssh](./blog/ssh.md)
