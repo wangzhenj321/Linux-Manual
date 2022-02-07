@@ -90,7 +90,7 @@
 
 1. [check hardware information](./blog/check-hardware-information.md)
 
-1. [check the shell](./blog/check_the_shell.md)
+1. [check the shell](./blog/check-the-shell.md)
 
 1. [general overview of the Linux file system](./blog/general-overview-of-the-Linux-file-system.md)
 
