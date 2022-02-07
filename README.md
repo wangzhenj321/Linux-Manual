@@ -26,6 +26,8 @@
 
 1. [grep](./blog/grep.md)
 
+1. [iconv](./blog/iconv.md)
+
 1. [id & groups & getent](./blog/id_groups_getent.md)
 
 1. [ifconfig](./blog/ifconfig.md)
