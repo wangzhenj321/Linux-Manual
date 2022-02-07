@@ -18,6 +18,8 @@
 
 1. [dpkg & ldd & ldconfig](./blog/dpkg_ldd_ldconfig.md)
 
+1. [echo](./blog/echo.md)
+
 1. [env](./blog/env.md)
 
 1. [eval](./blog/eval.md)
