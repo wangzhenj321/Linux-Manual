@@ -473,7 +473,7 @@ $ sudo systemctl rescue
 
 ```
 # 查看启动耗时
-$ systemd-analyze                                                                                       
+$ systemd-analyze
 
 # 查看每个服务的启动耗时
 $ systemd-analyze blame
