@@ -1,6 +1,6 @@
 **Reference:** https://www.jianshu.com/p/53cccae3c443
 
-其实，很早就知道`pushd`和`popd`在linux中可以用来方便地在多个目录之间切换。那时比较浮躁，感觉切换目录没必要这么复杂。在实际中，发现通过使用`pushd`和`popd`能够极大地提高效率。
+`pushd`和`popd`在linux中可以用来方便地在多个目录之间切换，通过使用`pushd`和`popd`能够极大地提高效率。
 
 ## 使用`cd -`进行目录切换
 
