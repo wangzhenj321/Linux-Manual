@@ -41,3 +41,13 @@ The `groupadd` command creates a new group account using the values specified on
     The numerical value of the group's ID. This value must be unique, unless the `-o` option is used. The value must be non-negative. The default is to use the smallest ID value greater than or equal to GID_MIN and greater than every other group.
 
     See also the `-r` option and the GID_MAX description.
+
+# `passwd`
+
+## Description
+
+The `passwd` command changes passwords for user accounts. A normal user may only change the password for his/her own account, while the superuser may change the password for any account. `passwd` also changes the account or associated password validity period.
+
+## Synopsis
+
+- `passwd [options] [LOGIN]`
