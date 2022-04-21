@@ -10,9 +10,9 @@ The operator `+` causes the selected file mode bits to be added to the existing 
 
 ## Synopsis
 
-`chmod [OPTION]... MODE[,MODE]... FILE...`
+- `chmod [OPTION]... MODE[,MODE]... FILE...`
 
-`chmod [OPTION]... OCTAL-MODE FILE...`
+- `chmod [OPTION]... OCTAL-MODE FILE...`
 
 ## Options
 
@@ -58,7 +58,7 @@ Linux/Unix是多⼈多工作业系统, 所有的档案皆有拥有者。利用`c
 
 ## Synopsis
 
-`chown [OPTION]... [OWNER][:[GROUP]] FILE...`
+- `chown [OPTION]... [OWNER][:[GROUP]] FILE...`
 
 ## Examples
 
