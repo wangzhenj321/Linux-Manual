@@ -76,7 +76,7 @@
 
 1. [update-alternatives](./blog/update-alternatives.md)
 
-1. [useradd & groupadd](./blog/useradd-groupadd.md)
+1. [useradd & groupadd & passwd](./blog/useradd-groupadd-passwd.md)
 
 1. [usermod & groupmod](./blog/usermod-groupmod.md)
 
