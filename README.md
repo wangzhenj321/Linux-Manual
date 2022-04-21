@@ -44,6 +44,8 @@
 
 1. [man](./blog/man.md)
 
+1. [mount](./blog/mount.md)
+
 1. [netstat](./blog/netstat.md)
 
 1. [nl](./blog/nl.md)
