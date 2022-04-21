@@ -76,6 +76,10 @@
 
 1. [update-alternatives](./blog/update-alternatives.md)
 
+1. [useradd & groupadd](./blog/useradd-groupadd.md)
+
+1. [usermod & groupmod](./blog/usermod-groupmod.md)
+
 1. [vi](./blog/vi.md)
 
 1. [vim](./blog/vim.md)
