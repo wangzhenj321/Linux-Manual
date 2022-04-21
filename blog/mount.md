@@ -24,3 +24,7 @@ This tells the kernel to attach the filesystem found on `device` (which is of ty
 - `-t, --types fstype`
 
     The argument following the `-t` is used to indicate the filesystem type.
+
+## Examples
+
+1. `sudo mount -t ntfs -o rw,auto,user,fmask=0022,dmask=0000 /dev/whatever /mnt/whatever`
