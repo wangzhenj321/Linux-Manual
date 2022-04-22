@@ -81,11 +81,13 @@
     
         ![](../img/check-hardware-information/lsusb.png?raw=true)
 
-    - `lsusb -t`
+    - `-t`
+        Tells `lsusb` to dump the physical USB device hierarchy as a tree. This overrides the `-v` option.
 
         ![](../img/check-hardware-information/lsusb_t.png?raw=true)
 
-    - `lsusb -v`
+    - `-v, --verbose`
+        Tells `lsusb` to be verbose and display detailed information about the devices shown.
 
         ![](../img/check-hardware-information/lsusb_v.png?raw=true)
 
