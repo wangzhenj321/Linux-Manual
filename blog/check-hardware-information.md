@@ -97,6 +97,14 @@
 
     `lsblk` lists information about all available or the specified block devices.
     
+    **Options:**
+    
+    - `-b, --bytes`
+        Print the SIZE column in bytes rather than in a human-readable format.
+    
+    - `-f, --fs`
+        Output info about filesystems. This option is equivalent to `-o NAME,FSTYPE,LABEL,UUID,MOUNTPOINT`.
+    
     <img src="../img/check-hardware-information/lsblk.png">
     
 ### `hwinfo`
