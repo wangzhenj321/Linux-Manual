@@ -40,6 +40,8 @@
 
 1. [install](./blog/install.md)
 
+1. [ip](./blog/ip.md)
+
 1. [ls](./blog/ls.md)
 
 1. [man](./blog/man.md)
