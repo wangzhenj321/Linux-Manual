@@ -8,7 +8,7 @@ show / manipulate routing, network devices, interfaces and tunnels
 
     - `OBJECT`
     
-        `OBJECT` := { link | address | addrlabel | route | rule | neigh | ntable | tunnel | tuntap | maddress | mroute | mrule | monitor | xfrm | netns | l2tp | tcp_metrics | token | macsec }
+        `OBJECT := { link | address | addrlabel | route | rule | neigh | ntable | tunnel | tuntap | maddress | mroute | mrule | monitor | xfrm | netns | l2tp | tcp_metrics | token | macsec }`
     
     - `COMMAND`
     
