@@ -27,3 +27,7 @@ show / manipulate routing, network devices, interfaces and tunnels
 3. `ip address add 192.168.1.200/255.255.255.0 dev eth0`
 
     Assign the IP address 192.168.1.200/255.255.255.0 to device eth0.
+
+4. `ip route add default via 192.168.1.1 dev eth0`
+
+    Adds a default route (for all addresses) via the local gateway 192.168.1.1 that can be reached on device eth0.
