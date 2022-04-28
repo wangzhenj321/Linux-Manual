@@ -1,8 +1,8 @@
-#### Description
+## Description
 
 compare files line by line
 
-#### Options
+## Options
 
 - `-y` 并列的方式显示文件的不同之处
 - `-r` When comparing directories, recursively compare any subdirectories found.
