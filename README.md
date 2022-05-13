@@ -66,6 +66,8 @@
 
 1. [rev](./blog/rev.md)
 
+1. [screen](./blog/screen.md)
+
 1. [sed](./blog/sed.md)
 
 1. [ssh](./blog/ssh.md)
