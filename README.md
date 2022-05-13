@@ -6,6 +6,8 @@
 
 1. [bash](./blog/bash.md)
 
+1. [candump](./blog/candump.md)
+
 1. [cat & paste & sort & uniq](./blog/cat-paste-sort-uniq.md)
 
 1. [chmod & chown & chgrp](./blog/chmod-chown-chgrp.md)
