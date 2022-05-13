@@ -30,6 +30,8 @@
 
 1. [file](./blog/file.md)
 
+1. [fuser](./blog/fuser.md)
+
 1. [grep](./blog/grep.md)
 
 1. [iconv](./blog/iconv.md)
