@@ -6,7 +6,7 @@ GNU Wget is a free utility for non-interactive download of files from the Web.  
 
 ## Synopsis
 
-- `wget [option]... [URL]...`
+`wget [option]... [URL]...`
 
 ## Options
 
