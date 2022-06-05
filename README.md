@@ -4,6 +4,8 @@
 
 1. [add-apt-repository & apt & apt-get](./blog/add-apt-repository_apt-get_apt.md)
 
+1. [apt-key](./blog/apt-key.md)
+
 1. [bash](./blog/bash.md)
 
 1. [candump](./blog/candump.md)
