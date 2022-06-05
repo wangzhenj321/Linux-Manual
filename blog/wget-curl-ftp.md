@@ -4,6 +4,20 @@
 
 GNU Wget is a free utility for non-interactive download of files from the Web.  It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.
 
+## Synopsis
+
+- `wget [option]... [URL]...`
+
+## Options
+
+- `-nv, --no-verbose`
+
+    Turn off verbose without being completely quiet (use -q for that), which means that error messages and basic information still get printed.
+
+- `-O file, --output-document=file`
+
+    The documents will not be written to the appropriate files, but all will be concatenated together and written to `file`. If `-` is used as `file`, documents will be printed to standard output, disabling link conversion.
+
 # `curl`
 
 ## Description
