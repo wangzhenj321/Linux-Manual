@@ -22,7 +22,7 @@
 
 1. [dmesg](./blog/dmesg.md)
 
-1. [dpkg & ldd & ldconfig](./blog/dpkg-ldd-ldconfig.md)
+1. [dpkg](./blog/dpkg.md)
 
 1. [echo](./blog/echo.md)
 
@@ -47,6 +47,8 @@
 1. [install](./blog/install.md)
 
 1. [ip](./blog/ip.md)
+
+1. [ldd & ldconfig](./blog/ldd-ldconfig.md)
 
 1. [ls](./blog/ls.md)
 
