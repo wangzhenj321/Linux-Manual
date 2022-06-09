@@ -1,8 +1,8 @@
-# Part 1: `dpkg`
+# `dpkg`
 
-# Part 2: `ldd`
+# `ldd`
 
-# Part 3: `ldconfig`
+# ldconfig`
 
 ## Description
 
