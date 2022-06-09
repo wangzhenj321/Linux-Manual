@@ -1,5 +1,3 @@
-# `dpkg`
-
 # `ldd`
 
 # ldconfig`
