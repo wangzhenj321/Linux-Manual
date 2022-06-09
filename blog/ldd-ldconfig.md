@@ -1,6 +1,6 @@
 # `ldd`
 
-# ldconfig`
+# `ldconfig`
 
 ## Description
 
