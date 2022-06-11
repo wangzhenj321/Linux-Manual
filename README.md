@@ -122,6 +122,8 @@
 
 1. [general overview of the Linux file system](./blog/general-overview-of-the-Linux-file-system.md)
 
+1. [get a list of installed files from a package](./blog/get-a-list-of-installed-files-from-a-package.md)
+
 1. [redirection operators](./blog/redirection-operators.md)
 
 1. [serial communication](./blog/serial-communication.md)
