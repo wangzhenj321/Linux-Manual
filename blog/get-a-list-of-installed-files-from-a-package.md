@@ -22,3 +22,5 @@ then
 ```
 apt-file list <package_name>
 ```
+
+`apt-file` also needs to be updated (`sudo apt-file update`), and only lists contents for packages in your already-configured Apt repositories.
