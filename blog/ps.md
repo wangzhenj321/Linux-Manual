@@ -4,11 +4,13 @@ ps displays information about a selection of the active processes. If you want a
 
 ## Options
 
-- `-A` 显示所有进程
+- `-A`
+    
+    Select all processes. Identical to `-e`.
 
-- `-u` 指定用户的所有进程
+- `-u userlist`
 
-- `aux` 所有正在内存当中的进程
+    Select by effective user ID (EUID) or name. This selects the processes whose effective user name or ID is in `userlist`.
 
 ## Process state codes
 
