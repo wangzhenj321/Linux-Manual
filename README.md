@@ -2,7 +2,11 @@
 
 ## Commands
 
-1. [add-apt-repository & apt & apt-get](./blog/add-apt-repository_apt-get_apt.md)
+1. [add-apt-repository](./blog/add-apt-repository.md)
+
+1. [apt](./blog/apt.md)
+
+1. [apt-get](./blog/apt-get.md)
 
 1. [apt-key](./blog/apt-key.md)
 
