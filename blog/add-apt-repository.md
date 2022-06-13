@@ -26,6 +26,13 @@ add-apt-repository [OPTIONS] REPOSITORY
 
     Remove the specified repository
 
+- `-y, --yes`
+
+    Assume yes to all queries
+
+- `-u, --update`
+
+    After adding the repository, update the package cache with packages from this repository (avoids need to apt-get update)
 
 ## How to find and remove obsolete PPA repositories on Ubuntu
 
