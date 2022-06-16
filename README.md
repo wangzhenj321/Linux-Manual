@@ -131,3 +131,7 @@
 1. [redirection operators](./blog/redirection-operators.md)
 
 1. [serial communication](./blog/serial-communication.md)
+
+## Reading List
+
+1. [What Is a File System? Types of Computer File Systems and How they Work](https://www.freecodecamp.org/news/file-systems-architecture-explained/)
