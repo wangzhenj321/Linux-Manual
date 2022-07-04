@@ -10,6 +10,10 @@ Squashfs is a highly compressed read-only filesystem for Linux. It uses zlib com
 
 ## Options
 
+- `-d PATHNAME, -dest PATHNAME`
+
+    unsquash to PATHNAME, default "squashfs-root".
+
 - `-l, -ls`
 
     list filesystem, but don't unsquash.
