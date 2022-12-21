@@ -6,8 +6,6 @@
 
 [Part 3 `sort`](#part-3-sort)
 
-[Part 4 `uniq`](#part-4-uniq)
-
 
 ## Part 1 `cat` `paste` `sort` `uniq`
 
@@ -132,30 +130,3 @@ Write sorted concatenation of all FILE(s) to standard output. With no FILE, or w
 > **KEYDEF** is `F[.C][OPTS][,F[.C][OPTS]]` for start and stop position, where F is a field number and C a character position in the field; both are origin 1, and **the stop position defaults to the line's end**. If neither `-t` nor `-b` is in effect, characters in a field are counted from the beginning of the preceding whitespace. OPTS is one or more single-letter ordering options `[bdfgiMhnRrV]`, which override global ordering options for that key. If no key is given, use the entire line as the key. Use `--debug` to diagnose incorrect key usage.
 
 **References:** [linux sort 命令详解](https://www.cnblogs.com/51linux/archive/2012/05/23/2515299.html)
-
-
-## Part 4 `uniq`
-
-#### Description
-
-Filter **adjacent matching lines** from INPUT (or standard input), writing to OUTPUT (or standard output). **With no options, matching lines are merged to the first occurrence.**
-
-> **Note:** `uniq` does not detect repeated lines unless they are adjacent. You may want to sort the input first, or use `sort -u` without `uniq`.
-
-#### Options
-
-- `-c, --count`
-
-    prefix lines by the number of occurrences
-
-- `-d, --repeated`
-
-    only print duplicate lines, one for each group
-
-- `-i, --ignore-case`
-
-    ignore differences in case when comparing
-
-- `-u, --unique`
-
-    only print unique lines
