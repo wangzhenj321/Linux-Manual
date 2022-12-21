@@ -11,25 +11,50 @@
 - `-n, --quiet, --silent`
 
     suppress automatic printing of pattern space
+    
+    By default, `sed` prints out the pattern space at the end of each cycle through the script. These options disable this automatic printing, and `sed` only produces output when explicitly told to via the `p` command.
 
 - `-e script, --expression=script`
 
     add the script to the commands to be executed
 
+- `-f script-file, --file=script-file`
+
+    add the contents of script-file to the commands to be executed
+
+    > Without `-e` or `-f` options, `sed` uses the first non-option parameter as the SCRIPT, and the following non-option parameters as input files. If `-e` or `-f` options are used to specify a SCRIPT, all non-option parameters are taken as input files. Options `-e` and `-f` can be combined, and can appear multiple times (in which case the final effective SCRIPT will be concatenation of all the individual SCRIPTs).
+
 - `-i[SUFFIX], --in-place[=SUFFIX]`
 
     edit files in place (makes backup if SUFFIX supplied)
 
-- `-n` 使用安静模式。在一般sed的用法中，所有来自STDIN的数据一般都会被列出到终端上。但如果加上-n参数后，则只有经过sed特殊处理的那一行才会被列出来。
-- `-e` 直接在命令行模式上进行sed的动作编辑
-- `-i` 直接修改读取的文件内容，而不是输出到终端
+## `sed` commands
 
-- a 新增，a的后面可以接字串，而这些字串会在新的一行出现（目前的下一行）
-- c 取代，c的后面可以接字串，这些字串可以取代n1，n2之间的行
-- d 删除
-- i 插入，i的后面可以接字串，而这些字串会在新的一行出现（目前的上一行）
-- p 列印，将某个选择的数据列出（通常与-n一起使用）
-- s 取代
+`sed` commands follow this syntax: `[addr]X[options]`
+
+- 'a TEXT'
+
+    Append TEXT after a line (alternative syntax).
+
+- 'c TEXT'
+
+    Replace (change) lines with TEXT (alternative syntax).
+
+- 'd'
+
+    Delete the pattern space; immediately start next cycle.
+
+- 'i TEXT'
+
+    insert TEXT before a line (alternative syntax).
+
+- 'p'
+
+    Print the pattern space.
+
+- 's/REGEXP/REPLACEMENT/[FLAGS]'
+
+    (substitute) Match the regular-expression against the content of the pattern space. If found, replace matched string with REPLACEMENT.
 
 ## Examples
 
