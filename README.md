@@ -80,6 +80,8 @@
 
 1. [sed](./blog/sed.md)
 
+1. [seq](./blog/seq.md)
+
 1. [ssh](./blog/ssh.md)
 
 1. [tar](./blog/tar.md)
