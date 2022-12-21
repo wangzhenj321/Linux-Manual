@@ -88,6 +88,8 @@
 
 1. [uname](./blog/uname.md)
 
+1. [uniq](./blog/uniq.md)
+
 1. [unsquashfs](./blog/unsquashfs.md)
 
 1. [updatedb](./blog/updatedb.md)
