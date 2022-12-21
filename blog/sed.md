@@ -1,12 +1,24 @@
-#### Description
+## Description
 
-它一次处理一行内容，处理时，把当前处理的行存储在临时缓冲区中，接着sed命令处理缓冲区中的内容，处理完成后，把缓冲区的内容送到屏幕。接着处理下一行，不断重复，知道文件末尾。文件内容并没有改变。
+`sed` is a stream editor. A stream editor is used to perform basic text transformations on an input stream (a file or input from a pipeline). While in some ways similar to an editor which permits scripted edits (such as `ed`), `sed` works by making only one pass over the input(s), and is consequently more efficient. But it is `sed`'s ability to filter text in a pipeline which particularly distinguishes it from other types of editors.
 
-#### Options
+## Synopsis
 
-- `-n` 使用安静模式。在一般sed的用法中，所有来自STDIN的数据一般都会被列出到终端上。但如果加上-n参数后，则只有经过sed特殊处理的那一行才会被列出来。
-- `-e` 直接在命令行模式上进行sed的动作编辑
-- `-i` 直接修改读取的文件内容，而不是输出到终端
+- `sed [OPTION]... {script-only-if-no-other-script} [input-file]...`
+
+## Options
+
+- `-n, --quiet, --silent`
+
+    suppress automatic printing of pattern space
+
+- `-e script, --expression=script`
+
+    add the script to the commands to be executed
+
+- `-i[SUFFIX], --in-place[=SUFFIX]`
+
+    edit files in place (makes backup if SUFFIX supplied)
 
 - a 新增，a的后面可以接字串，而这些字串会在新的一行出现（目前的下一行）
 - c 取代，c的后面可以接字串，这些字串可以取代n1，n2之间的行
@@ -15,7 +27,7 @@
 - p 列印，将某个选择的数据列出（通常与-n一起使用）
 - s 取代
 
-#### Examples
+## Examples
 
 ```
 nl /etc/passwd | sed ‘2,5d’ （2到5行）
