@@ -56,6 +56,10 @@
 
     (substitute) Match the regular-expression against the content of the pattern space. If found, replace matched string with REPLACEMENT.
 
+- '{ CMD ; CMD ... }'
+
+    Group several commands together.
+
 ## Examples
 
 ```
