@@ -8,7 +8,11 @@ Compare sorted files FILE1 and FILE2 line by line.
 
 ## Options
 
-With no options, produce three-column output. Column one contains lines unique to FILE1, column two contains lines unique to FILE2, and column three contains lines common to both files.                                                                                                                                                     - `-1` suppress column 1 (lines unique to FILE1)                                                                                                                          - `-2` suppress column 2 (lines unique to FILE2)                                                                                                                        -- `-3` suppress column 3 (lines that appear in both files)
+With no options, produce three-column output. Column one contains lines unique to FILE1, column two contains lines unique to FILE2, and column three contains lines common to both files.
+
+- `-1` suppress column 1 (lines unique to FILE1)
+- `-2` suppress column 2 (lines unique to FILE2)
+- `-3` suppress column 3 (lines that appear in both files)
 
 ## Examples
 
