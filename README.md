@@ -18,6 +18,8 @@
 
 1. [chmod & chown & chgrp](./blog/chmod-chown-chgrp.md)
 
+1. [comm](./blog/comm.md)
+
 1. [cut](./blog/cut.md)
 
 1. [diff](./blog/diff.md)
