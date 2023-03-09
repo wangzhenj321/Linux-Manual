@@ -127,6 +127,6 @@ Write sorted concatenation of all FILE(s) to standard output. With no FILE, or w
 
     with `-c`, check for strict ordering; without `-c`, output only the first of an equal run
 
-> **KEYDEF** is `F[.C][OPTS][,F[.C][OPTS]]` for start and stop position, where F is a field number and C a character position in the field; both are origin 1, and **the stop position defaults to the line's end**. If neither `-t` nor `-b` is in effect, characters in a field are counted from the beginning of the preceding whitespace. OPTS is one or more single-letter ordering options `[bdfgiMhnRrV]`, which override global ordering options for that key. If no key is given, use the entire line as the key. Use `--debug` to diagnose incorrect key usage.
+> **KEYDEF** is `F[.C][OPTS][,F[.C][OPTS]]` for start and stop position, where F is a field number and C is a character position in the field; both are origin 1, and **the stop position defaults to the line's end**. If neither `-t` nor `-b` is in effect, characters in a field are counted from the beginning of the preceding whitespace. OPTS is one or more single-letter ordering options `[bdfgiMhnRrV]`, which override global ordering options for that key. If no key is given, use the entire line as the key. Use `--debug` to diagnose incorrect key usage.
 
 **References:** [linux sort 命令详解](https://www.cnblogs.com/51linux/archive/2012/05/23/2515299.html)
