@@ -90,6 +90,8 @@
 
 1. [telnet](./blog/telnet.md)
 
+1. [tr](./blog/tr.md)
+
 1. [uname](./blog/uname.md)
 
 1. [uniq](./blog/uniq.md)
