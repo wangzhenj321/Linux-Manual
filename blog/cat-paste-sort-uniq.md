@@ -111,27 +111,27 @@ Write sorted concatenation of all FILE(s) to standard output. With no FILE, or w
 
     fold lower case to upper case characters
 
-- `-n`
+- `-n, --numeric-sort`
 
     compare according to string numerical value
 
-- `-r`
+- `-r, --reverse`
 
     reverse the result of comparisons
 
-- `-k`
+- `-k, --key=KEYDEF` :star2:
 
     sort via a key; **KEYDEF** gives location and type
 
-- `-o`
+- `-o, --output=FILE`
 
     write result to FILE instead of standard output
 
-- `-t`
+- `-t, --field-separator=SEP` :star2:
 
     use SEP instead of non-blank to blank transition
 
-- `-u`
+- `-u, --unique`
 
     with `-c`, check for strict ordering; without `-c`, output only the first of an equal run
 
