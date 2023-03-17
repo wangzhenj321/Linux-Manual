@@ -103,6 +103,14 @@ Write sorted concatenation of all FILE(s) to standard output. With no FILE, or w
 
 #### Options
 
+- `-b, --ignore-leading-blanks`
+
+    ignore leading blanks
+
+- `-f, --ignore-case`
+
+    fold lower case to upper case characters
+
 - `-n`
 
     compare according to string numerical value
