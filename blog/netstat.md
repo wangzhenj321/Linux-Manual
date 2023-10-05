@@ -18,6 +18,10 @@ Print network connections, routing tables, interface statistics, masquerade conn
     
     <img src="../img/netstat/netstat_i.png">
 
+## Synopsis
+
+- `netstat [--tcp|-t] [--udp|-u] [--listening|-l] [--all|-a] [--numeric|-n] [--extend|-e[--extend|-e]] [--program|-p]`
+
 ## Output
 
 - **Active Internet connections (TCP, UDP, raw)**
@@ -49,13 +53,17 @@ Print network connections, routing tables, interface statistics, masquerade conn
 
 ## Options
 
-- `-n`
+- `--numeric, -n`
 
     Show numerical addresses instead of trying to determine symbolic host, port or user names.
 
 - `-e`
 
     Display additional information.
+
+- `-p, --program`
+
+    Show the PID and name of the program to which each socket belongs.
 
 - `-l, --listening`
 
