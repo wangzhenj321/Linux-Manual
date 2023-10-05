@@ -58,6 +58,8 @@
 
 1. [ls](./blog/ls.md)
 
+1. [lsof](./blog/lsof.md)
+
 1. [man](./blog/man.md)
 
 1. [mount](./blog/mount.md)
