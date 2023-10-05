@@ -72,3 +72,9 @@ Print network connections, routing tables, interface statistics, masquerade conn
 - `-a`
 
     Show both listening and non-listening sockets.
+
+## Examples
+
+1. `netstat -tulpn`
+
+    <img src="../img/netstat/netstat-tulpn.png">
