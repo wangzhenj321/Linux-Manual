@@ -56,6 +56,8 @@
 
 1. [ldd & ldconfig](./blog/ldd-ldconfig.md)
 
+1. [ln](./blog/ln.md)
+
 1. [ls](./blog/ls.md)
 
 1. [lsof](./blog/lsof.md)
