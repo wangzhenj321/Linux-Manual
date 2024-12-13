@@ -20,6 +20,10 @@
 
     Invert the sense of matching, to select non-matching lines.
 
+- `-e PATTERNS, --regexp=PATTERNS`
+
+    Use PATTERNS as the patterns. If this option is used multiple times or is combined with the `-f` (`--file`) option, search for all patterns given. This option can be used to protect a pattern beginning with "-".
+
 - `-c, --count`
 
     Suppress  normal output; instead print a count of matching lines for each input file. With the `-v, --invert-match` option (see below), count non-matching lines.
