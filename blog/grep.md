@@ -20,6 +20,14 @@
 
     Invert the sense of matching, to select non-matching lines.
 
+- `-a, --text`
+
+    Process a binary file as if it were text; this is equivalent to the `--binary-files=text` option.
+
+- `-E, --extended-regexp`
+
+    Interpret PATTERNS as extended regular expressions (EREs, see below).
+
 - `-e PATTERNS, --regexp=PATTERNS`
 
     Use PATTERNS as the patterns. If this option is used multiple times or is combined with the `-f` (`--file`) option, search for all patterns given. This option can be used to protect a pattern beginning with "-".
